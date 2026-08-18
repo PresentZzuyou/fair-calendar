@@ -41,6 +41,18 @@ body{background:#fff;color:var(--ink);font-family:"Apple SD Gothic Neo","Malgun 
 .overlay{background:#23181585}.detail{background:#fff}.close{background:#faff32;color:#231815;box-shadow:none}.pill{background:#f0f1f2}.source-link{background:#0b8bff;color:#fff}.source-link:hover{background:#006fda}.notice{color:#777}
 @media(max-width:640px){.topbar{height:68px}.brand{font-size:15px;line-height:1.1;gap:7px;max-width:210px}.brand-mark{flex:0 0 auto}.submit-btn{font-size:10px;padding:9px 10px}.hero{padding:38px 24px 34px;border-radius:20px}.hero h1{font-size:39px}.calendar-section,.search-section,.list-section{border-radius:20px}.calendar-section{padding:24px 12px}.hero-credit{font-size:12px}.search-results{padding-left:8px;padding-right:8px}}
 
+/* Calm Emotips internal-page treatment */
+:root{--bg:#fff;--panel:#fff;--muted:#777;--line:#e8e8ee}
+body{background:#fff;color:#333}
+.topbar{height:68px;background:#fff;border-bottom:1px solid #e8e8ee;backdrop-filter:none}.brand{color:#231815}.brand-mark{background:#0b8bff;color:#fff;border-radius:50%}.topbar nav{background:#f5f5f8}.topbar nav .active{background:#fff;color:#0b8bff}.submit-btn{background:#0b8bff;color:#fff}
+.hero{width:min(1120px,calc(100% - 40px));min-height:auto;margin:28px auto 10px;padding:44px 6px 38px;background:#fff;border-radius:0;overflow:visible}.hero::before{display:none}.hero h1{font-size:clamp(39px,4.5vw,58px);margin:8px 0 18px}.hero h1 em{color:#0b8bff}.hero-copy{color:#666;font-weight:650}.hero-credit{margin-top:14px;padding:7px 10px;background:#f5f5f8;color:#666;font-size:12px;font-weight:750}
+.calendar-section,.search-section,.list-section{border-radius:20px;border:1px solid #e8e8ee;box-shadow:none}
+.calendar-section{background:#fff;color:#333}.calendar-section .mini-label{color:#0b8bff}.calendar-section .calendar-guide,.calendar-section .legend{color:#777}.month-title button{background:#fff;color:#0b8bff;border:1.5px solid #e8e8ee}.month-title button:hover{background:#f0f7ff;border-color:#0b8bff}.filters select{background:#f5f5f8;color:#333}.calendar-wrap{border:1px solid #e8e8ee;background:#fff}.weekdays div{background:#f5f5f8}.legend .orange{background:#ff9a61}.legend .yellow{background:#e9dc9a}.legend .pink{background:#f2a4a7}.legend .blue{background:#9eb8ef}
+.search-section{background:#f5f5f8}.search-section .mini-label{color:#0b8bff}.search-intro p{color:#777;font-weight:600}.search-box{border:1.5px solid #e8e8ee}.search-box:focus-within{border-color:#0b8bff;box-shadow:0 0 0 3px #0b8bff14}.search-results{border:1px solid #e8e8ee}.search-row:hover{background:#f5f5f8}
+.list-section{background:#fff}.list-section .mini-label{color:#0b8bff}.group-title span{background:#f5f5f8;color:#666;border:1px solid #e8e8ee}.fair-row:hover{background:#f5f5f8}.row-arrow{color:#0b8bff}
+.detail{background:#fff}.close{background:#fff;border:1.5px solid #e8e8ee}.pill{background:#f5f5f8}.source-link{background:#0b8bff;color:#fff}.source-link:hover{background:#0070d6}
+@media(max-width:640px){.topbar{height:64px}.brand-mark{width:30px;height:30px}.hero{width:calc(100% - 32px);margin:20px auto 4px;padding:28px 0 24px}.hero h1{font-size:36px}.calendar-section,.search-section,.list-section{border-radius:18px}.calendar-section{padding:22px 12px}.search-section{padding:22px 15px}}
+
 /* Calendar readability tune */
 .weekdays div{font-size:12px}
 .grid .cell{font-size:13px;min-height:112px;padding:10px 8px}
