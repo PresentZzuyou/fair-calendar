@@ -1,44 +1,12 @@
 {
-  "checkedAt": "2026-08-16T10:45:14.232Z",
+  "checkedAt": "2026-08-18T06:12:21.202Z",
   "summary": {
     "verified": 8,
+    "date-review": 5,
     "unreachable": 2,
-    "needs-review": 3,
-    "date-review": 3
+    "needs-review": 3
   },
   "results": [
-    {
-      "title": "캐릭터 라이선싱 페어 2026",
-      "status": "verified",
-      "source": "https://www.coex.co.kr/exhibitions/캐릭터-라이선싱-페어-2026/"
-    },
-    {
-      "title": "서울일러스트레이션페어 V.21",
-      "status": "unreachable",
-      "source": "https://seoulillustrationfair.co.kr/",
-      "error": "fetch failed"
-    },
-    {
-      "title": "K-일러스트레이션페어 마곡 2026",
-      "status": "needs-review",
-      "source": "https://www.k-illustrationfair.com/"
-    },
-    {
-      "title": "일러스타 페스 14",
-      "status": "needs-review",
-      "source": "https://illustar.net/"
-    },
-    {
-      "title": "2026 콘텐츠IP 마켓",
-      "status": "verified",
-      "source": "https://welcon.kocca.kr/mobile/ko/event/content-ip-market-2026--571"
-    },
-    {
-      "title": "2026 경기국제웹툰페어",
-      "status": "unreachable",
-      "source": "https://www.webtoonfair.com/main.do",
-      "error": "fetch failed"
-    },
     {
       "title": "K-일러스트레이션페어 서울 2026",
       "status": "verified",
@@ -50,14 +18,30 @@
       "source": "https://www.coex.co.kr/exhibitions/2026-서울-일러스트코리아/"
     },
     {
-      "title": "K-일러스트레이션페어 부산 2026",
-      "status": "date-review",
-      "source": "https://www.k-illustrationfair.com/busan/page/31"
+      "title": "제8회 어르니마켓",
+      "status": "verified",
+      "source": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157624&menuNo=200008"
+    },
+    {
+      "title": "캐릭터 라이선싱 페어 2026",
+      "status": "verified",
+      "source": "https://www.coex.co.kr/exhibitions/캐릭터-라이선싱-페어-2026/"
     },
     {
       "title": "코믹월드 SUMMER 2026",
       "status": "date-review",
       "source": "https://comicw.net/"
+    },
+    {
+      "title": "K-일러스트레이션페어 부산 2026",
+      "status": "date-review",
+      "source": "https://www.k-illustrationfair.com/busan/page/31"
+    },
+    {
+      "title": "서울일러스트레이션페어 V.21",
+      "status": "unreachable",
+      "source": "https://seoulillustrationfair.co.kr/",
+      "error": "fetch failed"
     },
     {
       "title": "일러스타 페스 12 부산",
@@ -66,8 +50,13 @@
     },
     {
       "title": "코믹월드 335 일산",
-      "status": "verified",
+      "status": "date-review",
       "source": "https://comicw.net/e/335/9"
+    },
+    {
+      "title": "K-일러스트레이션페어 마곡 2026",
+      "status": "needs-review",
+      "source": "https://www.k-illustrationfair.com/"
     },
     {
       "title": "일러스타 페스 13",
@@ -85,9 +74,30 @@
       "source": "https://comicw.net/g/pre.php?ca=20"
     },
     {
+      "title": "일러스타 페스 14",
+      "status": "needs-review",
+      "source": "https://illustar.net/"
+    },
+    {
       "title": "코믹월드 338 수원",
       "status": "verified",
       "source": "https://comicw.net/g/pre.php?ca=20"
+    },
+    {
+      "title": "부산일러스트레이션페어 V.7",
+      "status": "date-review",
+      "source": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=3d700c01-0ab0-450f-9f0a-170a889655e8"
+    },
+    {
+      "title": "2026 콘텐츠IP 마켓",
+      "status": "verified",
+      "source": "https://welcon.kocca.kr/mobile/ko/event/content-ip-market-2026--571"
+    },
+    {
+      "title": "2026 경기국제웹툰페어",
+      "status": "unreachable",
+      "source": "https://www.webtoonfair.com/main.do",
+      "error": "fetch failed"
     }
   ]
 }

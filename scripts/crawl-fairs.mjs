@@ -4,7 +4,7 @@ const reportFile=new URL("../app/crawl-report.generated.json",import.meta.url);
 const fairs=JSON.parse(await readFile(dataFile,"utf8"));
 const checkedAt=new Date().toISOString(),pageCache=new Map();
 const strip=html=>html.replace(/<script[\s\S]*?<\/script>/gi," ").replace(/<style[\s\S]*?<\/style>/gi," ").replace(/<[^>]+>/g," ").replace(/&nbsp;/g," ").replace(/&#?[a-z0-9]+;/gi," ").replace(/\s+/g," ");
-const datePatterns=date=>{if(!date)return[];const[y,m,d]=date.split("-").map(Number);return[date,`${y}.${String(m).padStart(2,"0")}.${String(d).padStart(2,"0")}`,`${m}/${d}`,`${m}월 ${d}일`]};
+const datePatterns=date=>{if(!date)return[];const[y,m,d]=date.split("-").map(Number);return[date,`${y}.${String(m).padStart(2,"0")}.${String(d).padStart(2,"0")}`,`${y}. ${m}. ${d}.`,`${m}/${d}`,`${m}월 ${d}일`]};
 const normalize=value=>value.toLowerCase().replace(/\s+/g,"").replace(/[·._-]/g,"");
 const fetchText=async url=>{if(pageCache.has(url))return pageCache.get(url);const task=fetch(encodeURI(url),{headers:{"user-agent":"ContentFairCalendar/1.1 (+official-event-verification; one request per source)"}}).then(r=>{if(!r.ok)throw new Error(`HTTP ${r.status}`);return r.text()}).then(strip);pageCache.set(url,task);return task};
 const duplicateKeys=new Map();

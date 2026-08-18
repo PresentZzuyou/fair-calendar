@@ -15,7 +15,7 @@
     "organizer": "한국국제전시",
     "description": "일러스트레이션, 캐릭터디자인, 독립출판, 웹툰과 아트상품을 소개하는 전문 페어입니다.",
     "source": "https://www.coex.co.kr/exhibitions/k-일러스트레이션페어-서울-2026/",
-    "verifiedAt": "2026-08-17"
+    "verifiedAt": "2026-08-18"
   },
   {
     "id": 2,
@@ -33,10 +33,28 @@
     "organizer": "메쎄이상",
     "description": "일러스트, 웹툰, 북아트, 아트토이와 디자인 문구를 한자리에서 소개하는 행사입니다.",
     "source": "https://www.coex.co.kr/exhibitions/2026-서울-일러스트코리아/",
-    "verifiedAt": "2026-08-17"
+    "verifiedAt": "2026-08-18"
   },
   {
     "id": 3,
+    "title": "제8회 어르니마켓",
+    "short": "어르니마켓",
+    "start": "2026-05-09",
+    "end": "2026-05-17",
+    "venue": "커먼그라운드 야외광장",
+    "area": "서울",
+    "category": "캐릭터",
+    "color": "#cfa4e9",
+    "text": "#111315",
+    "icon": "◆",
+    "fee": "무료",
+    "organizer": "토이쩔어스",
+    "description": "피규어, 캐릭터 굿즈, 빈티지 토이와 소품을 만나는 키덜트 플리마켓입니다. 5월 9~10일과 16~17일 주말에 운영됐습니다.",
+    "source": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157624&menuNo=200008",
+    "verifiedAt": "2026-08-18"
+  },
+  {
+    "id": 4,
     "title": "캐릭터 라이선싱 페어 2026",
     "short": "캐릭터 라이선싱",
     "start": "2026-07-16",
@@ -51,10 +69,10 @@
     "organizer": "문화체육관광부·한국콘텐츠진흥원·코엑스",
     "description": "캐릭터, 애니메이션, 게임, 완구와 굿즈 등 국내외 콘텐츠 IP를 만나는 라이선싱 페어입니다.",
     "source": "https://www.coex.co.kr/exhibitions/캐릭터-라이선싱-페어-2026/",
-    "verifiedAt": "2026-08-17"
+    "verifiedAt": "2026-08-18"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "코믹월드 SUMMER 2026",
     "short": "코믹월드 SUMMER",
     "start": "2026-07-18",
@@ -72,7 +90,7 @@
     "verifiedAt": "2026-08-16"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "K-일러스트레이션페어 부산 2026",
     "short": "K-IF 부산",
     "start": "2026-07-24",
@@ -90,7 +108,7 @@
     "verifiedAt": "2026-08-16"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "서울일러스트레이션페어 V.21",
     "short": "서일페 V.21",
     "start": "2026-07-30",
@@ -108,7 +126,7 @@
     "verifiedAt": "2026-08-16"
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "일러스타 페스 12 부산",
     "short": "일러스타 페스 12",
     "start": "2026-08-01",
@@ -126,7 +144,7 @@
     "verifiedAt": "2026-08-16"
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "코믹월드 335 일산",
     "short": "코믹월드 335",
     "start": "2026-08-15",
@@ -144,7 +162,7 @@
     "verifiedAt": "2026-08-16"
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "K-일러스트레이션페어 마곡 2026",
     "short": "K-일러스트페어",
     "start": "2026-08-20",
@@ -162,7 +180,7 @@
     "verifiedAt": "2026-08-16"
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "일러스타 페스 13",
     "short": "일러스타 페스 13",
     "start": "2026-08-29",
@@ -177,10 +195,10 @@
     "organizer": "스타라이크",
     "description": "작가와 서클, 기업 부스, 코스프레와 공연을 함께 만나는 종합 서브컬처 행사입니다.",
     "source": "https://comicw.net/c/338",
-    "verifiedAt": "2026-08-17"
+    "verifiedAt": "2026-08-18"
   },
   {
-    "id": 11,
+    "id": 12,
     "title": "코믹월드 336 일산",
     "short": "코믹월드 336",
     "start": "2026-09-12",
@@ -198,7 +216,7 @@
     "verifiedAt": "2026-08-16"
   },
   {
-    "id": 12,
+    "id": 13,
     "title": "코믹월드 337 울산",
     "short": "코믹월드 337",
     "start": "2026-10-03",
@@ -213,10 +231,10 @@
     "organizer": "코믹월드",
     "description": "울산에서 열리는 코믹월드 정기 동인·일러스트·캐릭터 굿즈 행사입니다.",
     "source": "https://comicw.net/g/pre.php?ca=20",
-    "verifiedAt": "2026-08-17"
+    "verifiedAt": "2026-08-18"
   },
   {
-    "id": 13,
+    "id": 14,
     "title": "일러스타 페스 14",
     "short": "일러스타 페스 14",
     "start": "2026-10-10",
@@ -234,7 +252,7 @@
     "verifiedAt": "2026-08-16"
   },
   {
-    "id": 14,
+    "id": 15,
     "title": "코믹월드 338 수원",
     "short": "코믹월드 338",
     "start": "2026-10-24",
@@ -249,10 +267,28 @@
     "organizer": "코믹월드",
     "description": "수원에서 열리는 코믹월드 정기 동인·일러스트·캐릭터 굿즈 행사입니다.",
     "source": "https://comicw.net/g/pre.php?ca=20",
-    "verifiedAt": "2026-08-17"
+    "verifiedAt": "2026-08-18"
   },
   {
-    "id": 15,
+    "id": 16,
+    "title": "부산일러스트레이션페어 V.7",
+    "short": "부산일페 V.7",
+    "start": "2026-11-06",
+    "end": "2026-11-08",
+    "venue": "벡스코",
+    "area": "부산",
+    "category": "일러스트",
+    "color": "#ff9a61",
+    "text": "#111315",
+    "icon": "✦",
+    "fee": "공식 안내 확인",
+    "organizer": "오씨메이커스",
+    "description": "부산·경상권의 작가와 브랜드가 참여하는 일러스트레이션, 회화, 그림책, 독립출판, 캐릭터 디자인 전문 페어입니다.",
+    "source": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=3d700c01-0ab0-450f-9f0a-170a889655e8",
+    "verifiedAt": "2026-08-18"
+  },
+  {
+    "id": 17,
     "title": "2026 콘텐츠IP 마켓",
     "short": "콘텐츠IP 마켓",
     "start": "2026-12-02",
@@ -267,10 +303,10 @@
     "organizer": "문화체육관광부·한국콘텐츠진흥원",
     "description": "웹툰, 출판, 게임, 방송, 캐릭터 등 전 장르의 사업화와 해외 진출을 잇는 콘텐츠 IP 비즈니스 마켓입니다.",
     "source": "https://welcon.kocca.kr/mobile/ko/event/content-ip-market-2026--571",
-    "verifiedAt": "2026-08-17"
+    "verifiedAt": "2026-08-18"
   },
   {
-    "id": 16,
+    "id": 18,
     "title": "2026 경기국제웹툰페어",
     "short": "경기 웹툰페어",
     "start": "",
