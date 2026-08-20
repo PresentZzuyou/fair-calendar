@@ -65,3 +65,8 @@ body{background:#fff;color:#333}
 /* Submit button readability tune */
 .submit-btn{font-size:14px;padding:12px 18px;line-height:1.25}
 @media(max-width:640px){.submit-btn{font-size:12px;padding:11px 13px;line-height:1.2}}
+
+/* Current day */
+.grid .cell.is-today{background:#f0f7ff;box-shadow:inset 0 0 0 2px #0b8bff}
+.cell.is-today>span{display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:#0b8bff;color:#fff!important;font-weight:900}
+@media(max-width:640px){.cell.is-today>span{width:23px;height:23px}}
