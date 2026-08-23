@@ -36,13 +36,13 @@ jobs:
         run: npm run crawl:fairs
         continue-on-error: true
 
-      - name: Save verified data changes
+      - name: Save crawl result changes
         run: |
-          if ! git diff --quiet -- app/fairs.generated.json; then
+          if ! git diff --quiet -- app/fairs.generated.json app/crawl-report.generated.json; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add app/fairs.generated.json
-            git commit -m "chore: refresh fair schedule [skip ci]"
+            git add app/fairs.generated.json app/crawl-report.generated.json
+            git commit -m "chore: refresh fair crawl results [skip ci]"
             git push
           fi
 
