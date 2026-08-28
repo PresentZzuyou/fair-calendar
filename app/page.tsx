@@ -16,7 +16,9 @@ export default function Home(){
  const events=(day:number)=>visible.filter(f=>{const d=new Date(year,monthNo,day),s=new Date(f.start+"T00:00:00"),e=new Date(f.end+"T00:00:00");return d>=s&&d<=e});
  const today=new Date(); today.setHours(0,0,0,0);
  const statusOf=(fair:Fair)=>{if(!fair.start)return "진행 예정";const start=new Date(fair.start+"T00:00:00"),end=new Date(fair.end+"T23:59:59");if(today<start)return "진행 예정";if(today>end)return "진행 종료";return "진행 중"};
- const statusGroups=["진행 중","진행 예정"].map(status=>({status,items:visible.filter(f=>statusOf(f)===status).sort((a,b)=>(a.start||"9999").localeCompare(b.start||"9999"))}));
+ const currentYear=String(today.getFullYear());
+ const isCurrentYear=(fair:Fair)=>(fair.start?fair.start.slice(0,4):fair.title.match(/20\d{2}/)?.[0])===currentYear;
+ const statusGroups=["진행 중","진행 예정"].map(status=>({status,items:visible.filter(f=>statusOf(f)===status&&(status!=="진행 예정"||isCurrentYear(f))).sort((a,b)=>(a.start||"9999").localeCompare(b.start||"9999"))}));
  const normalizedQuery=query.trim().toLocaleLowerCase("ko").replace(/\s+/g,"");
  const placeOf=(fair:Fair)=>fair.overseas?`해외 · ${fair.country}`:fair.area;
  const searchResults=normalizedQuery?fairs.filter(f=>[f.title,f.short,f.venue,f.area,f.country||"",f.category,f.organizer,f.description].some(value=>value.toLocaleLowerCase("ko").replace(/\s+/g,"").includes(normalizedQuery))):[];
