@@ -71,3 +71,12 @@ body{background:#fff;color:#333}
 .grid .cell.is-today{background:#f0f7ff;box-shadow:inset 0 0 0 2px #0b8bff}
 .cell.is-today>span{display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:#0b8bff;color:#fff!important;font-weight:900}
 @media(max-width:640px){.cell.is-today>span{width:23px;height:23px}}
+
+/* Compact intro strip */
+.hero{margin:16px auto 8px;padding:18px 6px}
+.hero>div{display:flex;align-items:center;justify-content:space-between;gap:28px;width:100%}
+.hero h1{flex:0 0 auto;margin:0;font-size:clamp(25px,2.7vw,34px);line-height:1.2;white-space:nowrap}
+.hero-copy{display:flex;align-items:center;justify-content:flex-end;gap:12px;flex-wrap:wrap;margin:0;font-size:14px;line-height:1.45;text-align:right}
+.hero-credit{display:inline-block;width:auto;margin:0;padding:5px 9px;font-size:11px;white-space:nowrap}
+@media(max-width:900px){.hero{padding:17px 6px}.hero>div{align-items:flex-start;flex-direction:column;gap:8px}.hero h1{white-space:normal}.hero-copy{justify-content:flex-start;text-align:left}}
+@media(max-width:640px){.hero{width:calc(100% - 32px);margin:12px auto 4px;padding:15px 0 14px}.hero h1{font-size:26px}.hero-copy{gap:8px;font-size:13px;line-height:1.45}.hero-credit{font-size:11px}}
