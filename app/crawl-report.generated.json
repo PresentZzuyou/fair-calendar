@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-08-28T14:21:19.477Z",
+  "checkedAt": "2026-08-28T14:27:01.975Z",
   "summary": {
     "verified": 12,
-    "unreachable": 5,
+    "unreachable": 6,
     "date-review": 4,
-    "needs-review": 3
+    "needs-review": 2
   },
   "results": [
     {
@@ -78,8 +78,9 @@
     },
     {
       "title": "K-일러스트레이션페어 마곡 2026",
-      "status": "needs-review",
-      "source": "https://www.k-illustrationfair.com/"
+      "status": "unreachable",
+      "source": "https://www.k-illustrationfair.com/",
+      "error": "fetch failed"
     },
     {
       "title": "일러스타 페스 13",
