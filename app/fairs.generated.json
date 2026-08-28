@@ -476,6 +476,32 @@
   },
   {
     "id": 23,
+    "title": "파인캐릭터 2026",
+    "short": "파인캐릭터",
+    "start": "2026-11-27",
+    "end": "2026-11-29",
+    "venue": "동대문디자인플라자(DDP) 쇼룸 1층",
+    "area": "서울",
+    "category": "캐릭터",
+    "color": "#cfa4e9",
+    "text": "#111315",
+    "icon": "◆",
+    "fee": "무료",
+    "organizer": "아이러브캐릭터",
+    "description": "캐릭터를 파인아트와 라이프스타일 콘텐츠로 확장해 전시·판매·체험·협업을 선보이는 캐릭터 아트 전시회입니다.",
+    "source": "https://www.finecharacter.kr/",
+    "crawlKeywords": [
+      "FineCharacter"
+    ],
+    "crawlSources": [
+      "https://akei.or.kr/bbs/board.php?bo_table=schedule&page=10&sfl=wr_subject&sop=and&wr_id=104769"
+    ],
+    "annual": true,
+    "seriesKey": "fine-character",
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": 24,
     "title": "2026 콘텐츠IP 마켓",
     "short": "콘텐츠IP 마켓",
     "start": "2026-12-02",
@@ -493,7 +519,7 @@
     "verifiedAt": "2026-08-28"
   },
   {
-    "id": 24,
+    "id": 25,
     "title": "DesignerCon 2027",
     "short": "DesignerCon",
     "start": "2027-05-29",
@@ -523,7 +549,7 @@
     "verifiedAt": "2026-08-28"
   },
   {
-    "id": 25,
+    "id": 26,
     "title": "Licensing Japan 2027",
     "short": "Licensing Japan",
     "start": "2027-06-23",
@@ -553,7 +579,7 @@
     "verifiedAt": "2026-08-28"
   },
   {
-    "id": 26,
+    "id": 27,
     "title": "2026 경기국제웹툰페어",
     "short": "경기 웹툰페어",
     "start": "",

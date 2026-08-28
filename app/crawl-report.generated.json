@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-08-28T14:43:45.869Z",
+  "checkedAt": "2026-08-28T14:47:08.430Z",
   "summary": {
     "needs-review": 9,
-    "verified": 15,
+    "verified": 16,
     "date-review": 2
   },
   "discovered": [],
@@ -306,6 +306,21 @@
         },
         {
           "url": "https://www.designercon.com/about/faq-and-notes/",
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "title": "파인캐릭터 2026",
+      "status": "verified",
+      "source": "https://www.finecharacter.kr/",
+      "sourceChecks": [
+        {
+          "url": "https://www.finecharacter.kr/",
+          "status": "ok"
+        },
+        {
+          "url": "https://akei.or.kr/bbs/board.php?bo_table=schedule&page=10&sfl=wr_subject&sop=and&wr_id=104769",
           "status": "ok"
         }
       ]
