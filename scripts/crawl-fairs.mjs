@@ -6,6 +6,9 @@ const checkedAt=new Date().toISOString(),pageCache=new Map();
 const strip=html=>html.replace(/<script[\s\S]*?<\/script>/gi," ").replace(/<style[\s\S]*?<\/style>/gi," ").replace(/<[^>]+>/g," ").replace(/&nbsp;/g," ").replace(/&#?[a-z0-9]+;/gi," ").replace(/\s+/g," ");
 const datePatterns=(date,end)=>{if(!date)return[];const[y,m,d]=date.split("-").map(Number),endDay=end?Number(end.split("-")[2]):d,monthNames=["January","February","March","April","May","June","July","August","September","October","November","December"],month=monthNames[m-1],short=month.slice(0,3);return[date,`${y}.${String(m).padStart(2,"0")}.${String(d).padStart(2,"0")}`,`${y}. ${m}. ${d}.`,`${m}/${d}`,`${m}월 ${d}일`,`${y}年${m}月${d}日`,`${d} ${month} ${y}`,`${d} ${short} ${y}`,`${month} ${d}, ${y}`,`${short} ${d}, ${y}`,`${d}-${endDay} ${month} ${y}`,`${d}-${endDay} ${month}, ${y}`,`${d}-${endDay} ${short} ${y}`,`${d}-${endDay} ${short}, ${y}`,`${month} ${d}-${endDay}, ${y}`,`${month} ${d}-${endDay}`,`${d} to ${endDay} ${month}`]};
 const normalize=value=>value.toLowerCase().replace(/\s+/g,"").replace(/[·._-]/g,"");
+const seriesOf=fair=>fair.seriesKey||normalize(fair.title.replace(/20\d{2}/g,"").replace(/제\s*\d+\s*회/g,"").replace(/v\.?\s*\d+/gi,"").replace(/\b\d{2,3}\b/g,""));
+const titleForYear=(value,year)=>/20\d{2}/.test(value)?value.replace(/20\d{2}/,year):`${value} ${year}`;
+const keywordContexts=(text,keywords)=>{const lower=text.toLowerCase(),contexts=[];for(const keyword of keywords){let from=0,index;while((index=lower.indexOf(keyword.toLowerCase(),from))!==-1){contexts.push(text.slice(Math.max(0,index-1500),index+keyword.length+1500));from=index+keyword.length}}return contexts};
 const iso=(y,m,d)=>`${y}-${String(m).padStart(2,"0")}-${String(d).padStart(2,"0")}`;
 const months={january:1,february:2,march:3,april:4,may:5,june:6,july:7,august:8,september:9,october:10,november:11,december:12,jan:1,feb:2,mar:3,apr:4,jun:6,jul:7,aug:8,sep:9,sept:9,oct:10,nov:11,dec:12};
 const extractDateRanges=text=>{
@@ -31,9 +34,9 @@ for(const fair of [...fairs]){
  const status=!texts.length?"unreachable":titleFound&&dateFound?"verified":titleFound?"date-review":"needs-review";
  if(status==="verified")fair.verifiedAt=checkedAt.slice(0,10);
  results.push({title:fair.title,status,source:fair.source,sourceChecks:checks.map(({url,status,error})=>({url,status,...(error?{error}: {})}))});
- if(fair.annual&&fair.seriesKey&&titleFound){
-  const existing=fairs.filter(item=>item.seriesKey===fair.seriesKey),latestYear=Math.max(...existing.map(item=>Number(item.start?.slice(0,4)||0))),candidates=texts.flatMap(extractDateRanges).filter(item=>Number(item.start.slice(0,4))>latestYear).sort((a,b)=>a.start.localeCompare(b.start));
-  if(candidates[0]){const next=candidates[0],nextYear=next.start.slice(0,4),clone={...fair,id:0,title:fair.title.replace(/20\d{2}/,nextYear),short:fair.short.replace(/20\d{2}/,nextYear),start:next.start,end:next.end,venue:fair.variableVenue?"세부 행사장 공식 발표 확인":fair.venue,verifiedAt:checkedAt.slice(0,10)};fairs.push(clone);discovered.push({seriesKey:fair.seriesKey,title:clone.title,start:clone.start,end:clone.end})}
+ if(titleFound){
+  const seriesKey=seriesOf(fair),existing=fairs.filter(item=>seriesOf(item)===seriesKey),latestYear=Math.max(...existing.map(item=>Number(item.start?.slice(0,4)||item.title.match(/20\d{2}/)?.[0]||0))),contexts=texts.flatMap(text=>keywordContexts(text,titleKeywords)),candidates=contexts.flatMap(extractDateRanges).filter(item=>Number(item.start.slice(0,4))>latestYear).sort((a,b)=>a.start.localeCompare(b.start));
+  if(candidates[0]){const next=candidates[0],nextYear=next.start.slice(0,4),clone={...fair,id:0,title:titleForYear(fair.title,nextYear),short:titleForYear(fair.short,nextYear),start:next.start,end:next.end,venue:fair.variableVenue?"세부 행사장 공식 발표 확인":fair.venue,annual:true,seriesKey,verifiedAt:checkedAt.slice(0,10)};fairs.push(clone);discovered.push({seriesKey,title:clone.title,start:clone.start,end:clone.end})}
  }
 }
 fairs.sort((a,b)=>(a.start||"9999").localeCompare(b.start||"9999")||a.title.localeCompare(b.title,"ko"));
