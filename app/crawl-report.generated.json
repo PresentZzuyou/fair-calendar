@@ -1,15 +1,16 @@
 {
-  "checkedAt": "2026-08-28T15:02:37.951Z",
+  "checkedAt": "2026-08-28T15:14:22.215Z",
   "summary": {
-    "needs-review": 9,
-    "verified": 16,
-    "date-review": 2
+    "auto-recheck": 13,
+    "verified": 14
   },
   "discovered": [],
   "results": [
     {
       "title": "K-일러스트레이션페어 서울 2026",
-      "status": "needs-review",
+      "status": "auto-recheck",
+      "reason": "title-not-found",
+      "nextCheck": "next scheduled run",
       "source": "https://www.coex.co.kr/exhibitions/k-일러스트레이션페어-서울-2026/",
       "sourceChecks": [
         {
@@ -66,7 +67,9 @@
     },
     {
       "title": "Licensing Expo 2026 라스베이거스",
-      "status": "date-review",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
       "source": "https://www.licensingexpo.com/en/home.html?id=10151",
       "sourceChecks": [
         {
@@ -136,7 +139,9 @@
     },
     {
       "title": "코믹월드 SUMMER 2026",
-      "status": "needs-review",
+      "status": "auto-recheck",
+      "reason": "title-not-found",
+      "nextCheck": "next scheduled run",
       "source": "https://comicw.net/",
       "sourceChecks": [
         {
@@ -147,7 +152,9 @@
     },
     {
       "title": "K-일러스트레이션페어 부산 2026",
-      "status": "needs-review",
+      "status": "auto-recheck",
+      "reason": "title-not-found",
+      "nextCheck": "next scheduled run",
       "source": "https://www.k-illustrationfair.com/busan/page/31",
       "sourceChecks": [
         {
@@ -179,7 +186,9 @@
     },
     {
       "title": "일러스타 페스 12 부산",
-      "status": "needs-review",
+      "status": "auto-recheck",
+      "reason": "title-not-found",
+      "nextCheck": "next scheduled run",
       "source": "https://illustar.net/",
       "sourceChecks": [
         {
@@ -190,7 +199,9 @@
     },
     {
       "title": "코믹월드 335 일산",
-      "status": "needs-review",
+      "status": "auto-recheck",
+      "reason": "title-not-found",
+      "nextCheck": "next scheduled run",
       "source": "https://comicw.net/e/335/9",
       "sourceChecks": [
         {
@@ -201,7 +212,9 @@
     },
     {
       "title": "K-일러스트레이션페어 마곡 2026",
-      "status": "needs-review",
+      "status": "auto-recheck",
+      "reason": "title-not-found",
+      "nextCheck": "next scheduled run",
       "source": "https://www.k-illustrationfair.com/",
       "sourceChecks": [
         {
@@ -223,7 +236,9 @@
     },
     {
       "title": "코믹월드 336 일산",
-      "status": "date-review",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
       "source": "https://comicw.net/shop/item.php?it_id=1775781353",
       "sourceChecks": [
         {
@@ -264,7 +279,9 @@
     },
     {
       "title": "일러스타 페스 14",
-      "status": "needs-review",
+      "status": "auto-recheck",
+      "reason": "title-not-found",
+      "nextCheck": "next scheduled run",
       "source": "https://illustar.net/",
       "sourceChecks": [
         {
@@ -286,7 +303,9 @@
     },
     {
       "title": "부산일러스트레이션페어 V.7",
-      "status": "needs-review",
+      "status": "auto-recheck",
+      "reason": "title-not-found",
+      "nextCheck": "next scheduled run",
       "source": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=3d700c01-0ab0-450f-9f0a-170a889655e8",
       "sourceChecks": [
         {
@@ -297,7 +316,9 @@
     },
     {
       "title": "DesignerCon 2026",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "title-not-found",
+      "nextCheck": "next scheduled run",
       "source": "https://www.designercon.com/about/showinformation/",
       "sourceChecks": [
         {
@@ -338,7 +359,9 @@
     },
     {
       "title": "DesignerCon 2027",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "title-not-found",
+      "nextCheck": "next scheduled run",
       "source": "https://www.designercon.com/about/showinformation/",
       "sourceChecks": [
         {
@@ -372,7 +395,9 @@
     },
     {
       "title": "2026 경기국제웹툰페어",
-      "status": "needs-review",
+      "status": "auto-recheck",
+      "reason": "title-not-found",
+      "nextCheck": "next scheduled run",
       "source": "https://www.webtoonfair.com/main.do",
       "sourceChecks": [
         {
@@ -386,7 +411,8 @@
         },
         {
           "url": "https://www.kintex.com/web/ko/event/list.do",
-          "status": "ok"
+          "status": "unreachable",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://www.akei.or.kr/bbs/board.php?bo_table=schedule",
