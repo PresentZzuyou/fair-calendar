@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-28T14:47:08.430Z",
+  "checkedAt": "2026-08-28T14:48:05.828Z",
   "summary": {
     "needs-review": 9,
     "verified": 16,
@@ -382,7 +382,8 @@
         },
         {
           "url": "https://www.gcon.or.kr/",
-          "status": "ok"
+          "status": "unreachable",
+          "error": "fetch failed"
         },
         {
           "url": "https://www.kintex.com/web/ko/event/list.do",
