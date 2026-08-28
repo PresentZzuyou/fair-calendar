@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-08-28T05:11:01.643Z",
+  "checkedAt": "2026-08-28T14:20:24.168Z",
   "summary": {
-    "verified": 8,
+    "verified": 12,
+    "unreachable": 4,
     "date-review": 5,
-    "unreachable": 2,
     "needs-review": 3
   },
   "results": [
@@ -18,9 +18,31 @@
       "source": "https://www.coex.co.kr/exhibitions/2026-서울-일러스트코리아/"
     },
     {
+      "title": "홍콩 국제 라이선싱쇼 2026",
+      "status": "unreachable",
+      "source": "https://mediaroom.hktdc.com/en/pressrelease/detail/20962/Hong%20Kong%20International%20Licensing%20Show%20and%20Asian%20Licensing%20Conference%20conclude%20successfully",
+      "error": "fetch failed"
+    },
+    {
       "title": "제8회 어르니마켓",
       "status": "verified",
       "source": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157624&menuNo=200008"
+    },
+    {
+      "title": "Licensing Expo 2026 라스베이거스",
+      "status": "unreachable",
+      "source": "https://www.licensingexpo.com/en/home.html?id=10151",
+      "error": "HTTP 403"
+    },
+    {
+      "title": "Licensing Japan 2026",
+      "status": "verified",
+      "source": "https://www.content-tokyo.jp/hub/ja-jp/visit/character.html"
+    },
+    {
+      "title": "Licensing Expo Shanghai 2026",
+      "status": "verified",
+      "source": "https://en.licensingexpochina.com/show/about/"
     },
     {
       "title": "캐릭터 라이선싱 페어 2026",
@@ -69,6 +91,11 @@
       "source": "https://comicw.net/shop/item.php?it_id=1775781353"
     },
     {
+      "title": "SPP 국제콘텐츠마켓 2026",
+      "status": "verified",
+      "source": "https://akei.or.kr/bbs/board.php?bo_table=schedule&page=5&wr_id=104842"
+    },
+    {
       "title": "코믹월드 337 울산",
       "status": "verified",
       "source": "https://comicw.net/g/pre.php?ca=20"
@@ -87,6 +114,11 @@
       "title": "부산일러스트레이션페어 V.7",
       "status": "date-review",
       "source": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=3d700c01-0ab0-450f-9f0a-170a889655e8"
+    },
+    {
+      "title": "DesignerCon 2026",
+      "status": "verified",
+      "source": "https://www.designercon.com/about/showinformation/"
     },
     {
       "title": "2026 콘텐츠IP 마켓",

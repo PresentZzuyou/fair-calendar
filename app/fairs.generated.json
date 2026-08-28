@@ -37,6 +37,30 @@
   },
   {
     "id": 3,
+    "title": "홍콩 국제 라이선싱쇼 2026",
+    "short": "홍콩 라이선싱쇼",
+    "start": "2026-04-27",
+    "end": "2026-04-29",
+    "venue": "홍콩 컨벤션 전시센터(HKCEC)",
+    "area": "해외",
+    "country": "홍콩",
+    "overseas": true,
+    "category": "IP",
+    "color": "#9eb8ef",
+    "text": "#111315",
+    "icon": "◆",
+    "fee": "B2B 참가 등록",
+    "organizer": "홍콩무역발전국(HKTDC)",
+    "description": "아시아의 캐릭터·브랜드·콘텐츠 IP와 글로벌 라이선싱 관계자를 연결하는 국제 B2B 전시회입니다.",
+    "source": "https://mediaroom.hktdc.com/en/pressrelease/detail/20962/Hong%20Kong%20International%20Licensing%20Show%20and%20Asian%20Licensing%20Conference%20conclude%20successfully",
+    "crawlKeywords": [
+      "Hong Kong International Licensing Show",
+      "HKTDC"
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": 4,
     "title": "제8회 어르니마켓",
     "short": "어르니마켓",
     "start": "2026-05-09",
@@ -54,7 +78,79 @@
     "verifiedAt": "2026-08-28"
   },
   {
-    "id": 4,
+    "id": 5,
+    "title": "Licensing Expo 2026 라스베이거스",
+    "short": "Licensing Expo",
+    "start": "2026-05-19",
+    "end": "2026-05-21",
+    "venue": "Mandalay Bay Convention Center, Las Vegas",
+    "area": "해외",
+    "country": "미국",
+    "overseas": true,
+    "category": "IP",
+    "color": "#f2a4a7",
+    "text": "#111315",
+    "icon": "●",
+    "fee": "B2B 참가 등록",
+    "organizer": "Global Licensing Group · Informa Markets",
+    "description": "캐릭터·엔터테인먼트·브랜드·아트 IP의 권리자와 제조사, 유통사를 연결하는 세계 최대 규모의 라이선싱 전문 행사입니다.",
+    "source": "https://www.licensingexpo.com/en/home.html?id=10151",
+    "crawlKeywords": [
+      "Licensing Expo",
+      "RETURNS IN 2026"
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": 6,
+    "title": "Licensing Japan 2026",
+    "short": "Licensing Japan",
+    "start": "2026-06-17",
+    "end": "2026-06-19",
+    "venue": "도쿄 빅사이트",
+    "area": "해외",
+    "country": "일본",
+    "overseas": true,
+    "category": "IP",
+    "color": "#e9dc9a",
+    "text": "#111315",
+    "icon": "▤",
+    "fee": "비즈니스 참관 등록",
+    "organizer": "RX Japan",
+    "description": "일본의 캐릭터·브랜드·애니메이션 IP와 라이선시를 연결하며 일본 캐릭터 대상 전시도 함께 열리는 전문 행사입니다.",
+    "source": "https://www.content-tokyo.jp/hub/ja-jp/visit/character.html",
+    "crawlKeywords": [
+      "ライセンシング ジャパン",
+      "日本キャラクター大賞"
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": 7,
+    "title": "Licensing Expo Shanghai 2026",
+    "short": "상하이 Licensing Expo",
+    "start": "2026-07-15",
+    "end": "2026-07-17",
+    "venue": "National Exhibition and Convention Center, Shanghai",
+    "area": "해외",
+    "country": "중국",
+    "overseas": true,
+    "category": "IP",
+    "color": "#cfa4e9",
+    "text": "#111315",
+    "icon": "✦",
+    "fee": "무료·18세 이상 비즈니스 참관",
+    "organizer": "Informa Markets",
+    "description": "캐릭터, 애니메이션, 게임, 영화·방송, 미술관과 브랜드 IP의 중국 라이선싱 비즈니스를 연결하는 전문 행사입니다.",
+    "source": "https://en.licensingexpochina.com/show/about/",
+    "crawlKeywords": [
+      "Licensing Expo Shanghai",
+      "Empowering China’s Licensing Market"
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": 8,
     "title": "캐릭터 라이선싱 페어 2026",
     "short": "캐릭터 라이선싱",
     "start": "2026-07-16",
@@ -72,7 +168,7 @@
     "verifiedAt": "2026-08-28"
   },
   {
-    "id": 5,
+    "id": 9,
     "title": "코믹월드 SUMMER 2026",
     "short": "코믹월드 SUMMER",
     "start": "2026-07-18",
@@ -90,7 +186,7 @@
     "verifiedAt": "2026-08-16"
   },
   {
-    "id": 6,
+    "id": 10,
     "title": "K-일러스트레이션페어 부산 2026",
     "short": "K-IF 부산",
     "start": "2026-07-24",
@@ -108,7 +204,7 @@
     "verifiedAt": "2026-08-16"
   },
   {
-    "id": 7,
+    "id": 11,
     "title": "서울일러스트레이션페어 V.21",
     "short": "서일페 V.21",
     "start": "2026-07-30",
@@ -126,7 +222,7 @@
     "verifiedAt": "2026-08-16"
   },
   {
-    "id": 8,
+    "id": 12,
     "title": "일러스타 페스 12 부산",
     "short": "일러스타 페스 12",
     "start": "2026-08-01",
@@ -144,7 +240,7 @@
     "verifiedAt": "2026-08-16"
   },
   {
-    "id": 9,
+    "id": 13,
     "title": "코믹월드 335 일산",
     "short": "코믹월드 335",
     "start": "2026-08-15",
@@ -162,7 +258,7 @@
     "verifiedAt": "2026-08-16"
   },
   {
-    "id": 10,
+    "id": 14,
     "title": "K-일러스트레이션페어 마곡 2026",
     "short": "K-일러스트페어",
     "start": "2026-08-20",
@@ -180,7 +276,7 @@
     "verifiedAt": "2026-08-16"
   },
   {
-    "id": 11,
+    "id": 15,
     "title": "일러스타 페스 13",
     "short": "일러스타 페스 13",
     "start": "2026-08-29",
@@ -198,7 +294,7 @@
     "verifiedAt": "2026-08-28"
   },
   {
-    "id": 12,
+    "id": 16,
     "title": "코믹월드 336 일산",
     "short": "코믹월드 336",
     "start": "2026-09-12",
@@ -216,7 +312,29 @@
     "verifiedAt": "2026-08-16"
   },
   {
-    "id": 13,
+    "id": 17,
+    "title": "SPP 국제콘텐츠마켓 2026",
+    "short": "SPP 국제콘텐츠마켓",
+    "start": "2026-09-17",
+    "end": "2026-09-19",
+    "venue": "동대문디자인플라자(DDP)",
+    "area": "서울",
+    "category": "IP",
+    "color": "#ff9a61",
+    "text": "#111315",
+    "icon": "▣",
+    "fee": "B2B 참가 등록",
+    "organizer": "서울경제진흥원",
+    "description": "해외 바이어와 국내외 애니메이션, 캐릭터, 웹툰, 웹소설, 게임 등 콘텐츠 IP 기업을 연결하는 국제 B2B 마켓입니다.",
+    "source": "https://akei.or.kr/bbs/board.php?bo_table=schedule&page=5&wr_id=104842",
+    "crawlKeywords": [
+      "SPP 국제콘텐츠마켓",
+      "SPP 2026"
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": 18,
     "title": "코믹월드 337 울산",
     "short": "코믹월드 337",
     "start": "2026-10-03",
@@ -234,7 +352,7 @@
     "verifiedAt": "2026-08-28"
   },
   {
-    "id": 14,
+    "id": 19,
     "title": "일러스타 페스 14",
     "short": "일러스타 페스 14",
     "start": "2026-10-10",
@@ -252,7 +370,7 @@
     "verifiedAt": "2026-08-16"
   },
   {
-    "id": 15,
+    "id": 20,
     "title": "코믹월드 338 수원",
     "short": "코믹월드 338",
     "start": "2026-10-24",
@@ -270,7 +388,7 @@
     "verifiedAt": "2026-08-28"
   },
   {
-    "id": 16,
+    "id": 21,
     "title": "부산일러스트레이션페어 V.7",
     "short": "부산일페 V.7",
     "start": "2026-11-06",
@@ -288,7 +406,31 @@
     "verifiedAt": "2026-08-18"
   },
   {
-    "id": 17,
+    "id": 22,
+    "title": "DesignerCon 2026",
+    "short": "DesignerCon",
+    "start": "2026-11-13",
+    "end": "2026-11-15",
+    "venue": "The Expo at World Market Center, Las Vegas",
+    "area": "해외",
+    "country": "미국",
+    "overseas": true,
+    "category": "캐릭터",
+    "color": "#95d2af",
+    "text": "#111315",
+    "icon": "◆",
+    "fee": "유료·공식 예매처 확인",
+    "organizer": "DesignerCon",
+    "description": "아티스트, 디자이너, 제조사와 컬렉터가 만나는 디자이너 토이·피규어·플러시·캐릭터 아트 전문 컨벤션입니다.",
+    "source": "https://www.designercon.com/about/showinformation/",
+    "crawlKeywords": [
+      "DesignerCon",
+      "November 13-15"
+    ],
+    "verifiedAt": "2026-08-28"
+  },
+  {
+    "id": 23,
     "title": "2026 콘텐츠IP 마켓",
     "short": "콘텐츠IP 마켓",
     "start": "2026-12-02",
@@ -306,7 +448,7 @@
     "verifiedAt": "2026-08-28"
   },
   {
-    "id": 18,
+    "id": 24,
     "title": "2026 경기국제웹툰페어",
     "short": "경기 웹툰페어",
     "start": "",
