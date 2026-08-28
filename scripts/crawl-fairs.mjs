@@ -20,22 +20,26 @@ const extractDateRanges=text=>{
  for(const match of text.matchAll(/(\d{1,2})\s*[-–—]\s*(\d{1,2})\s+(January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[,]?\s*(20\d{2})/gi))add(match[4],months[match[3].toLowerCase()],match[1],null,null,match[2]);
  return [...new Map(found.map(item=>[`${item.start}|${item.end}`,item])).values()];
 };
-const fetchText=async url=>{if(pageCache.has(url))return pageCache.get(url);const task=fetch(encodeURI(url),{signal:AbortSignal.timeout(8000),headers:{"user-agent":"ContentFairCalendar/1.2 (+official-event-monitoring; one request per source)"}}).then(r=>{if(!r.ok)throw new Error(`HTTP ${r.status}`);return r.text()}).then(strip);pageCache.set(url,task);return task};
-const fetchSources=async fair=>Promise.all([...new Set([fair.source,...(fair.crawlSources||[])])].map(async url=>{try{return{url,status:"ok",text:await fetchText(url)}}catch(error){return{url,status:"unreachable",error:String(error.message||error)}}}));
+const fetchText=async(url,refresh=false)=>{if(refresh)pageCache.delete(url);if(pageCache.has(url))return pageCache.get(url);const task=fetch(encodeURI(url),{signal:AbortSignal.timeout(8000),headers:{"user-agent":"ContentFairCalendar/1.3 (+official-event-monitoring; automatic-recheck)",accept:"text/html,application/xhtml+xml","accept-language":"ko-KR,ko;q=0.9,en;q=0.7"}}).then(r=>{if(!r.ok)throw new Error(`HTTP ${r.status}`);return r.text()}).then(strip);pageCache.set(url,task);return task};
+const fetchSources=async(fair,refresh=false)=>Promise.all([...new Set([fair.source,...(fair.crawlSources||[])])].map(async url=>{try{return{url,status:"ok",text:await fetchText(url,refresh)}}catch(error){return{url,status:"unreachable",error:String(error.message||error)}}}));
 const duplicateKeys=new Map();
 for(const fair of fairs){const key=`${normalize(fair.title)}|${fair.start}`;duplicateKeys.set(key,(duplicateKeys.get(key)||0)+1)}
 const results=[],discovered=[];
 for(const fair of [...fairs]){
  const key=`${normalize(fair.title)}|${fair.start}`;
  if(duplicateKeys.get(key)>1){results.push({title:fair.title,status:"duplicate",source:fair.source});continue}
- const checks=await fetchSources(fair),texts=checks.filter(item=>item.status==="ok").map(item=>item.text),titleKeywords=fair.crawlKeywords||[fair.short];
- const titleFound=texts.some(text=>titleKeywords.some(keyword=>normalize(text).includes(normalize(keyword))));
- const dateFound=!fair.start||texts.some(text=>datePatterns(fair.start,fair.end).some(pattern=>text.includes(pattern)));
- const status=!texts.length?"unreachable":titleFound&&dateFound?"verified":titleFound?"date-review":"needs-review";
+ const titleKeywords=fair.crawlKeywords||[fair.short];
+ let checks=await fetchSources(fair),texts=checks.filter(item=>item.status==="ok").map(item=>item.text),titleFound=texts.some(text=>titleKeywords.some(keyword=>normalize(text).includes(normalize(keyword)))),dateFound=!fair.start||texts.some(text=>datePatterns(fair.start,fair.end).some(pattern=>text.includes(pattern)));
+ if(!titleFound||!dateFound){checks=await fetchSources(fair,true);texts=checks.filter(item=>item.status==="ok").map(item=>item.text);titleFound=texts.some(text=>titleKeywords.some(keyword=>normalize(text).includes(normalize(keyword))));dateFound=!fair.start||texts.some(text=>datePatterns(fair.start,fair.end).some(pattern=>text.includes(pattern)))}
+ const contexts=texts.flatMap(text=>keywordContexts(text,titleKeywords)),contextDates=[...new Map(contexts.flatMap(extractDateRanges).map(item=>[`${item.start}|${item.end}`,item])).values()],expectedYear=fair.start?.slice(0,4)||fair.title.match(/20\d{2}/)?.[0]||String(new Date().getUTCFullYear()),sameYearDates=contextDates.filter(item=>item.start.startsWith(expectedYear));
+ let autoUpdated=null;
+ if(titleFound&&sameYearDates.length===1&&!fair.start){fair.start=sameYearDates[0].start;fair.end=sameYearDates[0].end;dateFound=true;autoUpdated={field:"date",start:fair.start,end:fair.end}}
+ if(titleFound&&sameYearDates.length===1&&fair.start&&!dateFound&&fair.end>=checkedAt.slice(0,10)&&Math.abs(new Date(sameYearDates[0].start)-new Date(fair.start))<=45*86400000){fair.start=sameYearDates[0].start;fair.end=sameYearDates[0].end;dateFound=true;autoUpdated={field:"date",start:fair.start,end:fair.end}}
+ const reason=!texts.length?"source-unreachable":!titleFound?"title-not-found":!dateFound?"date-not-confirmed":null,status=reason?"auto-recheck":"verified";
  if(status==="verified")fair.verifiedAt=checkedAt.slice(0,10);
- results.push({title:fair.title,status,source:fair.source,sourceChecks:checks.map(({url,status,error})=>({url,status,...(error?{error}: {})}))});
+ results.push({title:fair.title,status,...(reason?{reason,nextCheck:"next scheduled run"}:{}),...(autoUpdated?{autoUpdated}:{}),source:fair.source,sourceChecks:checks.map(({url,status,error})=>({url,status,...(error?{error}: {})}))});
  if(titleFound){
-  const seriesKey=seriesOf(fair),existing=fairs.filter(item=>seriesOf(item)===seriesKey),latestYear=Math.max(...existing.map(item=>Number(item.start?.slice(0,4)||item.title.match(/20\d{2}/)?.[0]||0))),contexts=texts.flatMap(text=>keywordContexts(text,titleKeywords)),candidates=contexts.flatMap(extractDateRanges).filter(item=>Number(item.start.slice(0,4))>latestYear).sort((a,b)=>a.start.localeCompare(b.start));
+  const seriesKey=seriesOf(fair),existing=fairs.filter(item=>seriesOf(item)===seriesKey),latestYear=Math.max(...existing.map(item=>Number(item.start?.slice(0,4)||item.title.match(/20\d{2}/)?.[0]||0))),candidates=contextDates.filter(item=>Number(item.start.slice(0,4))>latestYear).sort((a,b)=>a.start.localeCompare(b.start));
   if(candidates[0]){const next=candidates[0],nextYear=next.start.slice(0,4),clone={...fair,id:0,title:titleForYear(fair.title,nextYear),short:titleForYear(fair.short,nextYear),start:next.start,end:next.end,venue:fair.variableVenue?"세부 행사장 공식 발표 확인":fair.venue,annual:true,seriesKey,verifiedAt:checkedAt.slice(0,10)};fairs.push(clone);discovered.push({seriesKey,title:clone.title,start:clone.start,end:clone.end})}
  }
 }
