@@ -1,137 +1,383 @@
 {
-  "checkedAt": "2026-08-28T14:27:01.975Z",
+  "checkedAt": "2026-08-28T14:42:49.417Z",
   "summary": {
-    "verified": 12,
-    "unreachable": 6,
-    "date-review": 4,
-    "needs-review": 2
+    "needs-review": 9,
+    "verified": 15,
+    "date-review": 2
   },
+  "discovered": [],
   "results": [
     {
       "title": "K-일러스트레이션페어 서울 2026",
-      "status": "verified",
-      "source": "https://www.coex.co.kr/exhibitions/k-일러스트레이션페어-서울-2026/"
+      "status": "needs-review",
+      "source": "https://www.coex.co.kr/exhibitions/k-일러스트레이션페어-서울-2026/",
+      "sourceChecks": [
+        {
+          "url": "https://www.coex.co.kr/exhibitions/k-일러스트레이션페어-서울-2026/",
+          "status": "ok"
+        }
+      ]
     },
     {
       "title": "2026 서울 일러스트코리아",
       "status": "verified",
-      "source": "https://www.coex.co.kr/exhibitions/2026-서울-일러스트코리아/"
+      "source": "https://www.coex.co.kr/exhibitions/2026-서울-일러스트코리아/",
+      "sourceChecks": [
+        {
+          "url": "https://www.coex.co.kr/exhibitions/2026-서울-일러스트코리아/",
+          "status": "ok"
+        }
+      ]
     },
     {
       "title": "홍콩 국제 라이선싱쇼 2026",
-      "status": "unreachable",
+      "status": "verified",
       "source": "https://mediaroom.hktdc.com/en/pressrelease/detail/20962/Hong%20Kong%20International%20Licensing%20Show%20and%20Asian%20Licensing%20Conference%20conclude%20successfully",
-      "error": "fetch failed"
+      "sourceChecks": [
+        {
+          "url": "https://mediaroom.hktdc.com/en/pressrelease/detail/20962/Hong%20Kong%20International%20Licensing%20Show%20and%20Asian%20Licensing%20Conference%20conclude%20successfully",
+          "status": "unreachable",
+          "error": "fetch failed"
+        },
+        {
+          "url": "https://www.hktdc.com/event/hklicensingshow/en/events-at-a-glance",
+          "status": "ok"
+        },
+        {
+          "url": "https://www.hktdc.com/event/hklicensingshow/en/programme",
+          "status": "ok"
+        },
+        {
+          "url": "https://www.hktdc.com/event/hklicensingshow/en",
+          "status": "ok"
+        }
+      ]
     },
     {
       "title": "제8회 어르니마켓",
       "status": "verified",
-      "source": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157624&menuNo=200008"
+      "source": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157624&menuNo=200008",
+      "sourceChecks": [
+        {
+          "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157624&menuNo=200008",
+          "status": "ok"
+        }
+      ]
     },
     {
       "title": "Licensing Expo 2026 라스베이거스",
-      "status": "unreachable",
+      "status": "date-review",
       "source": "https://www.licensingexpo.com/en/home.html?id=10151",
-      "error": "HTTP 403"
+      "sourceChecks": [
+        {
+          "url": "https://www.licensingexpo.com/en/home.html?id=10151",
+          "status": "unreachable",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://www.licensingexpo.com/en/home.html",
+          "status": "unreachable",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://licensinginternational.org/events/li-lounge-at-licensing-expo/",
+          "status": "ok"
+        }
+      ]
     },
     {
       "title": "Licensing Japan 2026",
       "status": "verified",
-      "source": "https://www.content-tokyo.jp/hub/ja-jp/visit/character.html"
+      "source": "https://www.content-tokyo.jp/hub/ja-jp/visit/character.html",
+      "sourceChecks": [
+        {
+          "url": "https://www.content-tokyo.jp/hub/ja-jp/visit/character.html",
+          "status": "ok"
+        },
+        {
+          "url": "https://www.content-tokyo.jp/hub/ja-jp/visit/lj.html",
+          "status": "ok"
+        },
+        {
+          "url": "https://www.content-tokyo.jp/hub/ja-jp/about.html",
+          "status": "ok"
+        }
+      ]
     },
     {
       "title": "Licensing Expo Shanghai 2026",
       "status": "verified",
-      "source": "https://en.licensingexpochina.com/show/about/"
+      "source": "https://en.licensingexpochina.com/show/about/",
+      "sourceChecks": [
+        {
+          "url": "https://en.licensingexpochina.com/show/about/",
+          "status": "ok"
+        },
+        {
+          "url": "https://en.licensingexpochina.com/",
+          "status": "ok"
+        }
+      ]
     },
     {
       "title": "캐릭터 라이선싱 페어 2026",
       "status": "verified",
-      "source": "https://www.coex.co.kr/exhibitions/캐릭터-라이선싱-페어-2026/"
+      "source": "https://www.coex.co.kr/exhibitions/캐릭터-라이선싱-페어-2026/",
+      "sourceChecks": [
+        {
+          "url": "https://www.coex.co.kr/exhibitions/캐릭터-라이선싱-페어-2026/",
+          "status": "ok"
+        },
+        {
+          "url": "https://www.characterfair.kr/",
+          "status": "ok"
+        }
+      ]
     },
     {
       "title": "코믹월드 SUMMER 2026",
-      "status": "date-review",
-      "source": "https://comicw.net/"
+      "status": "needs-review",
+      "source": "https://comicw.net/",
+      "sourceChecks": [
+        {
+          "url": "https://comicw.net/",
+          "status": "ok"
+        }
+      ]
     },
     {
       "title": "K-일러스트레이션페어 부산 2026",
-      "status": "unreachable",
+      "status": "needs-review",
       "source": "https://www.k-illustrationfair.com/busan/page/31",
-      "error": "fetch failed"
+      "sourceChecks": [
+        {
+          "url": "https://www.k-illustrationfair.com/busan/page/31",
+          "status": "ok"
+        }
+      ]
     },
     {
       "title": "서울일러스트레이션페어 V.21",
-      "status": "unreachable",
+      "status": "verified",
       "source": "https://seoulillustrationfair.co.kr/",
-      "error": "fetch failed"
+      "sourceChecks": [
+        {
+          "url": "https://seoulillustrationfair.co.kr/",
+          "status": "unreachable",
+          "error": "fetch failed"
+        },
+        {
+          "url": "https://www.coex.co.kr/exhibitions/%EC%84%9C%EC%9A%B8%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4v-21-2/",
+          "status": "unreachable",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://www.akei.or.kr/bbs/board.php?bo_table=schedule&wr_id=104274",
+          "status": "ok"
+        }
+      ]
     },
     {
       "title": "일러스타 페스 12 부산",
       "status": "needs-review",
-      "source": "https://illustar.net/"
+      "source": "https://illustar.net/",
+      "sourceChecks": [
+        {
+          "url": "https://illustar.net/",
+          "status": "ok"
+        }
+      ]
     },
     {
       "title": "코믹월드 335 일산",
-      "status": "date-review",
-      "source": "https://comicw.net/e/335/9"
+      "status": "needs-review",
+      "source": "https://comicw.net/e/335/9",
+      "sourceChecks": [
+        {
+          "url": "https://comicw.net/e/335/9",
+          "status": "ok"
+        }
+      ]
     },
     {
       "title": "K-일러스트레이션페어 마곡 2026",
-      "status": "unreachable",
+      "status": "needs-review",
       "source": "https://www.k-illustrationfair.com/",
-      "error": "fetch failed"
+      "sourceChecks": [
+        {
+          "url": "https://www.k-illustrationfair.com/",
+          "status": "ok"
+        }
+      ]
     },
     {
       "title": "일러스타 페스 13",
       "status": "verified",
-      "source": "https://comicw.net/c/338"
+      "source": "https://comicw.net/c/338",
+      "sourceChecks": [
+        {
+          "url": "https://comicw.net/c/338",
+          "status": "ok"
+        }
+      ]
     },
     {
       "title": "코믹월드 336 일산",
       "status": "date-review",
-      "source": "https://comicw.net/shop/item.php?it_id=1775781353"
+      "source": "https://comicw.net/shop/item.php?it_id=1775781353",
+      "sourceChecks": [
+        {
+          "url": "https://comicw.net/shop/item.php?it_id=1775781353",
+          "status": "ok"
+        }
+      ]
     },
     {
       "title": "SPP 국제콘텐츠마켓 2026",
       "status": "verified",
-      "source": "https://akei.or.kr/bbs/board.php?bo_table=schedule&page=5&wr_id=104842"
+      "source": "https://akei.or.kr/bbs/board.php?bo_table=schedule&page=5&wr_id=104842",
+      "sourceChecks": [
+        {
+          "url": "https://akei.or.kr/bbs/board.php?bo_table=schedule&page=5&wr_id=104842",
+          "status": "ok"
+        },
+        {
+          "url": "https://spp.kr/",
+          "status": "ok"
+        },
+        {
+          "url": "https://spp.kr/SPP/110107/index.do",
+          "status": "ok"
+        }
+      ]
     },
     {
       "title": "코믹월드 337 울산",
       "status": "verified",
-      "source": "https://comicw.net/g/pre.php?ca=20"
+      "source": "https://comicw.net/g/pre.php?ca=20",
+      "sourceChecks": [
+        {
+          "url": "https://comicw.net/g/pre.php?ca=20",
+          "status": "ok"
+        }
+      ]
     },
     {
       "title": "일러스타 페스 14",
       "status": "needs-review",
-      "source": "https://illustar.net/"
+      "source": "https://illustar.net/",
+      "sourceChecks": [
+        {
+          "url": "https://illustar.net/",
+          "status": "ok"
+        }
+      ]
     },
     {
       "title": "코믹월드 338 수원",
       "status": "verified",
-      "source": "https://comicw.net/g/pre.php?ca=20"
+      "source": "https://comicw.net/g/pre.php?ca=20",
+      "sourceChecks": [
+        {
+          "url": "https://comicw.net/g/pre.php?ca=20",
+          "status": "ok"
+        }
+      ]
     },
     {
       "title": "부산일러스트레이션페어 V.7",
-      "status": "date-review",
-      "source": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=3d700c01-0ab0-450f-9f0a-170a889655e8"
+      "status": "needs-review",
+      "source": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=3d700c01-0ab0-450f-9f0a-170a889655e8",
+      "sourceChecks": [
+        {
+          "url": "https://korean.visitkorea.or.kr/detail/fes_detail.do?cotid=3d700c01-0ab0-450f-9f0a-170a889655e8",
+          "status": "ok"
+        }
+      ]
     },
     {
       "title": "DesignerCon 2026",
       "status": "verified",
-      "source": "https://www.designercon.com/about/showinformation/"
+      "source": "https://www.designercon.com/about/showinformation/",
+      "sourceChecks": [
+        {
+          "url": "https://www.designercon.com/about/showinformation/",
+          "status": "ok"
+        },
+        {
+          "url": "https://www.designercon.com/about/faq-and-notes/",
+          "status": "ok"
+        }
+      ]
     },
     {
       "title": "2026 콘텐츠IP 마켓",
       "status": "verified",
-      "source": "https://welcon.kocca.kr/mobile/ko/event/content-ip-market-2026--571"
+      "source": "https://welcon.kocca.kr/mobile/ko/event/content-ip-market-2026--571",
+      "sourceChecks": [
+        {
+          "url": "https://welcon.kocca.kr/mobile/ko/event/content-ip-market-2026--571",
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "title": "DesignerCon 2027",
+      "status": "verified",
+      "source": "https://www.designercon.com/about/showinformation/",
+      "sourceChecks": [
+        {
+          "url": "https://www.designercon.com/about/showinformation/",
+          "status": "ok"
+        },
+        {
+          "url": "https://www.designercon.com/about/faq-and-notes/",
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "title": "Licensing Japan 2027",
+      "status": "verified",
+      "source": "https://www.content-tokyo.jp/hub/ja-jp/visit/character.html",
+      "sourceChecks": [
+        {
+          "url": "https://www.content-tokyo.jp/hub/ja-jp/visit/character.html",
+          "status": "ok"
+        },
+        {
+          "url": "https://www.content-tokyo.jp/hub/ja-jp/visit/lj.html",
+          "status": "ok"
+        },
+        {
+          "url": "https://www.content-tokyo.jp/hub/ja-jp/about.html",
+          "status": "ok"
+        }
+      ]
     },
     {
       "title": "2026 경기국제웹툰페어",
-      "status": "unreachable",
+      "status": "needs-review",
       "source": "https://www.webtoonfair.com/main.do",
-      "error": "fetch failed"
+      "sourceChecks": [
+        {
+          "url": "https://www.webtoonfair.com/main.do",
+          "status": "unreachable",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
+          "url": "https://www.gcon.or.kr/",
+          "status": "ok"
+        },
+        {
+          "url": "https://www.kintex.com/web/ko/event/list.do",
+          "status": "ok"
+        },
+        {
+          "url": "https://www.akei.or.kr/bbs/board.php?bo_table=schedule",
+          "status": "ok"
+        }
+      ]
     }
   ]
 }
