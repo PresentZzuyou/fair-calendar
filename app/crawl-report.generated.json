@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-09-01T00:31:26.987Z",
+  "checkedAt": "2026-09-01T23:13:23.188Z",
   "summary": {
-    "auto-recheck": 13,
-    "verified": 14
+    "auto-recheck": 11,
+    "verified": 16
   },
   "discovered": [],
   "results": [
@@ -316,9 +316,7 @@
     },
     {
       "title": "DesignerCon 2026",
-      "status": "auto-recheck",
-      "reason": "title-not-found",
-      "nextCheck": "next scheduled run",
+      "status": "verified",
       "source": "https://www.designercon.com/about/showinformation/",
       "sourceChecks": [
         {
@@ -359,9 +357,7 @@
     },
     {
       "title": "DesignerCon 2027",
-      "status": "auto-recheck",
-      "reason": "title-not-found",
-      "nextCheck": "next scheduled run",
+      "status": "verified",
       "source": "https://www.designercon.com/about/showinformation/",
       "sourceChecks": [
         {
