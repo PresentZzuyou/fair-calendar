@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-09-01T23:13:23.188Z",
+  "checkedAt": "2026-09-02T23:13:33.392Z",
   "summary": {
-    "auto-recheck": 11,
-    "verified": 16
+    "auto-recheck": 13,
+    "verified": 14
   },
   "discovered": [],
   "results": [
@@ -316,7 +316,9 @@
     },
     {
       "title": "DesignerCon 2026",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "title-not-found",
+      "nextCheck": "next scheduled run",
       "source": "https://www.designercon.com/about/showinformation/",
       "sourceChecks": [
         {
@@ -357,7 +359,9 @@
     },
     {
       "title": "DesignerCon 2027",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "title-not-found",
+      "nextCheck": "next scheduled run",
       "source": "https://www.designercon.com/about/showinformation/",
       "sourceChecks": [
         {
@@ -407,7 +411,8 @@
         },
         {
           "url": "https://www.kintex.com/web/ko/event/list.do",
-          "status": "ok"
+          "status": "unreachable",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://www.akei.or.kr/bbs/board.php?bo_table=schedule",
