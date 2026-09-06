@@ -6,15 +6,16 @@ type Category="일러스트"|"캐릭터"|"IP"|"웹툰";
 type Fair={id:number;title:string;short:string;start:string;end:string;venue:string;area:string;country?:string;overseas?:boolean;category:Category;color:string;text:string;icon:string;fee:string;organizer:string;description:string;source:string;verifiedAt:string};
 const fairs=fairsData as Fair[];
 const labels=["일","월","화","수","목","금","토"];
+const koreaToday=()=>{const parts=new Intl.DateTimeFormat("en-US",{timeZone:"Asia/Seoul",year:"numeric",month:"numeric",day:"numeric"}).formatToParts(new Date()),value=(type:string)=>Number(parts.find(part=>part.type===type)?.value);return new Date(value("year"),value("month")-1,value("day"))};
 
 export default function Home(){
- const [selected,setSelected]=useState<Fair|null>(null),[area,setArea]=useState("전체 지역"),[type,setType]=useState("모든 페어"),[month,setMonth]=useState(new Date(2026,7,1)),[query,setQuery]=useState(""),[slideDirection,setSlideDirection]=useState<"next"|"prev">("next");
+ const [selected,setSelected]=useState<Fair|null>(null),[area,setArea]=useState("전체 지역"),[type,setType]=useState("모든 페어"),[month,setMonth]=useState(()=>{const today=koreaToday();return new Date(today.getFullYear(),today.getMonth(),1)}),[query,setQuery]=useState(""),[slideDirection,setSlideDirection]=useState<"next"|"prev">("next");
  const swipeStart=useRef({x:0,y:0,active:false}),swipeMoved=useRef(false);
  const changeMonth=(amount:number)=>{setSlideDirection(amount>0?"next":"prev");setMonth(current=>new Date(current.getFullYear(),current.getMonth()+amount,1))};
  const visible=useMemo(()=>fairs.filter(f=>(area==="전체 지역"||f.area===area)&&(type==="모든 페어"||f.category===type||(type==="콘텐츠·라이선스"&&(f.category==="캐릭터"||f.category==="IP")))),[area,type]);
  const year=month.getFullYear(),monthNo=month.getMonth(),first=new Date(year,monthNo,1).getDay(),last=new Date(year,monthNo+1,0).getDate(),prevLast=new Date(year,monthNo,0).getDate(),days=Array.from({length:42},(_,i)=>i-first+1);
  const events=(day:number)=>visible.filter(f=>{const d=new Date(year,monthNo,day),s=new Date(f.start+"T00:00:00"),e=new Date(f.end+"T00:00:00");return d>=s&&d<=e});
- const today=new Date(); today.setHours(0,0,0,0);
+ const today=koreaToday();
  const statusOf=(fair:Fair)=>{if(!fair.start)return "진행 예정";const start=new Date(fair.start+"T00:00:00"),end=new Date(fair.end+"T23:59:59");if(today<start)return "진행 예정";if(today>end)return "진행 종료";return "진행 중"};
  const currentYear=String(today.getFullYear());
  const isCurrentYear=(fair:Fair)=>(fair.start?fair.start.slice(0,4):fair.title.match(/20\d{2}/)?.[0])===currentYear;
