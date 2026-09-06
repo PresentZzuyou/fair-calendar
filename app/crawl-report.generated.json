@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-09-05T22:45:34.472Z",
+  "checkedAt": "2026-09-06T01:52:50.502Z",
   "summary": {
     "auto-recheck": 11,
-    "verified": 16
+    "verified": 17
   },
   "discovered": [],
   "results": [
@@ -61,6 +61,22 @@
       "sourceChecks": [
         {
           "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157624&menuNo=200008",
+          "status": "ok"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93",
+          "status": "ok"
+        },
+        {
+          "url": "https://blog.naver.com/vuilder",
+          "status": "ok"
+        },
+        {
+          "url": "https://rss.blog.naver.com/vuilder.xml",
+          "status": "ok"
+        },
+        {
+          "url": "https://www.instagram.com/toy_jjurus/",
           "status": "ok"
         }
       ]
@@ -291,6 +307,41 @@
       ]
     },
     {
+      "title": "제9회 어르니마켓",
+      "status": "verified",
+      "source": "https://www.instagram.com/toy_jjurus/",
+      "sourceChecks": [
+        {
+          "url": "https://www.instagram.com/toy_jjurus/",
+          "status": "ok"
+        },
+        {
+          "url": "https://blog.naver.com/uppie/224393503191",
+          "status": "ok"
+        },
+        {
+          "url": "https://m.blog.naver.com/uppie/224393503191",
+          "status": "ok"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%A0%9C9%ED%9A%8C%20%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93",
+          "status": "ok"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93",
+          "status": "ok"
+        },
+        {
+          "url": "https://blog.naver.com/vuilder",
+          "status": "ok"
+        },
+        {
+          "url": "https://rss.blog.naver.com/vuilder.xml",
+          "status": "ok"
+        }
+      ]
+    },
+    {
       "title": "코믹월드 338 수원",
       "status": "verified",
       "source": "https://comicw.net/g/pre.php?ca=20",
@@ -403,8 +454,7 @@
         },
         {
           "url": "https://www.gcon.or.kr/",
-          "status": "unreachable",
-          "error": "fetch failed"
+          "status": "ok"
         },
         {
           "url": "https://www.kintex.com/web/ko/event/list.do",

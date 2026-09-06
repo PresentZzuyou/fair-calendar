@@ -33,7 +33,7 @@
     "organizer": "메쎄이상",
     "description": "일러스트, 웹툰, 북아트, 아트토이와 디자인 문구를 한자리에서 소개하는 행사입니다.",
     "source": "https://www.coex.co.kr/exhibitions/2026-서울-일러스트코리아/",
-    "verifiedAt": "2026-09-05"
+    "verifiedAt": "2026-09-06"
   },
   {
     "id": 3,
@@ -64,7 +64,7 @@
     ],
     "annual": true,
     "seriesKey": "hong-kong-international-licensing-show",
-    "verifiedAt": "2026-09-05"
+    "verifiedAt": "2026-09-06"
   },
   {
     "id": 4,
@@ -82,7 +82,19 @@
     "organizer": "토이쩔어스",
     "description": "피규어, 캐릭터 굿즈, 빈티지 토이와 소품을 만나는 키덜트 플리마켓입니다. 5월 9~10일과 16~17일 주말에 운영됐습니다.",
     "source": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157624&menuNo=200008",
-    "verifiedAt": "2026-09-05"
+    "crawlKeywords": [
+      "어르니마켓",
+      "토이쩔어스"
+    ],
+    "crawlSources": [
+      "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93",
+      "https://blog.naver.com/vuilder",
+      "https://rss.blog.naver.com/vuilder.xml",
+      "https://www.instagram.com/toy_jjurus/"
+    ],
+    "annual": true,
+    "seriesKey": "eorni-market",
+    "verifiedAt": "2026-09-06"
   },
   {
     "id": 5,
@@ -142,7 +154,7 @@
     ],
     "annual": true,
     "seriesKey": "licensing-japan",
-    "verifiedAt": "2026-09-05"
+    "verifiedAt": "2026-09-06"
   },
   {
     "id": 7,
@@ -171,7 +183,7 @@
     ],
     "annual": true,
     "seriesKey": "licensing-expo-shanghai",
-    "verifiedAt": "2026-09-05"
+    "verifiedAt": "2026-09-06"
   },
   {
     "id": 8,
@@ -194,7 +206,7 @@
     ],
     "annual": true,
     "seriesKey": "character-licensing-fair-korea",
-    "verifiedAt": "2026-09-05"
+    "verifiedAt": "2026-09-06"
   },
   {
     "id": 9,
@@ -252,7 +264,7 @@
       "https://www.coex.co.kr/exhibitions/%EC%84%9C%EC%9A%B8%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4v-21-2/",
       "https://www.akei.or.kr/bbs/board.php?bo_table=schedule&wr_id=104274"
     ],
-    "verifiedAt": "2026-09-05"
+    "verifiedAt": "2026-09-06"
   },
   {
     "id": 12,
@@ -324,7 +336,7 @@
     "organizer": "스타라이크",
     "description": "작가와 서클, 기업 부스, 코스프레와 공연을 함께 만나는 종합 서브컬처 행사입니다.",
     "source": "https://comicw.net/c/338",
-    "verifiedAt": "2026-09-05"
+    "verifiedAt": "2026-09-06"
   },
   {
     "id": 16,
@@ -370,7 +382,7 @@
     ],
     "annual": true,
     "seriesKey": "spp-international-content-market",
-    "verifiedAt": "2026-09-05"
+    "verifiedAt": "2026-09-06"
   },
   {
     "id": 18,
@@ -388,7 +400,7 @@
     "organizer": "코믹월드",
     "description": "울산에서 열리는 코믹월드 정기 동인·일러스트·캐릭터 굿즈 행사입니다.",
     "source": "https://comicw.net/g/pre.php?ca=20",
-    "verifiedAt": "2026-09-05"
+    "verifiedAt": "2026-09-06"
   },
   {
     "id": 19,
@@ -410,6 +422,40 @@
   },
   {
     "id": 20,
+    "title": "제9회 어르니마켓",
+    "short": "어르니마켓",
+    "start": "2026-10-17",
+    "end": "2026-10-25",
+    "venue": "커먼그라운드 야외광장",
+    "area": "서울",
+    "category": "캐릭터",
+    "color": "#cfa4e9",
+    "text": "#111315",
+    "icon": "◆",
+    "fee": "무료 입장 여부 공식 공지 확인",
+    "organizer": "토이쩔어스",
+    "description": "피규어, 장난감, 캐릭터·애니메이션 굿즈와 개인 소장품을 만나는 키덜트 마켓입니다. 10월 17~18일과 24~25일에 열립니다.",
+    "source": "https://www.instagram.com/toy_jjurus/",
+    "crawlKeywords": [
+      "제9회 어르니마켓",
+      "어르니마켓",
+      "토이쩔어스"
+    ],
+    "crawlSources": [
+      "https://blog.naver.com/uppie/224393503191",
+      "https://m.blog.naver.com/uppie/224393503191",
+      "https://search.naver.com/search.naver?where=nexearch&query=%EC%A0%9C9%ED%9A%8C%20%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93",
+      "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93",
+      "https://blog.naver.com/vuilder",
+      "https://rss.blog.naver.com/vuilder.xml",
+      "https://www.instagram.com/toy_jjurus/"
+    ],
+    "annual": true,
+    "seriesKey": "eorni-market",
+    "verifiedAt": "2026-09-06"
+  },
+  {
+    "id": 21,
     "title": "코믹월드 338 수원",
     "short": "코믹월드 338",
     "start": "2026-10-24",
@@ -424,10 +470,10 @@
     "organizer": "코믹월드",
     "description": "수원에서 열리는 코믹월드 정기 동인·일러스트·캐릭터 굿즈 행사입니다.",
     "source": "https://comicw.net/g/pre.php?ca=20",
-    "verifiedAt": "2026-09-05"
+    "verifiedAt": "2026-09-06"
   },
   {
-    "id": 21,
+    "id": 22,
     "title": "부산일러스트레이션페어 V.7",
     "short": "부산일페 V.7",
     "start": "2026-11-06",
@@ -445,7 +491,7 @@
     "verifiedAt": "2026-08-18"
   },
   {
-    "id": 22,
+    "id": 23,
     "title": "DesignerCon 2026",
     "short": "DesignerCon",
     "start": "2026-11-13",
@@ -472,10 +518,10 @@
     "annual": true,
     "seriesKey": "designercon-las-vegas",
     "variableVenue": true,
-    "verifiedAt": "2026-09-05"
+    "verifiedAt": "2026-09-06"
   },
   {
-    "id": 23,
+    "id": 24,
     "title": "파인캐릭터 2026",
     "short": "파인캐릭터",
     "start": "2026-11-27",
@@ -498,10 +544,10 @@
     ],
     "annual": true,
     "seriesKey": "fine-character",
-    "verifiedAt": "2026-09-05"
+    "verifiedAt": "2026-09-06"
   },
   {
-    "id": 24,
+    "id": 25,
     "title": "2026 콘텐츠IP 마켓",
     "short": "콘텐츠IP 마켓",
     "start": "2026-12-02",
@@ -516,10 +562,10 @@
     "organizer": "문화체육관광부·한국콘텐츠진흥원",
     "description": "웹툰, 출판, 게임, 방송, 캐릭터 등 전 장르의 사업화와 해외 진출을 잇는 콘텐츠 IP 비즈니스 마켓입니다.",
     "source": "https://welcon.kocca.kr/mobile/ko/event/content-ip-market-2026--571",
-    "verifiedAt": "2026-09-05"
+    "verifiedAt": "2026-09-06"
   },
   {
-    "id": 25,
+    "id": 26,
     "title": "DesignerCon 2027",
     "short": "DesignerCon",
     "start": "2027-05-29",
@@ -546,10 +592,10 @@
     "annual": true,
     "seriesKey": "designercon-las-vegas",
     "variableVenue": true,
-    "verifiedAt": "2026-09-05"
+    "verifiedAt": "2026-09-06"
   },
   {
-    "id": 26,
+    "id": 27,
     "title": "Licensing Japan 2027",
     "short": "Licensing Japan",
     "start": "2027-06-23",
@@ -576,10 +622,10 @@
     ],
     "annual": true,
     "seriesKey": "licensing-japan",
-    "verifiedAt": "2026-09-05"
+    "verifiedAt": "2026-09-06"
   },
   {
-    "id": 27,
+    "id": 28,
     "title": "2026 경기국제웹툰페어",
     "short": "경기 웹툰페어",
     "start": "",
