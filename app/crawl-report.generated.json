@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-09-06T01:52:50.502Z",
+  "checkedAt": "2026-09-06T01:54:00.508Z",
   "summary": {
-    "auto-recheck": 11,
-    "verified": 17
+    "auto-recheck": 13,
+    "verified": 15
   },
   "discovered": [],
   "results": [
@@ -77,7 +77,8 @@
         },
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "ok"
+          "status": "unreachable",
+          "error": "HTTP 429"
         }
       ]
     },
@@ -313,7 +314,8 @@
       "sourceChecks": [
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "ok"
+          "status": "unreachable",
+          "error": "HTTP 429"
         },
         {
           "url": "https://blog.naver.com/uppie/224393503191",
@@ -367,7 +369,9 @@
     },
     {
       "title": "DesignerCon 2026",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "title-not-found",
+      "nextCheck": "next scheduled run",
       "source": "https://www.designercon.com/about/showinformation/",
       "sourceChecks": [
         {
@@ -408,7 +412,9 @@
     },
     {
       "title": "DesignerCon 2027",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "title-not-found",
+      "nextCheck": "next scheduled run",
       "source": "https://www.designercon.com/about/showinformation/",
       "sourceChecks": [
         {
