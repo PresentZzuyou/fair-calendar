@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-09-07T06:58:11.355Z",
+  "checkedAt": "2026-09-07T07:04:47.639Z",
   "summary": {
-    "auto-recheck": 12,
-    "verified": 17
+    "auto-recheck": 14,
+    "verified": 15
   },
   "discovered": [],
   "results": [
@@ -56,12 +56,15 @@
     },
     {
       "title": "제8회 어르니마켓",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "title-not-found",
+      "nextCheck": "next scheduled run",
       "source": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157624&menuNo=200008",
       "sourceChecks": [
         {
           "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157624&menuNo=200008",
-          "status": "ok"
+          "status": "unreachable",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93",
@@ -125,20 +128,16 @@
     },
     {
       "title": "Licensing Expo Shanghai 2026",
-      "status": "auto-recheck",
-      "reason": "source-unreachable",
-      "nextCheck": "next scheduled run",
+      "status": "verified",
       "source": "https://en.licensingexpochina.com/show/about/",
       "sourceChecks": [
         {
           "url": "https://en.licensingexpochina.com/show/about/",
-          "status": "unreachable",
-          "error": "The operation was aborted due to timeout"
+          "status": "ok"
         },
         {
           "url": "https://en.licensingexpochina.com/",
-          "status": "unreachable",
-          "error": "The operation was aborted due to timeout"
+          "status": "ok"
         }
       ]
     },
@@ -397,7 +396,9 @@
     },
     {
       "title": "DesignerCon 2026",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "title-not-found",
+      "nextCheck": "next scheduled run",
       "source": "https://www.designercon.com/about/showinformation/",
       "sourceChecks": [
         {
@@ -438,7 +439,9 @@
     },
     {
       "title": "DesignerCon 2027",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "title-not-found",
+      "nextCheck": "next scheduled run",
       "source": "https://www.designercon.com/about/showinformation/",
       "sourceChecks": [
         {
@@ -488,7 +491,8 @@
         },
         {
           "url": "https://www.kintex.com/web/ko/event/list.do",
-          "status": "ok"
+          "status": "unreachable",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://www.akei.or.kr/bbs/board.php?bo_table=schedule",
