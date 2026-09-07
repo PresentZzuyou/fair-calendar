@@ -596,6 +596,37 @@
   },
   {
     "id": 27,
+    "title": "Licensing Expo 2027 라스베이거스",
+    "short": "Licensing Expo 2027",
+    "start": "2027-05-25",
+    "end": "2027-05-27",
+    "venue": "Mandalay Bay Convention Center, Las Vegas",
+    "area": "해외",
+    "country": "미국",
+    "overseas": true,
+    "category": "IP",
+    "color": "#f2a4a7",
+    "text": "#111315",
+    "icon": "●",
+    "fee": "B2B 참가 등록",
+    "organizer": "Global Licensing Group · Informa Markets",
+    "description": "캐릭터·엔터테인먼트·브랜드·아트 IP의 권리자와 제조사, 유통사를 연결하는 세계 최대 규모의 라이선싱 전문 행사입니다.",
+    "source": "https://www.licensingexpo.com/en/home.html?id=10151",
+    "crawlKeywords": [
+      "Licensing Expo",
+      "RETURNS IN 2026"
+    ],
+    "crawlSources": [
+      "https://www.licensingexpo.com/en/home.html",
+      "https://licensinginternational.org/events/li-lounge-at-licensing-expo/",
+      "https://www.licensingexpo.com/en/home.html?id=10151"
+    ],
+    "annual": true,
+    "seriesKey": "licensing-expo-las-vegas",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "id": 28,
     "title": "DesignerCon 2027",
     "short": "DesignerCon",
     "start": "2027-05-29",
@@ -625,7 +656,7 @@
     "verifiedAt": "2026-09-07"
   },
   {
-    "id": 28,
+    "id": 29,
     "title": "Licensing Japan 2027",
     "short": "Licensing Japan",
     "start": "2027-06-23",
@@ -655,7 +686,7 @@
     "verifiedAt": "2026-09-07"
   },
   {
-    "id": 29,
+    "id": 30,
     "title": "2026 경기국제웹툰페어",
     "short": "경기 웹툰페어",
     "start": "",

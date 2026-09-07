@@ -1,10 +1,19 @@
 {
-  "checkedAt": "2026-09-07T13:30:23.197Z",
+  "checkedAt": "2026-09-07T23:25:02.676Z",
   "summary": {
     "verified": 18,
     "auto-recheck": 11
   },
-  "discovered": [],
+  "discovered": [
+    {
+      "seriesKey": "licensing-expo-las-vegas",
+      "title": "Licensing Expo 2027 라스베이거스",
+      "start": "2027-05-25",
+      "end": "2027-05-27",
+      "source": "https://www.licensingexpo.com/en/home.html?id=10151",
+      "discoveryQuery": "Licensing Expo 2027"
+    }
+  ],
   "results": [
     {
       "title": "K-일러스트레이션페어 서울 2026",
@@ -149,15 +158,13 @@
       "sourceChecks": [
         {
           "url": "https://www.licensingexpo.com/en/home.html?id=10151",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://www.licensingexpo.com/en/home.html",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://licensinginternational.org/events/li-lounge-at-licensing-expo/",
@@ -697,7 +704,7 @@
     {
       "title": "DesignerCon 2026",
       "status": "auto-recheck",
-      "reason": "source-unreachable",
+      "reason": "title-not-found",
       "nextCheck": "next scheduled run",
       "source": "https://www.designercon.com/about/showinformation/",
       "discovery": {
@@ -708,15 +715,13 @@
       "sourceChecks": [
         {
           "url": "https://www.designercon.com/about/showinformation/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://www.designercon.com/about/faq-and-notes/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202028",
@@ -780,7 +785,7 @@
     {
       "title": "DesignerCon 2027",
       "status": "auto-recheck",
-      "reason": "source-unreachable",
+      "reason": "title-not-found",
       "nextCheck": "next scheduled run",
       "source": "https://www.designercon.com/about/showinformation/",
       "discovery": {
@@ -791,15 +796,13 @@
       "sourceChecks": [
         {
           "url": "https://www.designercon.com/about/showinformation/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://www.designercon.com/about/faq-and-notes/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202028",
