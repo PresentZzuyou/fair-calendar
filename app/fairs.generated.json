@@ -33,7 +33,7 @@
     "organizer": "메쎄이상",
     "description": "일러스트, 웹툰, 북아트, 아트토이와 디자인 문구를 한자리에서 소개하는 행사입니다.",
     "source": "https://www.coex.co.kr/exhibitions/2026-서울-일러스트코리아/",
-    "verifiedAt": "2026-09-06"
+    "verifiedAt": "2026-09-07"
   },
   {
     "id": 3,
@@ -64,7 +64,7 @@
     ],
     "annual": true,
     "seriesKey": "hong-kong-international-licensing-show",
-    "verifiedAt": "2026-09-06"
+    "verifiedAt": "2026-09-07"
   },
   {
     "id": 4,
@@ -94,7 +94,7 @@
     ],
     "annual": true,
     "seriesKey": "eorni-market",
-    "verifiedAt": "2026-09-06"
+    "verifiedAt": "2026-09-07"
   },
   {
     "id": 5,
@@ -154,7 +154,7 @@
     ],
     "annual": true,
     "seriesKey": "licensing-japan",
-    "verifiedAt": "2026-09-06"
+    "verifiedAt": "2026-09-07"
   },
   {
     "id": 7,
@@ -206,7 +206,7 @@
     ],
     "annual": true,
     "seriesKey": "character-licensing-fair-korea",
-    "verifiedAt": "2026-09-06"
+    "verifiedAt": "2026-09-07"
   },
   {
     "id": 9,
@@ -264,7 +264,7 @@
       "https://www.coex.co.kr/exhibitions/%EC%84%9C%EC%9A%B8%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4v-21-2/",
       "https://www.akei.or.kr/bbs/board.php?bo_table=schedule&wr_id=104274"
     ],
-    "verifiedAt": "2026-09-06"
+    "verifiedAt": "2026-09-07"
   },
   {
     "id": 12,
@@ -336,7 +336,7 @@
     "organizer": "스타라이크",
     "description": "작가와 서클, 기업 부스, 코스프레와 공연을 함께 만나는 종합 서브컬처 행사입니다.",
     "source": "https://comicw.net/c/338",
-    "verifiedAt": "2026-09-06"
+    "verifiedAt": "2026-09-07"
   },
   {
     "id": 16,
@@ -382,7 +382,7 @@
     ],
     "annual": true,
     "seriesKey": "spp-international-content-market",
-    "verifiedAt": "2026-09-06"
+    "verifiedAt": "2026-09-07"
   },
   {
     "id": 18,
@@ -400,7 +400,7 @@
     "organizer": "코믹월드",
     "description": "울산에서 열리는 코믹월드 정기 동인·일러스트·캐릭터 굿즈 행사입니다.",
     "source": "https://comicw.net/g/pre.php?ca=20",
-    "verifiedAt": "2026-09-06"
+    "verifiedAt": "2026-09-07"
   },
   {
     "id": 19,
@@ -452,10 +452,40 @@
     ],
     "annual": true,
     "seriesKey": "eorni-market",
-    "verifiedAt": "2026-09-06"
+    "verifiedAt": "2026-09-07"
   },
   {
     "id": 21,
+    "title": "문구생활산업전 SISOFAIR 2026",
+    "short": "SISOFAIR 2026",
+    "start": "2026-10-22",
+    "end": "2026-10-24",
+    "venue": "코엑스 B1홀",
+    "area": "서울",
+    "category": "일러스트",
+    "color": "#ff9a61",
+    "text": "#111315",
+    "icon": "✦",
+    "fee": "일반 5,000원 · 학생 무료",
+    "organizer": "한국문구공업협동조합",
+    "description": "제37회 서울국제문구사무용품전시회로, 디자인 문구와 팬시·캐릭터 상품, 미술용품, 생활잡화 및 창의·교육용품을 소개합니다.",
+    "source": "https://www.coex.co.kr/exhibitions/%EC%A0%9C37%ED%9A%8C-%EC%84%9C%EC%9A%B8%EA%B5%AD%EC%A0%9C%EB%AC%B8%EA%B5%AC%EC%82%AC%EB%AC%B4%EC%9A%A9%ED%92%88%EC%A0%84%EC%8B%9C%ED%9A%8C/",
+    "crawlKeywords": [
+      "서울국제문구사무용품전시회",
+      "SISOFAIR",
+      "문구생활산업전"
+    ],
+    "crawlSources": [
+      "https://www.sisofair.co.kr/",
+      "https://www.coex.co.kr/exhibitions/",
+      "https://www.coexcenter.com/events/seoul-international-stationery-office-fair-2026/"
+    ],
+    "annual": true,
+    "seriesKey": "sisofair",
+    "verifiedAt": "2026-09-07"
+  },
+  {
+    "id": 22,
     "title": "코믹월드 338 수원",
     "short": "코믹월드 338",
     "start": "2026-10-24",
@@ -470,10 +500,10 @@
     "organizer": "코믹월드",
     "description": "수원에서 열리는 코믹월드 정기 동인·일러스트·캐릭터 굿즈 행사입니다.",
     "source": "https://comicw.net/g/pre.php?ca=20",
-    "verifiedAt": "2026-09-06"
+    "verifiedAt": "2026-09-07"
   },
   {
-    "id": 22,
+    "id": 23,
     "title": "부산일러스트레이션페어 V.7",
     "short": "부산일페 V.7",
     "start": "2026-11-06",
@@ -491,7 +521,7 @@
     "verifiedAt": "2026-08-18"
   },
   {
-    "id": 23,
+    "id": 24,
     "title": "DesignerCon 2026",
     "short": "DesignerCon",
     "start": "2026-11-13",
@@ -518,10 +548,10 @@
     "annual": true,
     "seriesKey": "designercon-las-vegas",
     "variableVenue": true,
-    "verifiedAt": "2026-09-06"
+    "verifiedAt": "2026-09-07"
   },
   {
-    "id": 24,
+    "id": 25,
     "title": "파인캐릭터 2026",
     "short": "파인캐릭터",
     "start": "2026-11-27",
@@ -544,10 +574,10 @@
     ],
     "annual": true,
     "seriesKey": "fine-character",
-    "verifiedAt": "2026-09-06"
+    "verifiedAt": "2026-09-07"
   },
   {
-    "id": 25,
+    "id": 26,
     "title": "2026 콘텐츠IP 마켓",
     "short": "콘텐츠IP 마켓",
     "start": "2026-12-02",
@@ -562,10 +592,10 @@
     "organizer": "문화체육관광부·한국콘텐츠진흥원",
     "description": "웹툰, 출판, 게임, 방송, 캐릭터 등 전 장르의 사업화와 해외 진출을 잇는 콘텐츠 IP 비즈니스 마켓입니다.",
     "source": "https://welcon.kocca.kr/mobile/ko/event/content-ip-market-2026--571",
-    "verifiedAt": "2026-09-06"
+    "verifiedAt": "2026-09-07"
   },
   {
-    "id": 26,
+    "id": 27,
     "title": "DesignerCon 2027",
     "short": "DesignerCon",
     "start": "2027-05-29",
@@ -592,10 +622,10 @@
     "annual": true,
     "seriesKey": "designercon-las-vegas",
     "variableVenue": true,
-    "verifiedAt": "2026-09-06"
+    "verifiedAt": "2026-09-07"
   },
   {
-    "id": 27,
+    "id": 28,
     "title": "Licensing Japan 2027",
     "short": "Licensing Japan",
     "start": "2027-06-23",
@@ -622,10 +652,10 @@
     ],
     "annual": true,
     "seriesKey": "licensing-japan",
-    "verifiedAt": "2026-09-06"
+    "verifiedAt": "2026-09-07"
   },
   {
-    "id": 28,
+    "id": 29,
     "title": "2026 경기국제웹툰페어",
     "short": "경기 웹툰페어",
     "start": "",
