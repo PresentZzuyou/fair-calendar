@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-09-10T23:03:41.211Z",
+  "checkedAt": "2026-09-11T23:09:37.134Z",
   "summary": {
-    "verified": 19,
-    "auto-recheck": 11
+    "verified": 18,
+    "auto-recheck": 12
   },
   "discovered": [],
   "results": [
@@ -124,8 +124,9 @@
         },
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 429"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93%20%EC%A0%9C10%ED%9A%8C",
@@ -287,7 +288,7 @@
     {
       "title": "K-일러스트레이션페어 부산 2026",
       "status": "auto-recheck",
-      "reason": "date-not-confirmed",
+      "reason": "source-unreachable",
       "nextCheck": "next scheduled run",
       "source": "https://www.k-illustrationfair.com/busan/page/31",
       "discovery": {
@@ -298,8 +299,9 @@
       "sourceChecks": [
         {
           "url": "https://www.k-illustrationfair.com/busan/page/31",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%B6%80%EC%82%B0%202027",
@@ -397,7 +399,7 @@
     {
       "title": "K-일러스트레이션페어 마곡 2026",
       "status": "auto-recheck",
-      "reason": "title-not-found",
+      "reason": "source-unreachable",
       "nextCheck": "next scheduled run",
       "source": "https://www.k-illustrationfair.com/",
       "discovery": {
@@ -408,8 +410,9 @@
       "sourceChecks": [
         {
           "url": "https://www.k-illustrationfair.com/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%A7%88%EA%B3%A1%202027",
@@ -560,8 +563,9 @@
       "sourceChecks": [
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 429"
         },
         {
           "url": "https://blog.naver.com/uppie/224393503191",
@@ -875,7 +879,9 @@
     },
     {
       "title": "2026 경기국제웹툰페어",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "title-not-found",
+      "nextCheck": "next scheduled run",
       "source": "https://www.webtoonfair.com/main.do",
       "discovery": {
         "query": "경기국제웹툰페어 2027",
@@ -896,8 +902,9 @@
         },
         {
           "url": "https://www.kintex.com/web/ko/event/list.do",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://www.akei.or.kr/bbs/board.php?bo_table=schedule",
