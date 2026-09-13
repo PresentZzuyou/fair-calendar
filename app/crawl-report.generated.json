@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-09-12T22:56:26.767Z",
+  "checkedAt": "2026-09-13T23:04:18.800Z",
   "summary": {
-    "verified": 18,
-    "auto-recheck": 12
+    "verified": 19,
+    "auto-recheck": 11
   },
   "discovered": [],
   "results": [
@@ -13,7 +13,7 @@
       "discovery": {
         "query": "K-일러스트레이션페어 서울 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EC%84%9C%EC%9A%B8%202027",
-        "status": "unreachable"
+        "status": "ok"
       },
       "sourceChecks": [
         {
@@ -23,9 +23,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EC%84%9C%EC%9A%B8%202027",
-          "status": "unreachable",
-          "kind": "discovery",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "discovery"
         }
       ]
     },
@@ -36,7 +35,7 @@
       "discovery": {
         "query": "서울 일러스트코리아 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202027",
-        "status": "unreachable"
+        "status": "ok"
       },
       "sourceChecks": [
         {
@@ -46,9 +45,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202027",
-          "status": "unreachable",
-          "kind": "discovery",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "discovery"
         }
       ]
     },
@@ -59,7 +57,7 @@
       "discovery": {
         "query": "Hong Kong International Licensing Show 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=Hong%20Kong%20International%20Licensing%20Show%202027",
-        "status": "unreachable"
+        "status": "ok"
       },
       "sourceChecks": [
         {
@@ -85,9 +83,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Hong%20Kong%20International%20Licensing%20Show%202027",
-          "status": "unreachable",
-          "kind": "discovery",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "discovery"
         }
       ]
     },
@@ -98,7 +95,7 @@
       "discovery": {
         "query": "어르니마켓 제10회",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93%20%EC%A0%9C10%ED%9A%8C",
-        "status": "unreachable"
+        "status": "ok"
       },
       "sourceChecks": [
         {
@@ -124,14 +121,14 @@
         },
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 429"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93%20%EC%A0%9C10%ED%9A%8C",
-          "status": "unreachable",
-          "kind": "discovery",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "discovery"
         }
       ]
     },
@@ -144,7 +141,7 @@
       "discovery": {
         "query": "Licensing Expo 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%202028",
-        "status": "unreachable"
+        "status": "ok"
       },
       "sourceChecks": [
         {
@@ -164,9 +161,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%202028",
-          "status": "unreachable",
-          "kind": "discovery",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "discovery"
         }
       ]
     },
@@ -177,7 +173,7 @@
       "discovery": {
         "query": "ライセンシング ジャパン 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%B3%E3%82%B0%20%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%202028",
-        "status": "unreachable"
+        "status": "ok"
       },
       "sourceChecks": [
         {
@@ -197,9 +193,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%B3%E3%82%B0%20%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%202028",
-          "status": "unreachable",
-          "kind": "discovery",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "discovery"
         }
       ]
     },
@@ -210,7 +205,7 @@
       "discovery": {
         "query": "Licensing Expo Shanghai 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%20Shanghai%202027",
-        "status": "unreachable"
+        "status": "ok"
       },
       "sourceChecks": [
         {
@@ -225,9 +220,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%20Shanghai%202027",
-          "status": "unreachable",
-          "kind": "discovery",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "discovery"
         }
       ]
     },
@@ -238,7 +232,7 @@
       "discovery": {
         "query": "캐릭터 라이선싱 페어 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BA%90%EB%A6%AD%ED%84%B0%20%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1%20%ED%8E%98%EC%96%B4%202027",
-        "status": "unreachable"
+        "status": "ok"
       },
       "sourceChecks": [
         {
@@ -253,9 +247,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BA%90%EB%A6%AD%ED%84%B0%20%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1%20%ED%8E%98%EC%96%B4%202027",
-          "status": "unreachable",
-          "kind": "discovery",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "discovery"
         }
       ]
     },
@@ -268,7 +261,7 @@
       "discovery": {
         "query": "코믹월드 339",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20339",
-        "status": "unreachable"
+        "status": "ok"
       },
       "sourceChecks": [
         {
@@ -278,9 +271,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20339",
-          "status": "unreachable",
-          "kind": "discovery",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "discovery"
         }
       ]
     },
@@ -293,7 +285,7 @@
       "discovery": {
         "query": "K-일러스트레이션페어 부산 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%B6%80%EC%82%B0%202027",
-        "status": "unreachable"
+        "status": "ok"
       },
       "sourceChecks": [
         {
@@ -303,9 +295,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%B6%80%EC%82%B0%202027",
-          "status": "unreachable",
-          "kind": "discovery",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "discovery"
         }
       ]
     },
@@ -378,7 +369,7 @@
       "discovery": {
         "query": "코믹월드 339",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20339",
-        "status": "unreachable"
+        "status": "ok"
       },
       "sourceChecks": [
         {
@@ -388,9 +379,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20339",
-          "status": "unreachable",
-          "kind": "discovery",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "discovery"
         }
       ]
     },
@@ -451,7 +441,7 @@
       "discovery": {
         "query": "코믹월드 339",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20339",
-        "status": "unreachable"
+        "status": "ok"
       },
       "sourceChecks": [
         {
@@ -461,9 +451,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20339",
-          "status": "unreachable",
-          "kind": "discovery",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "discovery"
         }
       ]
     },
@@ -507,7 +496,7 @@
       "discovery": {
         "query": "코믹월드 339",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20339",
-        "status": "unreachable"
+        "status": "ok"
       },
       "sourceChecks": [
         {
@@ -517,9 +506,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20339",
-          "status": "unreachable",
-          "kind": "discovery",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "discovery"
         }
       ]
     },
@@ -555,13 +543,14 @@
       "discovery": {
         "query": "어르니마켓 제10회",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93%20%EC%A0%9C10%ED%9A%8C",
-        "status": "unreachable"
+        "status": "ok"
       },
       "sourceChecks": [
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 429"
         },
         {
           "url": "https://blog.naver.com/uppie/224393503191",
@@ -597,9 +586,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93%20%EC%A0%9C10%ED%9A%8C",
-          "status": "unreachable",
-          "kind": "discovery",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "discovery"
         }
       ]
     },
@@ -651,7 +639,7 @@
       "discovery": {
         "query": "코믹월드 339",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20339",
-        "status": "unreachable"
+        "status": "ok"
       },
       "sourceChecks": [
         {
@@ -661,9 +649,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20339",
-          "status": "unreachable",
-          "kind": "discovery",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "discovery"
         }
       ]
     },
@@ -782,7 +769,7 @@
       "discovery": {
         "query": "Licensing Expo 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%202028",
-        "status": "unreachable"
+        "status": "ok"
       },
       "sourceChecks": [
         {
@@ -802,9 +789,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%202028",
-          "status": "unreachable",
-          "kind": "discovery",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "discovery"
         }
       ]
     },
@@ -847,7 +833,7 @@
       "discovery": {
         "query": "ライセンシング ジャパン 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%B3%E3%82%B0%20%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%202028",
-        "status": "unreachable"
+        "status": "ok"
       },
       "sourceChecks": [
         {
@@ -867,17 +853,14 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%B3%E3%82%B0%20%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%202028",
-          "status": "unreachable",
-          "kind": "discovery",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "discovery"
         }
       ]
     },
     {
       "title": "2026 경기국제웹툰페어",
-      "status": "auto-recheck",
-      "reason": "title-not-found",
-      "nextCheck": "next scheduled run",
+      "status": "verified",
       "source": "https://www.webtoonfair.com/main.do",
       "discovery": {
         "query": "경기국제웹툰페어 2027",
@@ -898,9 +881,8 @@
         },
         {
           "url": "https://www.kintex.com/web/ko/event/list.do",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "The operation was aborted due to timeout"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://www.akei.or.kr/bbs/board.php?bo_table=schedule",
