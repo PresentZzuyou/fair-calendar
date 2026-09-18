@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-09-17T23:29:22.558Z",
+  "checkedAt": "2026-09-18T23:10:38.834Z",
   "summary": {
-    "verified": 20,
-    "auto-recheck": 11
+    "verified": 19,
+    "auto-recheck": 12
   },
   "discovered": [],
   "results": [
@@ -124,8 +124,9 @@
         },
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 429"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93%20%EC%A0%9C10%ED%9A%8C",
@@ -560,8 +561,9 @@
       "sourceChecks": [
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 429"
         },
         {
           "url": "https://blog.naver.com/uppie/224393503191",
@@ -898,7 +900,9 @@
     },
     {
       "title": "2026 경기국제웹툰페어",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "title-not-found",
+      "nextCheck": "next scheduled run",
       "source": "https://www.webtoonfair.com/main.do",
       "discovery": {
         "query": "경기국제웹툰페어 2027",
@@ -919,8 +923,9 @@
         },
         {
           "url": "https://www.kintex.com/web/ko/event/list.do",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://www.akei.or.kr/bbs/board.php?bo_table=schedule",
