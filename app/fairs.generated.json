@@ -15,7 +15,7 @@
     "organizer": "한국국제전시",
     "description": "일러스트레이션, 캐릭터디자인, 독립출판, 웹툰과 아트상품을 소개하는 전문 페어입니다.",
     "source": "https://www.coex.co.kr/exhibitions/k-일러스트레이션페어-서울-2026/",
-    "verifiedAt": "2026-09-19"
+    "verifiedAt": "2026-09-20"
   },
   {
     "id": 2,
@@ -33,7 +33,7 @@
     "organizer": "메쎄이상",
     "description": "일러스트, 웹툰, 북아트, 아트토이와 디자인 문구를 한자리에서 소개하는 행사입니다.",
     "source": "https://www.coex.co.kr/exhibitions/2026-서울-일러스트코리아/",
-    "verifiedAt": "2026-09-19"
+    "verifiedAt": "2026-09-20"
   },
   {
     "id": 3,
@@ -64,7 +64,7 @@
     ],
     "annual": true,
     "seriesKey": "hong-kong-international-licensing-show",
-    "verifiedAt": "2026-09-19"
+    "verifiedAt": "2026-09-20"
   },
   {
     "id": 4,
@@ -128,6 +128,34 @@
   },
   {
     "id": 6,
+    "title": "부산콘텐츠마켓 BCM 2026",
+    "short": "부산콘텐츠마켓",
+    "start": "2026-06-10",
+    "end": "2026-06-12",
+    "venue": "벡스코 제1전시장 3홀",
+    "area": "부산",
+    "category": "IP",
+    "color": "#cfa4e9",
+    "text": "#111315",
+    "icon": "◆",
+    "fee": "비즈니스 참가 등록",
+    "organizer": "부산광역시·부산콘텐츠마켓조직위원회",
+    "description": "콘텐츠 판권 거래, 투자, 글로벌 피칭과 비즈니스 매칭을 운영하는 국제 콘텐츠 IP 마켓입니다.",
+    "source": "https://ibcm.tv/bcm/intro/BcmIntro.do?_idxn=121",
+    "crawlKeywords": [
+      "부산콘텐츠마켓",
+      "Busan Contents Market",
+      "BCM"
+    ],
+    "crawlSources": [
+      "https://ibcm.tv/"
+    ],
+    "annual": true,
+    "seriesKey": "busan-contents-market",
+    "verifiedAt": "2026-09-20"
+  },
+  {
+    "id": 7,
     "title": "Licensing Japan 2026",
     "short": "Licensing Japan",
     "start": "2026-06-17",
@@ -154,10 +182,10 @@
     ],
     "annual": true,
     "seriesKey": "licensing-japan",
-    "verifiedAt": "2026-09-19"
+    "verifiedAt": "2026-09-20"
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Licensing Expo Shanghai 2026",
     "short": "상하이 Licensing Expo",
     "start": "2026-07-15",
@@ -183,10 +211,10 @@
     ],
     "annual": true,
     "seriesKey": "licensing-expo-shanghai",
-    "verifiedAt": "2026-09-19"
+    "verifiedAt": "2026-09-20"
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "캐릭터 라이선싱 페어 2026",
     "short": "캐릭터 라이선싱",
     "start": "2026-07-16",
@@ -206,10 +234,10 @@
     ],
     "annual": true,
     "seriesKey": "character-licensing-fair-korea",
-    "verifiedAt": "2026-09-19"
+    "verifiedAt": "2026-09-20"
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "코믹월드 SUMMER 2026",
     "short": "코믹월드 SUMMER",
     "start": "2026-07-18",
@@ -227,7 +255,7 @@
     "verifiedAt": "2026-08-16"
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "K-일러스트레이션페어 부산 2026",
     "short": "K-IF 부산",
     "start": "2026-07-24",
@@ -245,7 +273,7 @@
     "verifiedAt": "2026-08-16"
   },
   {
-    "id": 11,
+    "id": 12,
     "title": "서울일러스트레이션페어 V.21",
     "short": "서일페 V.21",
     "start": "2026-07-30",
@@ -264,10 +292,10 @@
       "https://www.coex.co.kr/exhibitions/%EC%84%9C%EC%9A%B8%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4v-21-2/",
       "https://www.akei.or.kr/bbs/board.php?bo_table=schedule&wr_id=104274"
     ],
-    "verifiedAt": "2026-09-19"
+    "verifiedAt": "2026-09-20"
   },
   {
-    "id": 12,
+    "id": 13,
     "title": "일러스타 페스 12 부산",
     "short": "일러스타 페스 12",
     "start": "2026-08-01",
@@ -285,7 +313,7 @@
     "verifiedAt": "2026-08-16"
   },
   {
-    "id": 13,
+    "id": 14,
     "title": "코믹월드 335 일산",
     "short": "코믹월드 335",
     "start": "2026-08-15",
@@ -303,7 +331,7 @@
     "verifiedAt": "2026-08-16"
   },
   {
-    "id": 14,
+    "id": 15,
     "title": "K-일러스트레이션페어 마곡 2026",
     "short": "K-일러스트페어",
     "start": "2026-08-20",
@@ -321,7 +349,7 @@
     "verifiedAt": "2026-08-16"
   },
   {
-    "id": 15,
+    "id": 16,
     "title": "일러스타 페스 13",
     "short": "일러스타 페스 13",
     "start": "2026-08-29",
@@ -336,10 +364,38 @@
     "organizer": "스타라이크",
     "description": "작가와 서클, 기업 부스, 코스프레와 공연을 함께 만나는 종합 서브컬처 행사입니다.",
     "source": "https://comicw.net/c/338",
-    "verifiedAt": "2026-09-19"
+    "verifiedAt": "2026-09-20"
   },
   {
-    "id": 16,
+    "id": 17,
+    "title": "2026 광주 ACE Fair",
+    "short": "광주 ACE Fair",
+    "start": "2026-09-10",
+    "end": "2026-09-13",
+    "venue": "김대중컨벤션센터 전시장 A·B·C 및 다목적홀",
+    "area": "광주",
+    "category": "IP",
+    "color": "#ee7aaa",
+    "text": "#fff",
+    "icon": "◆",
+    "fee": "사전등록 성인 5,000원·현장등록 성인 10,000원",
+    "organizer": "문화체육관광부·광주광역시 등",
+    "description": "방송, 애니메이션, 캐릭터, 웹툰, 게임 등 문화콘텐츠 IP를 전시하고 국내외 비즈니스 상담을 연결하는 종합 콘텐츠 페어입니다.",
+    "source": "https://kdjcenter.gjto.or.kr/events/41611/view",
+    "crawlKeywords": [
+      "ACE Fair",
+      "에이스페어"
+    ],
+    "crawlSources": [
+      "https://www.acefair.or.kr/",
+      "https://www.gicon.or.kr/"
+    ],
+    "annual": true,
+    "seriesKey": "gwangju-ace-fair",
+    "verifiedAt": "2026-09-20"
+  },
+  {
+    "id": 18,
     "title": "코믹월드 336 일산",
     "short": "코믹월드 336",
     "start": "2026-09-12",
@@ -357,7 +413,7 @@
     "verifiedAt": "2026-08-16"
   },
   {
-    "id": 17,
+    "id": 19,
     "title": "SPP 국제콘텐츠마켓 2026",
     "short": "SPP 국제콘텐츠마켓",
     "start": "2026-09-17",
@@ -382,10 +438,38 @@
     ],
     "annual": true,
     "seriesKey": "spp-international-content-market",
-    "verifiedAt": "2026-09-19"
+    "verifiedAt": "2026-09-20"
   },
   {
-    "id": 18,
+    "id": 20,
+    "title": "제29회 부천국제만화축제",
+    "short": "부천국제만화축제",
+    "start": "2026-09-18",
+    "end": "2026-09-20",
+    "venue": "한국만화박물관 및 부천영상문화단지 일대",
+    "area": "경기",
+    "category": "웹툰",
+    "color": "#2878e8",
+    "text": "#fff",
+    "icon": "▣",
+    "fee": "1인 5,000원·일부 무료 대상 별도 확인",
+    "organizer": "부천시·한국만화영상진흥원",
+    "description": "만화와 웹툰 IP 전시, 작가 프로그램, 코스프레, 창작자 마켓과 산업 교류를 함께 운영하는 공공 주관 만화축제입니다.",
+    "source": "https://www.komacon.kr/comicsmuseum_m/guide/view.asp?b_code=26&b_sq=30710",
+    "crawlKeywords": [
+      "부천국제만화축제",
+      "BICOF"
+    ],
+    "crawlSources": [
+      "https://www.komacon.kr/b_sys/index.asp?b_code=1&nowPage=1",
+      "https://www.komacon.kr/"
+    ],
+    "annual": true,
+    "seriesKey": "bucheon-international-comics-festival",
+    "verifiedAt": "2026-09-20"
+  },
+  {
+    "id": 21,
     "title": "코믹월드 337 울산",
     "short": "코믹월드 337",
     "start": "2026-10-03",
@@ -400,10 +484,10 @@
     "organizer": "코믹월드",
     "description": "울산에서 열리는 코믹월드 정기 동인·일러스트·캐릭터 굿즈 행사입니다.",
     "source": "https://comicw.net/g/pre.php?ca=20",
-    "verifiedAt": "2026-09-19"
+    "verifiedAt": "2026-09-20"
   },
   {
-    "id": 19,
+    "id": 22,
     "title": "일러스타 페스 14",
     "short": "일러스타 페스 14",
     "start": "2026-10-10",
@@ -421,7 +505,7 @@
     "verifiedAt": "2026-08-16"
   },
   {
-    "id": 20,
+    "id": 23,
     "title": "제9회 어르니마켓",
     "short": "어르니마켓",
     "start": "2026-10-17",
@@ -452,10 +536,10 @@
     ],
     "annual": true,
     "seriesKey": "eorni-market",
-    "verifiedAt": "2026-09-19"
+    "verifiedAt": "2026-09-20"
   },
   {
-    "id": 21,
+    "id": 24,
     "title": "문구생활산업전 SISOFAIR 2026",
     "short": "SISOFAIR 2026",
     "start": "2026-10-22",
@@ -482,10 +566,10 @@
     ],
     "annual": true,
     "seriesKey": "sisofair",
-    "verifiedAt": "2026-09-19"
+    "verifiedAt": "2026-09-20"
   },
   {
-    "id": 22,
+    "id": 25,
     "title": "코믹월드 338 수원",
     "short": "코믹월드 338",
     "start": "2026-10-24",
@@ -500,10 +584,10 @@
     "organizer": "코믹월드",
     "description": "수원에서 열리는 코믹월드 정기 동인·일러스트·캐릭터 굿즈 행사입니다.",
     "source": "https://comicw.net/g/pre.php?ca=20",
-    "verifiedAt": "2026-09-19"
+    "verifiedAt": "2026-09-20"
   },
   {
-    "id": 23,
+    "id": 26,
     "title": "부산일러스트레이션페어 V.7",
     "short": "부산일페 V.7",
     "start": "2026-11-06",
@@ -521,7 +605,7 @@
     "verifiedAt": "2026-08-18"
   },
   {
-    "id": 24,
+    "id": 27,
     "title": "코믹월드 339 울산",
     "short": "코믹월드 339",
     "start": "2026-11-07",
@@ -536,7 +620,7 @@
     "organizer": "코믹월드",
     "description": "울산에서 열리는 코믹월드 정기 동인·일러스트·캐릭터 굿즈 행사입니다.",
     "source": "https://comicw.net/g/pre.php?ca=20",
-    "verifiedAt": "2026-09-19",
+    "verifiedAt": "2026-09-20",
     "crawlSources": [
       "https://comicw.net/g/pre.php?ca=20"
     ],
@@ -544,7 +628,7 @@
     "seriesKey": "comic-world"
   },
   {
-    "id": 25,
+    "id": 28,
     "title": "DesignerCon 2026",
     "short": "DesignerCon",
     "start": "2026-11-13",
@@ -574,7 +658,7 @@
     "verifiedAt": "2026-09-07"
   },
   {
-    "id": 26,
+    "id": 29,
     "title": "파인캐릭터 2026",
     "short": "파인캐릭터",
     "start": "2026-11-27",
@@ -597,10 +681,10 @@
     ],
     "annual": true,
     "seriesKey": "fine-character",
-    "verifiedAt": "2026-09-19"
+    "verifiedAt": "2026-09-20"
   },
   {
-    "id": 27,
+    "id": 30,
     "title": "2026 콘텐츠IP 마켓",
     "short": "콘텐츠IP 마켓",
     "start": "2026-12-02",
@@ -615,10 +699,10 @@
     "organizer": "문화체육관광부·한국콘텐츠진흥원",
     "description": "웹툰, 출판, 게임, 방송, 캐릭터 등 전 장르의 사업화와 해외 진출을 잇는 콘텐츠 IP 비즈니스 마켓입니다.",
     "source": "https://welcon.kocca.kr/mobile/ko/event/content-ip-market-2026--571",
-    "verifiedAt": "2026-09-19"
+    "verifiedAt": "2026-09-20"
   },
   {
-    "id": 28,
+    "id": 31,
     "title": "Licensing Expo 2027 라스베이거스",
     "short": "Licensing Expo 2027",
     "start": "2027-05-25",
@@ -646,10 +730,10 @@
     ],
     "annual": true,
     "seriesKey": "licensing-expo-las-vegas",
-    "verifiedAt": "2026-09-19"
+    "verifiedAt": "2026-09-20"
   },
   {
-    "id": 29,
+    "id": 32,
     "title": "DesignerCon 2027",
     "short": "DesignerCon",
     "start": "2027-05-29",
@@ -679,7 +763,7 @@
     "verifiedAt": "2026-09-07"
   },
   {
-    "id": 30,
+    "id": 33,
     "title": "Licensing Japan 2027",
     "short": "Licensing Japan",
     "start": "2027-06-23",
@@ -706,10 +790,10 @@
     ],
     "annual": true,
     "seriesKey": "licensing-japan",
-    "verifiedAt": "2026-09-19"
+    "verifiedAt": "2026-09-20"
   },
   {
-    "id": 31,
+    "id": 34,
     "title": "2026 경기국제웹툰페어",
     "short": "경기 웹툰페어",
     "start": "",
@@ -730,90 +814,6 @@
       "https://www.akei.or.kr/bbs/board.php?bo_table=schedule"
     ],
     "verifiedAt": "2026-09-17"
-  },
-  {
-    "id": 32,
-    "title": "2026 광주 ACE Fair",
-    "short": "광주 ACE Fair",
-    "start": "2026-09-10",
-    "end": "2026-09-13",
-    "venue": "김대중컨벤션센터 전시장 A·B·C 및 다목적홀",
-    "area": "광주",
-    "category": "IP",
-    "color": "#ee7aaa",
-    "text": "#fff",
-    "icon": "◆",
-    "fee": "사전등록 성인 5,000원·현장등록 성인 10,000원",
-    "organizer": "문화체육관광부·광주광역시 등",
-    "description": "방송, 애니메이션, 캐릭터, 웹툰, 게임 등 문화콘텐츠 IP를 전시하고 국내외 비즈니스 상담을 연결하는 종합 콘텐츠 페어입니다.",
-    "source": "https://kdjcenter.gjto.or.kr/events/41611/view",
-    "crawlKeywords": [
-      "ACE Fair",
-      "에이스페어"
-    ],
-    "crawlSources": [
-      "https://www.acefair.or.kr/",
-      "https://www.gicon.or.kr/"
-    ],
-    "annual": true,
-    "seriesKey": "gwangju-ace-fair",
-    "verifiedAt": "2026-09-20"
-  },
-  {
-    "id": 33,
-    "title": "제29회 부천국제만화축제",
-    "short": "부천국제만화축제",
-    "start": "2026-09-18",
-    "end": "2026-09-20",
-    "venue": "한국만화박물관 및 부천영상문화단지 일대",
-    "area": "경기",
-    "category": "웹툰",
-    "color": "#2878e8",
-    "text": "#fff",
-    "icon": "▣",
-    "fee": "1인 5,000원·일부 무료 대상 별도 확인",
-    "organizer": "부천시·한국만화영상진흥원",
-    "description": "만화와 웹툰 IP 전시, 작가 프로그램, 코스프레, 창작자 마켓과 산업 교류를 함께 운영하는 공공 주관 만화축제입니다.",
-    "source": "https://www.komacon.kr/comicsmuseum_m/guide/view.asp?b_code=26&b_sq=30710",
-    "crawlKeywords": [
-      "부천국제만화축제",
-      "BICOF"
-    ],
-    "crawlSources": [
-      "https://www.komacon.kr/b_sys/index.asp?b_code=1&nowPage=1",
-      "https://www.komacon.kr/"
-    ],
-    "annual": true,
-    "seriesKey": "bucheon-international-comics-festival",
-    "verifiedAt": "2026-09-20"
-  },
-  {
-    "id": 34,
-    "title": "부산콘텐츠마켓 BCM 2026",
-    "short": "부산콘텐츠마켓",
-    "start": "2026-06-10",
-    "end": "2026-06-12",
-    "venue": "벡스코 제1전시장 3홀",
-    "area": "부산",
-    "category": "IP",
-    "color": "#cfa4e9",
-    "text": "#111315",
-    "icon": "◆",
-    "fee": "비즈니스 참가 등록",
-    "organizer": "부산광역시·부산콘텐츠마켓조직위원회",
-    "description": "콘텐츠 판권 거래, 투자, 글로벌 피칭과 비즈니스 매칭을 운영하는 국제 콘텐츠 IP 마켓입니다.",
-    "source": "https://ibcm.tv/bcm/intro/BcmIntro.do?_idxn=121",
-    "crawlKeywords": [
-      "부산콘텐츠마켓",
-      "Busan Contents Market",
-      "BCM"
-    ],
-    "crawlSources": [
-      "https://ibcm.tv/"
-    ],
-    "annual": true,
-    "seriesKey": "busan-contents-market",
-    "verifiedAt": "2026-09-20"
   },
   {
     "id": 35,

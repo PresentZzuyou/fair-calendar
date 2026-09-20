@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-09-19T22:51:21.542Z",
+  "checkedAt": "2026-09-20T13:17:20.588Z",
   "summary": {
-    "verified": 19,
-    "auto-recheck": 12
+    "verified": 22,
+    "auto-recheck": 13
   },
   "discovered": [],
   "results": [
@@ -90,7 +90,9 @@
     },
     {
       "title": "제8회 어르니마켓",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "title-not-found",
+      "nextCheck": "next scheduled run",
       "source": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157624&menuNo=200008",
       "discovery": {
         "query": "어르니마켓 제10회",
@@ -100,8 +102,9 @@
       "sourceChecks": [
         {
           "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157624&menuNo=200008",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93",
@@ -120,9 +123,8 @@
         },
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 429"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93%20%EC%A0%9C10%ED%9A%8C",
@@ -547,9 +549,8 @@
       "sourceChecks": [
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 429"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://blog.naver.com/uppie/224393503191",
@@ -913,6 +914,133 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EA%B2%BD%EA%B8%B0%EA%B5%AD%EC%A0%9C%EC%9B%B9%ED%88%B0%ED%8E%98%EC%96%B4%202027",
+          "status": "unreachable",
+          "kind": "discovery",
+          "error": "HTTP 403"
+        }
+      ]
+    },
+    {
+      "title": "2026 광주 ACE Fair",
+      "status": "verified",
+      "source": "https://kdjcenter.gjto.or.kr/events/41611/view",
+      "discovery": {
+        "query": "ACE Fair 2027",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=ACE%20Fair%202027",
+        "status": "unreachable"
+      },
+      "sourceChecks": [
+        {
+          "url": "https://kdjcenter.gjto.or.kr/events/41611/view",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.acefair.or.kr/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.gicon.or.kr/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=ACE%20Fair%202027",
+          "status": "unreachable",
+          "kind": "discovery",
+          "error": "HTTP 403"
+        }
+      ]
+    },
+    {
+      "title": "제29회 부천국제만화축제",
+      "status": "verified",
+      "source": "https://www.komacon.kr/comicsmuseum_m/guide/view.asp?b_code=26&b_sq=30710",
+      "discovery": {
+        "query": "부천국제만화축제 제30회",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%B2%9C%EA%B5%AD%EC%A0%9C%EB%A7%8C%ED%99%94%EC%B6%95%EC%A0%9C%20%EC%A0%9C30%ED%9A%8C",
+        "status": "unreachable"
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.komacon.kr/comicsmuseum_m/guide/view.asp?b_code=26&b_sq=30710",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.komacon.kr/b_sys/index.asp?b_code=1&nowPage=1",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.komacon.kr/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%B2%9C%EA%B5%AD%EC%A0%9C%EB%A7%8C%ED%99%94%EC%B6%95%EC%A0%9C%20%EC%A0%9C30%ED%9A%8C",
+          "status": "unreachable",
+          "kind": "discovery",
+          "error": "HTTP 403"
+        }
+      ]
+    },
+    {
+      "title": "부산콘텐츠마켓 BCM 2026",
+      "status": "verified",
+      "source": "https://ibcm.tv/bcm/intro/BcmIntro.do?_idxn=121",
+      "discovery": {
+        "query": "부산콘텐츠마켓 2027",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%82%B0%EC%BD%98%ED%85%90%EC%B8%A0%EB%A7%88%EC%BC%93%202027",
+        "status": "unreachable"
+      },
+      "sourceChecks": [
+        {
+          "url": "https://ibcm.tv/bcm/intro/BcmIntro.do?_idxn=121",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://ibcm.tv/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%82%B0%EC%BD%98%ED%85%90%EC%B8%A0%EB%A7%88%EC%BC%93%202027",
+          "status": "unreachable",
+          "kind": "discovery",
+          "error": "HTTP 403"
+        }
+      ]
+    },
+    {
+      "title": "K-콘텐츠 바이브 in 베트남",
+      "status": "verified",
+      "source": "https://welcon.kocca.kr/mobile/ko/event/schedule",
+      "discovery": {
+        "query": "K-콘텐츠 바이브 2026",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%BD%98%ED%85%90%EC%B8%A0%20%EB%B0%94%EC%9D%B4%EB%B8%8C%202026",
+        "status": "unreachable"
+      },
+      "sourceChecks": [
+        {
+          "url": "https://welcon.kocca.kr/mobile/ko/event/schedule",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://welcon.kocca.kr/mobile/ko/event/korea-vietnam-character-licensing-festival-2025--457",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://welcon.kocca.kr/mobile/ko/event/kocca?pageIndex=1",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%BD%98%ED%85%90%EC%B8%A0%20%EB%B0%94%EC%9D%B4%EB%B8%8C%202026",
           "status": "unreachable",
           "kind": "discovery",
           "error": "HTTP 403"
