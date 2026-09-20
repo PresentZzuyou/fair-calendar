@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-09-20T13:17:20.588Z",
+  "checkedAt": "2026-09-20T23:08:23.406Z",
   "summary": {
-    "verified": 22,
-    "auto-recheck": 13
+    "verified": 23,
+    "auto-recheck": 12
   },
   "discovered": [],
   "results": [
@@ -90,9 +90,7 @@
     },
     {
       "title": "제8회 어르니마켓",
-      "status": "auto-recheck",
-      "reason": "title-not-found",
-      "nextCheck": "next scheduled run",
+      "status": "verified",
       "source": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157624&menuNo=200008",
       "discovery": {
         "query": "어르니마켓 제10회",
@@ -102,9 +100,8 @@
       "sourceChecks": [
         {
           "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157624&menuNo=200008",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "The operation was aborted due to timeout"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93",
@@ -123,8 +120,9 @@
         },
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 429"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93%20%EC%A0%9C10%ED%9A%8C",
@@ -162,6 +160,33 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%202028",
+          "status": "ok",
+          "kind": "discovery"
+        }
+      ]
+    },
+    {
+      "title": "부산콘텐츠마켓 BCM 2026",
+      "status": "verified",
+      "source": "https://ibcm.tv/bcm/intro/BcmIntro.do?_idxn=121",
+      "discovery": {
+        "query": "부산콘텐츠마켓 2027",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%82%B0%EC%BD%98%ED%85%90%EC%B8%A0%EB%A7%88%EC%BC%93%202027",
+        "status": "ok"
+      },
+      "sourceChecks": [
+        {
+          "url": "https://ibcm.tv/bcm/intro/BcmIntro.do?_idxn=121",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://ibcm.tv/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%82%B0%EC%BD%98%ED%85%90%EC%B8%A0%EB%A7%88%EC%BC%93%202027",
           "status": "ok",
           "kind": "discovery"
         }
@@ -286,7 +311,7 @@
       "discovery": {
         "query": "K-일러스트레이션페어 부산 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%B6%80%EC%82%B0%202027",
-        "status": "ok"
+        "status": "unreachable"
       },
       "sourceChecks": [
         {
@@ -296,8 +321,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%B6%80%EC%82%B0%202027",
-          "status": "ok",
-          "kind": "discovery"
+          "status": "unreachable",
+          "kind": "discovery",
+          "error": "HTTP 403"
         }
       ]
     },
@@ -345,7 +371,7 @@
       "discovery": {
         "query": "일러스타 페스 15",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2015",
-        "status": "unreachable"
+        "status": "ok"
       },
       "sourceChecks": [
         {
@@ -355,9 +381,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2015",
-          "status": "unreachable",
-          "kind": "discovery",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "discovery"
         }
       ]
     },
@@ -417,7 +442,7 @@
       "discovery": {
         "query": "일러스타 페스 15",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2015",
-        "status": "unreachable"
+        "status": "ok"
       },
       "sourceChecks": [
         {
@@ -427,6 +452,38 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2015",
+          "status": "ok",
+          "kind": "discovery"
+        }
+      ]
+    },
+    {
+      "title": "2026 광주 ACE Fair",
+      "status": "verified",
+      "source": "https://kdjcenter.gjto.or.kr/events/41611/view",
+      "discovery": {
+        "query": "ACE Fair 2027",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=ACE%20Fair%202027",
+        "status": "unreachable"
+      },
+      "sourceChecks": [
+        {
+          "url": "https://kdjcenter.gjto.or.kr/events/41611/view",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.acefair.or.kr/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.gicon.or.kr/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=ACE%20Fair%202027",
           "status": "unreachable",
           "kind": "discovery",
           "error": "HTTP 403"
@@ -491,6 +548,39 @@
       ]
     },
     {
+      "title": "제29회 부천국제만화축제",
+      "status": "verified",
+      "source": "https://www.komacon.kr/comicsmuseum_m/guide/view.asp?b_code=26&b_sq=30710",
+      "discovery": {
+        "query": "부천국제만화축제 제30회",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%B2%9C%EA%B5%AD%EC%A0%9C%EB%A7%8C%ED%99%94%EC%B6%95%EC%A0%9C%20%EC%A0%9C30%ED%9A%8C",
+        "status": "unreachable"
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.komacon.kr/comicsmuseum_m/guide/view.asp?b_code=26&b_sq=30710",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.komacon.kr/b_sys/index.asp?b_code=1&nowPage=1",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.komacon.kr/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%B2%9C%EA%B5%AD%EC%A0%9C%EB%A7%8C%ED%99%94%EC%B6%95%EC%A0%9C%20%EC%A0%9C30%ED%9A%8C",
+          "status": "unreachable",
+          "kind": "discovery",
+          "error": "HTTP 403"
+        }
+      ]
+    },
+    {
       "title": "코믹월드 337 울산",
       "status": "verified",
       "source": "https://comicw.net/g/pre.php?ca=20",
@@ -521,7 +611,7 @@
       "discovery": {
         "query": "일러스타 페스 15",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2015",
-        "status": "unreachable"
+        "status": "ok"
       },
       "sourceChecks": [
         {
@@ -531,9 +621,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2015",
-          "status": "unreachable",
-          "kind": "discovery",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "discovery"
         }
       ]
     },
@@ -549,8 +638,9 @@
       "sourceChecks": [
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 429"
         },
         {
           "url": "https://blog.naver.com/uppie/224393503191",
@@ -914,100 +1004,6 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EA%B2%BD%EA%B8%B0%EA%B5%AD%EC%A0%9C%EC%9B%B9%ED%88%B0%ED%8E%98%EC%96%B4%202027",
-          "status": "unreachable",
-          "kind": "discovery",
-          "error": "HTTP 403"
-        }
-      ]
-    },
-    {
-      "title": "2026 광주 ACE Fair",
-      "status": "verified",
-      "source": "https://kdjcenter.gjto.or.kr/events/41611/view",
-      "discovery": {
-        "query": "ACE Fair 2027",
-        "url": "https://search.naver.com/search.naver?where=nexearch&query=ACE%20Fair%202027",
-        "status": "unreachable"
-      },
-      "sourceChecks": [
-        {
-          "url": "https://kdjcenter.gjto.or.kr/events/41611/view",
-          "status": "ok",
-          "kind": "official"
-        },
-        {
-          "url": "https://www.acefair.or.kr/",
-          "status": "ok",
-          "kind": "official"
-        },
-        {
-          "url": "https://www.gicon.or.kr/",
-          "status": "ok",
-          "kind": "official"
-        },
-        {
-          "url": "https://search.naver.com/search.naver?where=nexearch&query=ACE%20Fair%202027",
-          "status": "unreachable",
-          "kind": "discovery",
-          "error": "HTTP 403"
-        }
-      ]
-    },
-    {
-      "title": "제29회 부천국제만화축제",
-      "status": "verified",
-      "source": "https://www.komacon.kr/comicsmuseum_m/guide/view.asp?b_code=26&b_sq=30710",
-      "discovery": {
-        "query": "부천국제만화축제 제30회",
-        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%B2%9C%EA%B5%AD%EC%A0%9C%EB%A7%8C%ED%99%94%EC%B6%95%EC%A0%9C%20%EC%A0%9C30%ED%9A%8C",
-        "status": "unreachable"
-      },
-      "sourceChecks": [
-        {
-          "url": "https://www.komacon.kr/comicsmuseum_m/guide/view.asp?b_code=26&b_sq=30710",
-          "status": "ok",
-          "kind": "official"
-        },
-        {
-          "url": "https://www.komacon.kr/b_sys/index.asp?b_code=1&nowPage=1",
-          "status": "ok",
-          "kind": "official"
-        },
-        {
-          "url": "https://www.komacon.kr/",
-          "status": "ok",
-          "kind": "official"
-        },
-        {
-          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%B2%9C%EA%B5%AD%EC%A0%9C%EB%A7%8C%ED%99%94%EC%B6%95%EC%A0%9C%20%EC%A0%9C30%ED%9A%8C",
-          "status": "unreachable",
-          "kind": "discovery",
-          "error": "HTTP 403"
-        }
-      ]
-    },
-    {
-      "title": "부산콘텐츠마켓 BCM 2026",
-      "status": "verified",
-      "source": "https://ibcm.tv/bcm/intro/BcmIntro.do?_idxn=121",
-      "discovery": {
-        "query": "부산콘텐츠마켓 2027",
-        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%82%B0%EC%BD%98%ED%85%90%EC%B8%A0%EB%A7%88%EC%BC%93%202027",
-        "status": "unreachable"
-      },
-      "sourceChecks": [
-        {
-          "url": "https://ibcm.tv/bcm/intro/BcmIntro.do?_idxn=121",
-          "status": "ok",
-          "kind": "official"
-        },
-        {
-          "url": "https://ibcm.tv/",
-          "status": "ok",
-          "kind": "official"
-        },
-        {
-          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%82%B0%EC%BD%98%ED%85%90%EC%B8%A0%EB%A7%88%EC%BC%93%202027",
           "status": "unreachable",
           "kind": "discovery",
           "error": "HTTP 403"
