@@ -730,5 +730,121 @@
       "https://www.akei.or.kr/bbs/board.php?bo_table=schedule"
     ],
     "verifiedAt": "2026-09-17"
+  },
+  {
+    "id": 32,
+    "title": "2026 광주 ACE Fair",
+    "short": "광주 ACE Fair",
+    "start": "2026-09-10",
+    "end": "2026-09-13",
+    "venue": "김대중컨벤션센터 전시장 A·B·C 및 다목적홀",
+    "area": "광주",
+    "category": "IP",
+    "color": "#ee7aaa",
+    "text": "#fff",
+    "icon": "◆",
+    "fee": "사전등록 성인 5,000원·현장등록 성인 10,000원",
+    "organizer": "문화체육관광부·광주광역시 등",
+    "description": "방송, 애니메이션, 캐릭터, 웹툰, 게임 등 문화콘텐츠 IP를 전시하고 국내외 비즈니스 상담을 연결하는 종합 콘텐츠 페어입니다.",
+    "source": "https://kdjcenter.gjto.or.kr/events/41611/view",
+    "crawlKeywords": [
+      "ACE Fair",
+      "에이스페어"
+    ],
+    "crawlSources": [
+      "https://www.acefair.or.kr/",
+      "https://www.gicon.or.kr/"
+    ],
+    "annual": true,
+    "seriesKey": "gwangju-ace-fair",
+    "verifiedAt": "2026-09-20"
+  },
+  {
+    "id": 33,
+    "title": "제29회 부천국제만화축제",
+    "short": "부천국제만화축제",
+    "start": "2026-09-18",
+    "end": "2026-09-20",
+    "venue": "한국만화박물관 및 부천영상문화단지 일대",
+    "area": "경기",
+    "category": "웹툰",
+    "color": "#2878e8",
+    "text": "#fff",
+    "icon": "▣",
+    "fee": "1인 5,000원·일부 무료 대상 별도 확인",
+    "organizer": "부천시·한국만화영상진흥원",
+    "description": "만화와 웹툰 IP 전시, 작가 프로그램, 코스프레, 창작자 마켓과 산업 교류를 함께 운영하는 공공 주관 만화축제입니다.",
+    "source": "https://www.komacon.kr/comicsmuseum_m/guide/view.asp?b_code=26&b_sq=30710",
+    "crawlKeywords": [
+      "부천국제만화축제",
+      "BICOF"
+    ],
+    "crawlSources": [
+      "https://www.komacon.kr/b_sys/index.asp?b_code=1&nowPage=1",
+      "https://www.komacon.kr/"
+    ],
+    "annual": true,
+    "seriesKey": "bucheon-international-comics-festival",
+    "verifiedAt": "2026-09-20"
+  },
+  {
+    "id": 34,
+    "title": "부산콘텐츠마켓 BCM 2026",
+    "short": "부산콘텐츠마켓",
+    "start": "2026-06-10",
+    "end": "2026-06-12",
+    "venue": "벡스코 제1전시장 3홀",
+    "area": "부산",
+    "category": "IP",
+    "color": "#cfa4e9",
+    "text": "#111315",
+    "icon": "◆",
+    "fee": "비즈니스 참가 등록",
+    "organizer": "부산광역시·부산콘텐츠마켓조직위원회",
+    "description": "콘텐츠 판권 거래, 투자, 글로벌 피칭과 비즈니스 매칭을 운영하는 국제 콘텐츠 IP 마켓입니다.",
+    "source": "https://ibcm.tv/bcm/intro/BcmIntro.do?_idxn=121",
+    "crawlKeywords": [
+      "부산콘텐츠마켓",
+      "Busan Contents Market",
+      "BCM"
+    ],
+    "crawlSources": [
+      "https://ibcm.tv/"
+    ],
+    "annual": true,
+    "seriesKey": "busan-contents-market",
+    "verifiedAt": "2026-09-20"
+  },
+  {
+    "id": 35,
+    "title": "K-콘텐츠 바이브 in 베트남",
+    "short": "K-콘텐츠 바이브",
+    "start": "",
+    "end": "",
+    "venue": "베트남·공식 발표 예정",
+    "area": "해외",
+    "country": "베트남",
+    "overseas": true,
+    "category": "캐릭터",
+    "color": "#e9dc9a",
+    "text": "#111315",
+    "icon": "◆",
+    "fee": "공식 참가 공고 확인",
+    "organizer": "한국콘텐츠진흥원 베트남비즈니스센터",
+    "description": "한국과 베트남의 캐릭터·애니메이션 기업을 전시, 비즈니스 매칭과 쇼케이스로 연결하는 한·베 캐릭터 라이선싱 행사입니다. 2026년 세부 일정은 공식 발표를 기다리고 있습니다.",
+    "source": "https://welcon.kocca.kr/mobile/ko/event/schedule",
+    "crawlKeywords": [
+      "K-콘텐츠 바이브",
+      "한-베 캐릭터 라이선싱 페스티벌",
+      "Korea-Vietnam Character Licensing Festival"
+    ],
+    "crawlSources": [
+      "https://welcon.kocca.kr/mobile/ko/event/korea-vietnam-character-licensing-festival-2025--457",
+      "https://welcon.kocca.kr/mobile/ko/event/kocca?pageIndex=1"
+    ],
+    "annual": true,
+    "seriesKey": "k-content-vibe-vietnam",
+    "variableVenue": true,
+    "verifiedAt": "2026-09-20"
   }
 ]
