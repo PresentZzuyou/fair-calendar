@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-09-30T00:17:18.142Z",
+  "checkedAt": "2026-10-01T00:28:52.268Z",
   "summary": {
-    "verified": 24,
-    "auto-recheck": 11
+    "verified": 23,
+    "auto-recheck": 12
   },
   "discovered": [],
   "results": [
@@ -105,9 +105,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://blog.naver.com/vuilder",
@@ -259,7 +258,7 @@
       "discovery": {
         "query": "캐릭터 라이선싱 페어 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BA%90%EB%A6%AD%ED%84%B0%20%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1%20%ED%8E%98%EC%96%B4%202027",
-        "status": "unreachable"
+        "status": "ok"
       },
       "sourceChecks": [
         {
@@ -274,9 +273,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BA%90%EB%A6%AD%ED%84%B0%20%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1%20%ED%8E%98%EC%96%B4%202027",
-          "status": "unreachable",
-          "kind": "discovery",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "discovery"
         }
       ]
     },
@@ -336,7 +334,7 @@
       "discovery": {
         "query": "서울일러스트레이션페어 V.22",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.22",
-        "status": "ok"
+        "status": "unreachable"
       },
       "sourceChecks": [
         {
@@ -358,8 +356,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.22",
-          "status": "ok",
-          "kind": "discovery"
+          "status": "unreachable",
+          "kind": "discovery",
+          "error": "HTTP 403"
         }
       ]
     },
@@ -663,9 +662,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://blog.naver.com/vuilder",
@@ -797,7 +795,7 @@
     {
       "title": "DesignerCon 2026",
       "status": "auto-recheck",
-      "reason": "title-not-found",
+      "reason": "source-unreachable",
       "nextCheck": "next scheduled run",
       "source": "https://www.designercon.com/about/showinformation/",
       "discovery": {
@@ -808,13 +806,15 @@
       "sourceChecks": [
         {
           "url": "https://www.designercon.com/about/showinformation/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://www.designercon.com/about/faq-and-notes/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202028",
@@ -910,7 +910,7 @@
     {
       "title": "DesignerCon 2027",
       "status": "auto-recheck",
-      "reason": "title-not-found",
+      "reason": "source-unreachable",
       "nextCheck": "next scheduled run",
       "source": "https://www.designercon.com/about/showinformation/",
       "discovery": {
@@ -921,13 +921,15 @@
       "sourceChecks": [
         {
           "url": "https://www.designercon.com/about/showinformation/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://www.designercon.com/about/faq-and-notes/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202028",
@@ -971,7 +973,9 @@
     },
     {
       "title": "2026 경기국제웹툰페어",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "title-not-found",
+      "nextCheck": "next scheduled run",
       "source": "https://www.webtoonfair.com/main.do",
       "discovery": {
         "query": "경기국제웹툰페어 2027",
@@ -992,8 +996,9 @@
         },
         {
           "url": "https://www.kintex.com/web/ko/event/list.do",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://www.akei.or.kr/bbs/board.php?bo_table=schedule",
@@ -1015,7 +1020,7 @@
       "discovery": {
         "query": "K-콘텐츠 바이브 2026",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%BD%98%ED%85%90%EC%B8%A0%20%EB%B0%94%EC%9D%B4%EB%B8%8C%202026",
-        "status": "ok"
+        "status": "unreachable"
       },
       "sourceChecks": [
         {
@@ -1035,8 +1040,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%BD%98%ED%85%90%EC%B8%A0%20%EB%B0%94%EC%9D%B4%EB%B8%8C%202026",
-          "status": "ok",
-          "kind": "discovery"
+          "status": "unreachable",
+          "kind": "discovery",
+          "error": "HTTP 403"
         }
       ]
     }
