@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-06T01:43:04.296Z",
+  "checkedAt": "2026-10-07T00:33:34.288Z",
   "summary": {
     "verified": 24,
     "auto-recheck": 11
@@ -124,8 +124,9 @@
         },
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 429"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93%20%EC%A0%9C10%ED%9A%8C",
@@ -654,8 +655,9 @@
       "sourceChecks": [
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 429"
         },
         {
           "url": "https://blog.naver.com/uppie/224393503191",
@@ -812,7 +814,7 @@
     {
       "title": "DesignerCon 2026",
       "status": "auto-recheck",
-      "reason": "source-unreachable",
+      "reason": "title-not-found",
       "nextCheck": "next scheduled run",
       "source": "https://www.designercon.com/about/showinformation/",
       "discovery": {
@@ -823,15 +825,13 @@
       "sourceChecks": [
         {
           "url": "https://www.designercon.com/about/showinformation/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://www.designercon.com/about/faq-and-notes/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202028",
@@ -928,7 +928,7 @@
     {
       "title": "DesignerCon 2027",
       "status": "auto-recheck",
-      "reason": "source-unreachable",
+      "reason": "title-not-found",
       "nextCheck": "next scheduled run",
       "source": "https://www.designercon.com/about/showinformation/",
       "discovery": {
@@ -939,15 +939,13 @@
       "sourceChecks": [
         {
           "url": "https://www.designercon.com/about/showinformation/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://www.designercon.com/about/faq-and-notes/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202028",
