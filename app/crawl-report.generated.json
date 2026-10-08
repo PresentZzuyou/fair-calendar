@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-07T00:33:34.288Z",
+  "checkedAt": "2026-10-08T00:54:17.260Z",
   "summary": {
-    "verified": 24,
-    "auto-recheck": 11
+    "verified": 23,
+    "auto-recheck": 12
   },
   "discovered": [],
   "results": [
@@ -814,7 +814,7 @@
     {
       "title": "DesignerCon 2026",
       "status": "auto-recheck",
-      "reason": "title-not-found",
+      "reason": "source-unreachable",
       "nextCheck": "next scheduled run",
       "source": "https://www.designercon.com/about/showinformation/",
       "discovery": {
@@ -825,13 +825,15 @@
       "sourceChecks": [
         {
           "url": "https://www.designercon.com/about/showinformation/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://www.designercon.com/about/faq-and-notes/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202028",
@@ -928,7 +930,7 @@
     {
       "title": "DesignerCon 2027",
       "status": "auto-recheck",
-      "reason": "title-not-found",
+      "reason": "source-unreachable",
       "nextCheck": "next scheduled run",
       "source": "https://www.designercon.com/about/showinformation/",
       "discovery": {
@@ -939,13 +941,15 @@
       "sourceChecks": [
         {
           "url": "https://www.designercon.com/about/showinformation/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://www.designercon.com/about/faq-and-notes/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202028",
@@ -990,7 +994,9 @@
     },
     {
       "title": "2026 경기국제웹툰페어",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "title-not-found",
+      "nextCheck": "next scheduled run",
       "source": "https://www.webtoonfair.com/main.do",
       "discovery": {
         "query": "경기국제웹툰페어 2027",
@@ -1011,8 +1017,9 @@
         },
         {
           "url": "https://www.kintex.com/web/ko/event/list.do",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://www.akei.or.kr/bbs/board.php?bo_table=schedule",
