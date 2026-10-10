@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-09T01:08:25.721Z",
+  "checkedAt": "2026-10-10T00:40:26.331Z",
   "summary": {
-    "verified": 24,
-    "auto-recheck": 11
+    "verified": 23,
+    "auto-recheck": 12
   },
   "discovered": [],
   "results": [
@@ -90,7 +90,9 @@
     },
     {
       "title": "제8회 어르니마켓",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
       "source": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157624&menuNo=200008",
       "discovery": {
         "query": "어르니마켓 제10회",
@@ -100,8 +102,9 @@
       "sourceChecks": [
         {
           "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157624&menuNo=200008",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93",
@@ -754,7 +757,7 @@
       "discovery": {
         "query": "부산일러스트레이션페어 V.8",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%82%B0%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.8",
-        "status": "ok"
+        "status": "unreachable"
       },
       "sourceChecks": [
         {
@@ -764,8 +767,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%82%B0%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.8",
-          "status": "ok",
-          "kind": "discovery"
+          "status": "unreachable",
+          "kind": "discovery",
+          "error": "HTTP 403"
         }
       ]
     },
