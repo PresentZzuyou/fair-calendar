@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-13T06:57:33.301Z",
+  "checkedAt": "2026-10-13T09:38:20.480Z",
   "summary": {
-    "verified": 23,
-    "auto-recheck": 12
+    "verified": 26,
+    "auto-recheck": 11
   },
   "discovered": [],
   "results": [
@@ -11,8 +11,8 @@
       "status": "verified",
       "source": "https://www.coex.co.kr/exhibitions/k-일러스트레이션페어-서울-2026/",
       "discovery": {
-        "query": "K-일러스트레이션페어 서울 2027",
-        "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EC%84%9C%EC%9A%B8%202027",
+        "query": "K-일러스트레이션페어 서울 2028",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EC%84%9C%EC%9A%B8%202028",
         "status": "unreachable"
       },
       "sourceChecks": [
@@ -22,7 +22,17 @@
           "kind": "official"
         },
         {
-          "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EC%84%9C%EC%9A%B8%202027",
+          "url": "https://www.k-illustrationfair.com/index.php",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://k-illustrationfair.com/page/51",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EC%84%9C%EC%9A%B8%202028",
           "status": "unreachable",
           "kind": "discovery",
           "error": "HTTP 403"
@@ -34,8 +44,8 @@
       "status": "verified",
       "source": "https://www.coex.co.kr/exhibitions/2026-서울-일러스트코리아/",
       "discovery": {
-        "query": "서울 일러스트코리아 2027",
-        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202027",
+        "query": "일러스트코리아 2027",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202027",
         "status": "unreachable"
       },
       "sourceChecks": [
@@ -45,7 +55,12 @@
           "kind": "official"
         },
         {
-          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202027",
+          "url": "https://illustrationkorea.co.kr/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202027",
           "status": "unreachable",
           "kind": "discovery",
           "error": "HTTP 403"
@@ -482,9 +497,8 @@
       "sourceChecks": [
         {
           "url": "https://kdjcenter.gjto.or.kr/events/41611/view",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "The operation was aborted due to timeout"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://www.acefair.or.kr/",
@@ -989,9 +1003,7 @@
     },
     {
       "title": "2026 경기국제웹툰페어",
-      "status": "auto-recheck",
-      "reason": "title-not-found",
-      "nextCheck": "next scheduled run",
+      "status": "verified",
       "source": "https://www.webtoonfair.com/main.do",
       "discovery": {
         "query": "경기국제웹툰페어 2027",
@@ -1012,9 +1024,8 @@
         },
         {
           "url": "https://www.kintex.com/web/ko/event/list.do",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "The operation was aborted due to timeout"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://www.akei.or.kr/bbs/board.php?bo_table=schedule",
@@ -1056,6 +1067,67 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%BD%98%ED%85%90%EC%B8%A0%20%EB%B0%94%EC%9D%B4%EB%B8%8C%202026",
+          "status": "unreachable",
+          "kind": "discovery",
+          "error": "HTTP 403"
+        }
+      ]
+    },
+    {
+      "title": "K-일러스트레이션페어 서울 2027",
+      "status": "verified",
+      "source": "https://k-illustrationfair.com/page/51",
+      "discovery": {
+        "query": "K-일러스트레이션페어 서울 2028",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EC%84%9C%EC%9A%B8%202028",
+        "status": "unreachable"
+      },
+      "sourceChecks": [
+        {
+          "url": "https://k-illustrationfair.com/page/51",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.k-illustrationfair.com/index.php",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.k-illustrationfair.com/page/61",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EC%84%9C%EC%9A%B8%202028",
+          "status": "unreachable",
+          "kind": "discovery",
+          "error": "HTTP 403"
+        }
+      ]
+    },
+    {
+      "title": "2027 대구 일러스트코리아",
+      "status": "verified",
+      "source": "https://illustrationkorea.co.kr/",
+      "discovery": {
+        "query": "대구 일러스트코리아 2028",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%8C%80%EA%B5%AC%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
+        "status": "unreachable"
+      },
+      "sourceChecks": [
+        {
+          "url": "https://illustrationkorea.co.kr/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://illustrationkorea.co.kr/exco/visitors/guide/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%8C%80%EA%B5%AC%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
           "status": "unreachable",
           "kind": "discovery",
           "error": "HTTP 403"
