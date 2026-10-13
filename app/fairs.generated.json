@@ -15,6 +15,15 @@
     "organizer": "한국국제전시",
     "description": "일러스트레이션, 캐릭터디자인, 독립출판, 웹툰과 아트상품을 소개하는 전문 페어입니다.",
     "source": "https://www.coex.co.kr/exhibitions/k-일러스트레이션페어-서울-2026/",
+    "crawlKeywords": [
+      "K-일러스트레이션페어 서울"
+    ],
+    "crawlSources": [
+      "https://www.k-illustrationfair.com/index.php",
+      "https://k-illustrationfair.com/page/51"
+    ],
+    "annual": true,
+    "seriesKey": "k-illustration-fair-seoul",
     "verifiedAt": "2026-10-13"
   },
   {
@@ -33,6 +42,14 @@
     "organizer": "메쎄이상",
     "description": "일러스트, 웹툰, 북아트, 아트토이와 디자인 문구를 한자리에서 소개하는 행사입니다.",
     "source": "https://www.coex.co.kr/exhibitions/2026-서울-일러스트코리아/",
+    "crawlKeywords": [
+      "일러스트코리아"
+    ],
+    "crawlSources": [
+      "https://illustrationkorea.co.kr/"
+    ],
+    "annual": true,
+    "seriesKey": "illustration-korea",
     "verifiedAt": "2026-10-13"
   },
   {
@@ -845,6 +862,60 @@
     "annual": true,
     "seriesKey": "k-content-vibe-vietnam",
     "variableVenue": true,
+    "verifiedAt": "2026-10-13"
+  },
+  {
+    "id": 36,
+    "title": "K-일러스트레이션페어 서울 2027",
+    "short": "K-IF 서울",
+    "start": "2027-01-28",
+    "end": "2027-01-31",
+    "venue": "코엑스 D홀",
+    "area": "서울",
+    "category": "일러스트",
+    "color": "#f2a4a7",
+    "text": "#111315",
+    "icon": "✦",
+    "fee": "성인 12,000원·청소년 8,000원",
+    "organizer": "한국국제전시",
+    "description": "일러스트레이션, 캐릭터디자인, 독립출판, 웹툰과 아트상품을 소개하는 전문 페어입니다.",
+    "source": "https://k-illustrationfair.com/page/51",
+    "crawlKeywords": [
+      "K-일러스트레이션페어 서울"
+    ],
+    "crawlSources": [
+      "https://www.k-illustrationfair.com/index.php",
+      "https://www.k-illustrationfair.com/page/61"
+    ],
+    "annual": true,
+    "seriesKey": "k-illustration-fair-seoul",
+    "verifiedAt": "2026-10-13"
+  },
+  {
+    "id": 37,
+    "title": "2027 대구 일러스트코리아",
+    "short": "대구 일러스트코리아",
+    "start": "2027-02-26",
+    "end": "2027-02-28",
+    "venue": "엑스코",
+    "area": "대구",
+    "category": "일러스트",
+    "color": "#e9dc9a",
+    "text": "#111315",
+    "icon": "▤",
+    "fee": "공식 예매 안내 확인",
+    "organizer": "메쎄이상",
+    "description": "일러스트, 웹툰, 북아트, 아트토이와 디자인 문구를 한자리에서 소개하는 대구 지역 일러스트레이션 페어입니다.",
+    "source": "https://illustrationkorea.co.kr/",
+    "crawlKeywords": [
+      "대구 일러스트코리아",
+      "일러스트코리아"
+    ],
+    "crawlSources": [
+      "https://illustrationkorea.co.kr/exco/visitors/guide/"
+    ],
+    "annual": true,
+    "seriesKey": "illustration-korea-daegu",
     "verifiedAt": "2026-10-13"
   }
 ]
