@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-14T00:13:49.056Z",
+  "checkedAt": "2026-10-14T23:49:33.067Z",
   "summary": {
     "verification": {
       "verified": 26,
@@ -210,14 +210,14 @@
         },
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 429"
         },
         {
           "url": "https://culture.seoul.go.kr/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "The operation was aborted due to timeout"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://blog.naver.com/",
@@ -973,7 +973,7 @@
       "verification": {
         "status": "verified",
         "officialSourcesChecked": 9,
-        "officialSourcesReachable": 9
+        "officialSourcesReachable": 8
       },
       "discovery": {
         "query": "어르니마켓 제10회",
@@ -985,8 +985,9 @@
       "sourceChecks": [
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 429"
         },
         {
           "url": "https://blog.naver.com/uppie/224393503191",
