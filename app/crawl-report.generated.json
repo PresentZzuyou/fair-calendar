@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-14T23:49:33.067Z",
+  "checkedAt": "2026-10-15T23:38:02.867Z",
   "summary": {
     "verification": {
-      "verified": 26,
-      "auto-recheck": 11
+      "verified": 25,
+      "auto-recheck": 12
     },
     "discovery": {
       "checked-no-new-edition": 35,
@@ -178,12 +178,15 @@
     },
     {
       "title": "제8회 어르니마켓",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
       "source": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157624&menuNo=200008",
       "verification": {
-        "status": "verified",
+        "status": "auto-recheck",
+        "reason": "date-not-confirmed",
         "officialSourcesChecked": 8,
-        "officialSourcesReachable": 7
+        "officialSourcesReachable": 6
       },
       "discovery": {
         "query": "어르니마켓 제10회",
@@ -195,8 +198,9 @@
       "sourceChecks": [
         {
           "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=157624&menuNo=200008",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://blog.naver.com/vuilder",
@@ -210,14 +214,14 @@
         },
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 429"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://culture.seoul.go.kr/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://blog.naver.com/",
@@ -973,7 +977,7 @@
       "verification": {
         "status": "verified",
         "officialSourcesChecked": 9,
-        "officialSourcesReachable": 8
+        "officialSourcesReachable": 9
       },
       "discovery": {
         "query": "어르니마켓 제10회",
@@ -985,9 +989,8 @@
       "sourceChecks": [
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 429"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://blog.naver.com/uppie/224393503191",
