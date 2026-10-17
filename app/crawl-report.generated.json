@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-16T23:25:22.466Z",
+  "checkedAt": "2026-10-17T22:59:37.417Z",
   "summary": {
     "verification": {
       "verified": 25,
@@ -735,7 +735,7 @@
         "query": "ACE Fair 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=ACE%20Fair%202027",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -761,9 +761,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=ACE%20Fair%202027",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -1143,7 +1142,7 @@
         "query": "부산일러스트레이션페어 V.8",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%82%B0%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.8",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -1159,9 +1158,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%82%B0%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.8",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
