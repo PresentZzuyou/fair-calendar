@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-17T22:59:37.417Z",
+  "checkedAt": "2026-10-18T22:57:34.755Z",
   "summary": {
     "verification": {
       "verified": 25,
@@ -183,7 +183,7 @@
         "status": "auto-recheck",
         "reason": "date-not-confirmed",
         "officialSourcesChecked": 8,
-        "officialSourcesReachable": 6
+        "officialSourcesReachable": 5
       },
       "discovery": {
         "query": "어르니마켓 제10회",
@@ -211,8 +211,9 @@
         },
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 429"
         },
         {
           "url": "https://culture.seoul.go.kr/",
@@ -735,7 +736,7 @@
         "query": "ACE Fair 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=ACE%20Fair%202027",
         "status": "checked-no-new-edition",
-        "searchStatus": "reachable",
+        "searchStatus": "blocked",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -761,8 +762,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=ACE%20Fair%202027",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         }
       ]
     },
@@ -962,7 +964,7 @@
       "verification": {
         "status": "verified",
         "officialSourcesChecked": 9,
-        "officialSourcesReachable": 9
+        "officialSourcesReachable": 8
       },
       "discovery": {
         "query": "어르니마켓 제10회",
@@ -974,8 +976,9 @@
       "sourceChecks": [
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 429"
         },
         {
           "url": "https://blog.naver.com/uppie/224393503191",
@@ -1142,7 +1145,7 @@
         "query": "부산일러스트레이션페어 V.8",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%82%B0%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.8",
         "status": "checked-no-new-edition",
-        "searchStatus": "reachable",
+        "searchStatus": "blocked",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -1158,8 +1161,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%82%B0%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.8",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         }
       ]
     },
