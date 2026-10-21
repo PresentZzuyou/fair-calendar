@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-20T23:45:18.077Z",
+  "checkedAt": "2026-10-21T23:57:45.420Z",
   "summary": {
     "verification": {
       "verified": 25,
@@ -184,7 +184,7 @@
         "status": "auto-recheck",
         "reason": "date-not-confirmed",
         "officialSourcesChecked": 8,
-        "officialSourcesReachable": 5
+        "officialSourcesReachable": 6
       },
       "discovery": {
         "query": "어르니마켓 제10회",
@@ -212,9 +212,8 @@
         },
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 429"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://culture.seoul.go.kr/",
@@ -976,7 +975,7 @@
       "verification": {
         "status": "verified",
         "officialSourcesChecked": 9,
-        "officialSourcesReachable": 8
+        "officialSourcesReachable": 9
       },
       "discovery": {
         "query": "어르니마켓 제10회",
@@ -988,9 +987,8 @@
       "sourceChecks": [
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 429"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://blog.naver.com/uppie/224393503191",
@@ -1572,7 +1570,7 @@
       "verification": {
         "status": "verified",
         "officialSourcesChecked": 7,
-        "officialSourcesReachable": 4
+        "officialSourcesReachable": 5
       },
       "discovery": {
         "query": "경기국제웹툰페어 2027",
@@ -1611,9 +1609,8 @@
         },
         {
           "url": "https://www.kintex.com/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "The operation was aborted due to timeout"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://www.akei.or.kr/",
