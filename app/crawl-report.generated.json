@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-23T23:48:31.426Z",
+  "checkedAt": "2026-10-24T23:03:40.136Z",
   "summary": {
     "verification": {
       "verified": 24,
@@ -1055,10 +1055,13 @@
     },
     {
       "title": "문구생활산업전 SISOFAIR 2026",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "title-not-found",
+      "nextCheck": "next scheduled run",
       "source": "https://www.coex.co.kr/exhibitions/%EC%A0%9C37%ED%9A%8C-%EC%84%9C%EC%9A%B8%EA%B5%AD%EC%A0%9C%EB%AC%B8%EA%B5%AC%EC%82%AC%EB%AC%B4%EC%9A%A9%ED%92%88%EC%A0%84%EC%8B%9C%ED%9A%8C/",
       "verification": {
-        "status": "verified",
+        "status": "auto-recheck",
+        "reason": "title-not-found",
         "officialSourcesChecked": 6,
         "officialSourcesReachable": 3
       },
@@ -1568,15 +1571,12 @@
     },
     {
       "title": "2026 경기국제웹툰페어",
-      "status": "auto-recheck",
-      "reason": "title-not-found",
-      "nextCheck": "next scheduled run",
+      "status": "verified",
       "source": "https://www.webtoonfair.com/main.do",
       "verification": {
-        "status": "auto-recheck",
-        "reason": "title-not-found",
+        "status": "verified",
         "officialSourcesChecked": 7,
-        "officialSourcesReachable": 3
+        "officialSourcesReachable": 4
       },
       "discovery": {
         "query": "경기국제웹툰페어 2027",
@@ -1599,9 +1599,8 @@
         },
         {
           "url": "https://www.kintex.com/web/ko/event/list.do",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "The operation was aborted due to timeout"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://www.akei.or.kr/bbs/board.php?bo_table=schedule",
