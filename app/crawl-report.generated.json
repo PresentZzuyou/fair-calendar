@@ -1,13 +1,13 @@
 {
-  "checkedAt": "2026-10-28T00:23:44.066Z",
+  "checkedAt": "2026-10-29T00:44:40.476Z",
   "summary": {
     "verification": {
-      "verified": 24,
-      "auto-recheck": 13
+      "verified": 21,
+      "auto-recheck": 16
     },
     "discovery": {
-      "checked-no-new-edition": 35,
-      "blocked": 2
+      "checked-no-new-edition": 32,
+      "blocked": 5
     }
   },
   "discovered": [],
@@ -19,7 +19,7 @@
       "verification": {
         "status": "verified",
         "officialSourcesChecked": 7,
-        "officialSourcesReachable": 6
+        "officialSourcesReachable": 2
       },
       "discovery": {
         "query": "K-일러스트레이션페어 서울 2028",
@@ -36,13 +36,15 @@
         },
         {
           "url": "https://www.k-illustrationfair.com/index.php",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://k-illustrationfair.com/page/51",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://www.coex.co.kr/",
@@ -57,13 +59,15 @@
         },
         {
           "url": "https://www.k-illustrationfair.com/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://k-illustrationfair.com/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EC%84%9C%EC%9A%B8%202028",
@@ -184,7 +188,7 @@
         "status": "auto-recheck",
         "reason": "date-not-confirmed",
         "officialSourcesChecked": 8,
-        "officialSourcesReachable": 5
+        "officialSourcesReachable": 6
       },
       "discovery": {
         "query": "어르니마켓 제10회",
@@ -212,9 +216,8 @@
         },
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 429"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://culture.seoul.go.kr/",
@@ -501,32 +504,34 @@
     {
       "title": "K-일러스트레이션페어 부산 2026",
       "status": "auto-recheck",
-      "reason": "date-not-confirmed",
+      "reason": "source-unreachable",
       "nextCheck": "next scheduled run",
       "source": "https://www.k-illustrationfair.com/busan/page/31",
       "verification": {
         "status": "auto-recheck",
-        "reason": "date-not-confirmed",
+        "reason": "source-unreachable",
         "officialSourcesChecked": 2,
-        "officialSourcesReachable": 2
+        "officialSourcesReachable": 0
       },
       "discovery": {
         "query": "K-일러스트레이션페어 부산 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%B6%80%EC%82%B0%202027",
-        "status": "checked-no-new-edition",
+        "status": "blocked",
         "searchStatus": "blocked",
-        "officialFallbackStatus": "checked"
+        "officialFallbackStatus": "blocked"
       },
       "sourceChecks": [
         {
           "url": "https://www.k-illustrationfair.com/busan/page/31",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://www.k-illustrationfair.com/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%B6%80%EC%82%B0%202027",
@@ -668,27 +673,28 @@
     {
       "title": "K-일러스트레이션페어 마곡 2026",
       "status": "auto-recheck",
-      "reason": "title-not-found",
+      "reason": "source-unreachable",
       "nextCheck": "next scheduled run",
       "source": "https://www.k-illustrationfair.com/",
       "verification": {
         "status": "auto-recheck",
-        "reason": "title-not-found",
+        "reason": "source-unreachable",
         "officialSourcesChecked": 1,
-        "officialSourcesReachable": 1
+        "officialSourcesReachable": 0
       },
       "discovery": {
         "query": "K-일러스트레이션페어 마곡 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%A7%88%EA%B3%A1%202027",
-        "status": "checked-no-new-edition",
+        "status": "blocked",
         "searchStatus": "blocked",
-        "officialFallbackStatus": "checked"
+        "officialFallbackStatus": "blocked"
       },
       "sourceChecks": [
         {
           "url": "https://www.k-illustrationfair.com/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%A7%88%EA%B3%A1%202027",
@@ -977,7 +983,7 @@
       "verification": {
         "status": "verified",
         "officialSourcesChecked": 9,
-        "officialSourcesReachable": 8
+        "officialSourcesReachable": 9
       },
       "discovery": {
         "query": "어르니마켓 제10회",
@@ -989,9 +995,8 @@
       "sourceChecks": [
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 429"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://blog.naver.com/uppie/224393503191",
@@ -1225,40 +1230,37 @@
     {
       "title": "DesignerCon 2026",
       "status": "auto-recheck",
-      "reason": "source-unreachable",
+      "reason": "title-not-found",
       "nextCheck": "next scheduled run",
       "source": "https://www.designercon.com/about/showinformation/",
       "verification": {
         "status": "auto-recheck",
-        "reason": "source-unreachable",
+        "reason": "title-not-found",
         "officialSourcesChecked": 3,
-        "officialSourcesReachable": 0
+        "officialSourcesReachable": 3
       },
       "discovery": {
         "query": "DesignerCon 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202028",
-        "status": "blocked",
+        "status": "checked-no-new-edition",
         "searchStatus": "blocked",
-        "officialFallbackStatus": "blocked"
+        "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
         {
           "url": "https://www.designercon.com/about/showinformation/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://www.designercon.com/about/faq-and-notes/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://www.designercon.com/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202028",
@@ -1310,30 +1312,35 @@
     },
     {
       "title": "2026 콘텐츠IP 마켓",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "source-unreachable",
+      "nextCheck": "next scheduled run",
       "source": "https://welcon.kocca.kr/mobile/ko/event/content-ip-market-2026--571",
       "verification": {
-        "status": "verified",
+        "status": "auto-recheck",
+        "reason": "source-unreachable",
         "officialSourcesChecked": 2,
-        "officialSourcesReachable": 2
+        "officialSourcesReachable": 0
       },
       "discovery": {
         "query": "콘텐츠IP 마켓 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%98%ED%85%90%EC%B8%A0IP%20%EB%A7%88%EC%BC%93%202027",
-        "status": "checked-no-new-edition",
+        "status": "blocked",
         "searchStatus": "blocked",
-        "officialFallbackStatus": "checked"
+        "officialFallbackStatus": "blocked"
       },
       "sourceChecks": [
         {
           "url": "https://welcon.kocca.kr/mobile/ko/event/content-ip-market-2026--571",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 503"
         },
         {
           "url": "https://welcon.kocca.kr/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 503"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%98%ED%85%90%EC%B8%A0IP%20%EB%A7%88%EC%BC%93%202027",
@@ -1345,45 +1352,53 @@
     },
     {
       "title": "K-일러스트레이션페어 서울 2027",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "source-unreachable",
+      "nextCheck": "next scheduled run",
       "source": "https://k-illustrationfair.com/page/51",
       "verification": {
-        "status": "verified",
+        "status": "auto-recheck",
+        "reason": "source-unreachable",
         "officialSourcesChecked": 5,
-        "officialSourcesReachable": 5
+        "officialSourcesReachable": 0
       },
       "discovery": {
         "query": "K-일러스트레이션페어 서울 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EC%84%9C%EC%9A%B8%202028",
-        "status": "checked-no-new-edition",
+        "status": "blocked",
         "searchStatus": "blocked",
-        "officialFallbackStatus": "checked"
+        "officialFallbackStatus": "blocked"
       },
       "sourceChecks": [
         {
           "url": "https://k-illustrationfair.com/page/51",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://www.k-illustrationfair.com/index.php",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://www.k-illustrationfair.com/page/61",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://k-illustrationfair.com/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://www.k-illustrationfair.com/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EC%84%9C%EC%9A%B8%202028",
@@ -1481,40 +1496,37 @@
     {
       "title": "DesignerCon 2027",
       "status": "auto-recheck",
-      "reason": "source-unreachable",
+      "reason": "title-not-found",
       "nextCheck": "next scheduled run",
       "source": "https://www.designercon.com/about/showinformation/",
       "verification": {
         "status": "auto-recheck",
-        "reason": "source-unreachable",
+        "reason": "title-not-found",
         "officialSourcesChecked": 3,
-        "officialSourcesReachable": 0
+        "officialSourcesReachable": 3
       },
       "discovery": {
         "query": "DesignerCon 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202028",
-        "status": "blocked",
+        "status": "checked-no-new-edition",
         "searchStatus": "blocked",
-        "officialFallbackStatus": "blocked"
+        "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
         {
           "url": "https://www.designercon.com/about/showinformation/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://www.designercon.com/about/faq-and-notes/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://www.designercon.com/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202028",
@@ -1590,7 +1602,7 @@
           "url": "https://www.webtoonfair.com/main.do",
           "status": "unreachable",
           "kind": "official",
-          "error": "The operation was aborted due to timeout"
+          "error": "fetch failed"
         },
         {
           "url": "https://www.gcon.or.kr/",
@@ -1611,7 +1623,7 @@
           "url": "https://www.webtoonfair.com/",
           "status": "unreachable",
           "kind": "official",
-          "error": "The operation was aborted due to timeout"
+          "error": "fetch failed"
         },
         {
           "url": "https://www.kintex.com/",
@@ -1633,40 +1645,47 @@
     },
     {
       "title": "K-콘텐츠 바이브 in 베트남",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "source-unreachable",
+      "nextCheck": "next scheduled run",
       "source": "https://welcon.kocca.kr/mobile/ko/event/schedule",
       "verification": {
-        "status": "verified",
+        "status": "auto-recheck",
+        "reason": "source-unreachable",
         "officialSourcesChecked": 4,
-        "officialSourcesReachable": 4
+        "officialSourcesReachable": 0
       },
       "discovery": {
         "query": "K-콘텐츠 바이브 2026",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%BD%98%ED%85%90%EC%B8%A0%20%EB%B0%94%EC%9D%B4%EB%B8%8C%202026",
-        "status": "checked-no-new-edition",
+        "status": "blocked",
         "searchStatus": "blocked",
-        "officialFallbackStatus": "checked"
+        "officialFallbackStatus": "blocked"
       },
       "sourceChecks": [
         {
           "url": "https://welcon.kocca.kr/mobile/ko/event/schedule",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 503"
         },
         {
           "url": "https://welcon.kocca.kr/mobile/ko/event/korea-vietnam-character-licensing-festival-2025--457",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 503"
         },
         {
           "url": "https://welcon.kocca.kr/mobile/ko/event/kocca?pageIndex=1",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 503"
         },
         {
           "url": "https://welcon.kocca.kr/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 503"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%BD%98%ED%85%90%EC%B8%A0%20%EB%B0%94%EC%9D%B4%EB%B8%8C%202026",
