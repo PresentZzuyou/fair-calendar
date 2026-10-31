@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-10-30T00:45:12.148Z",
+  "checkedAt": "2026-10-31T00:37:35.537Z",
   "summary": {
     "verification": {
-      "verified": 24,
-      "auto-recheck": 13
+      "verified": 23,
+      "auto-recheck": 14
     },
     "discovery": {
       "checked-no-new-edition": 35,
@@ -184,7 +184,7 @@
         "status": "auto-recheck",
         "reason": "date-not-confirmed",
         "officialSourcesChecked": 8,
-        "officialSourcesReachable": 5
+        "officialSourcesReachable": 6
       },
       "discovery": {
         "query": "어르니마켓 제10회",
@@ -212,9 +212,8 @@
         },
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 429"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://culture.seoul.go.kr/",
@@ -977,7 +976,7 @@
       "verification": {
         "status": "verified",
         "officialSourcesChecked": 9,
-        "officialSourcesReachable": 8
+        "officialSourcesReachable": 9
       },
       "discovery": {
         "query": "어르니마켓 제10회",
@@ -989,9 +988,8 @@
       "sourceChecks": [
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 429"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://blog.naver.com/uppie/224393503191",
@@ -1571,12 +1569,15 @@
     },
     {
       "title": "2026 경기국제웹툰페어",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "title-not-found",
+      "nextCheck": "next scheduled run",
       "source": "https://www.webtoonfair.com/main.do",
       "verification": {
-        "status": "verified",
+        "status": "auto-recheck",
+        "reason": "title-not-found",
         "officialSourcesChecked": 7,
-        "officialSourcesReachable": 5
+        "officialSourcesReachable": 3
       },
       "discovery": {
         "query": "경기국제웹툰페어 2027",
@@ -1599,8 +1600,9 @@
         },
         {
           "url": "https://www.kintex.com/web/ko/event/list.do",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://www.akei.or.kr/bbs/board.php?bo_table=schedule",
@@ -1615,8 +1617,9 @@
         },
         {
           "url": "https://www.kintex.com/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://www.akei.or.kr/",
