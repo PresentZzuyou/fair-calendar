@@ -1,13 +1,13 @@
 {
-  "checkedAt": "2026-11-03T09:16:59.502Z",
+  "checkedAt": "2026-11-03T09:30:20.293Z",
   "summary": {
     "verification": {
-      "verified": 26,
-      "auto-recheck": 21
+      "verified": 27,
+      "auto-recheck": 20
     },
     "discovery": {
-      "checked-no-new-edition": 43,
-      "blocked": 4
+      "checked-no-new-edition": 45,
+      "blocked": 2
     }
   },
   "discovered": [],
@@ -393,35 +393,30 @@
     {
       "title": "Licensing Expo Shanghai 2026",
       "seriesKey": "licensing-expo-shanghai",
-      "status": "auto-recheck",
-      "reason": "source-unreachable",
-      "nextCheck": "next scheduled run",
+      "status": "verified",
       "source": "https://en.licensingexpochina.com/show/about/",
       "verification": {
-        "status": "auto-recheck",
-        "reason": "source-unreachable",
+        "status": "verified",
         "officialSourcesChecked": 2,
-        "officialSourcesReachable": 0
+        "officialSourcesReachable": 2
       },
       "discovery": {
         "query": "Licensing Expo Shanghai 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%20Shanghai%202028",
-        "status": "blocked",
+        "status": "checked-no-new-edition",
         "searchStatus": "blocked",
-        "officialFallbackStatus": "blocked"
+        "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
         {
           "url": "https://en.licensingexpochina.com/show/about/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "The operation was aborted due to timeout"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://en.licensingexpochina.com/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "The operation was aborted due to timeout"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%20Shanghai%202028",
@@ -1828,34 +1823,32 @@
       "title": "Licensing Expo Shanghai 2027",
       "seriesKey": "licensing-expo-shanghai",
       "status": "auto-recheck",
-      "reason": "source-unreachable",
+      "reason": "date-not-confirmed",
       "nextCheck": "next scheduled run",
       "source": "https://www.licensingexpochina.com/show/about",
       "verification": {
         "status": "auto-recheck",
-        "reason": "source-unreachable",
+        "reason": "date-not-confirmed",
         "officialSourcesChecked": 2,
-        "officialSourcesReachable": 0
+        "officialSourcesReachable": 2
       },
       "discovery": {
         "query": "Licensing Expo Shanghai 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%20Shanghai%202028",
-        "status": "blocked",
+        "status": "checked-no-new-edition",
         "searchStatus": "blocked",
-        "officialFallbackStatus": "blocked"
+        "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
         {
           "url": "https://www.licensingexpochina.com/show/about",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "The operation was aborted due to timeout"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://www.licensingexpochina.com/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "The operation was aborted due to timeout"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%20Shanghai%202028",
