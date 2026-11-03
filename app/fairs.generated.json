@@ -287,6 +287,8 @@
     "organizer": "한국국제전시",
     "description": "부산에서 열리는 일러스트레이션·그래픽디자인·캐릭터·독립출판 전문 페어입니다.",
     "source": "https://www.k-illustrationfair.com/busan/page/31",
+    "annual": true,
+    "seriesKey": "k-illustration-fair-busan",
     "verifiedAt": "2026-08-16"
   },
   {
@@ -1045,29 +1047,6 @@
     "annual": true,
     "seriesKey": "k-illustration-fair-busan",
     "verifiedAt": "2026-11-03"
-  },
-  {
-    "id": 43,
-    "title": "K-일러스트레이션페어 부산 2027",
-    "short": "K-IF 부산 2027",
-    "start": "2027-07-23",
-    "end": "2027-07-25",
-    "venue": "벡스코 제2전시장 4홀",
-    "area": "부산",
-    "category": "일러스트",
-    "color": "#95d2af",
-    "text": "#111315",
-    "icon": "●",
-    "fee": "공식 홈페이지 확인",
-    "organizer": "한국국제전시",
-    "description": "부산에서 열리는 일러스트레이션·그래픽디자인·캐릭터·독립출판 전문 페어입니다.",
-    "source": "https://www.k-illustrationfair.com/busan/page/31",
-    "verifiedAt": "2026-11-03",
-    "crawlSources": [
-      "https://www.k-illustrationfair.com/busan/page/31"
-    ],
-    "annual": true,
-    "seriesKey": "k일러스트레이션페어부산"
   },
   {
     "id": 44,
