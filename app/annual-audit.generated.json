@@ -1,8 +1,326 @@
 {
-  "checkedAt": null,
+  "checkedAt": "2026-11-03T09:33:45.732Z",
   "mode": "annual-full-audit",
-  "targetYear": null,
-  "seriesTotal": 0,
-  "summary": {},
-  "series": []
+  "targetYear": 2027,
+  "seriesTotal": 30,
+  "summary": {
+    "scheduled": 14,
+    "checked-awaiting-announcement": 16
+  },
+  "series": [
+    {
+      "seriesKey": "k-illustration-fair-seoul",
+      "title": "K-일러스트레이션페어 서울 2027",
+      "targetYearEvents": [
+        {
+          "title": "K-일러스트레이션페어 서울 2027",
+          "start": "2027-01-28",
+          "end": "2027-01-31",
+          "source": "https://k-illustrationfair.com/page/51"
+        }
+      ],
+      "status": "scheduled",
+      "officialSourcesReachable": 6
+    },
+    {
+      "seriesKey": "illustration-korea",
+      "title": "2026 서울 일러스트코리아",
+      "targetYearEvents": [],
+      "status": "checked-awaiting-announcement",
+      "officialSourcesReachable": 3
+    },
+    {
+      "seriesKey": "hong-kong-international-licensing-show",
+      "title": "홍콩 국제 라이선싱쇼 2026",
+      "targetYearEvents": [],
+      "status": "checked-awaiting-announcement",
+      "officialSourcesReachable": 6
+    },
+    {
+      "seriesKey": "eorni-market",
+      "title": "제9회 어르니마켓",
+      "targetYearEvents": [],
+      "status": "checked-awaiting-announcement",
+      "officialSourcesReachable": 8
+    },
+    {
+      "seriesKey": "licensing-expo-las-vegas",
+      "title": "Licensing Expo 2027 라스베이거스",
+      "targetYearEvents": [
+        {
+          "title": "Licensing Expo 2027 라스베이거스",
+          "start": "2027-05-25",
+          "end": "2027-05-27",
+          "source": "https://www.licensingexpo.com/en/home.html?id=10151"
+        }
+      ],
+      "status": "scheduled",
+      "officialSourcesReachable": 5
+    },
+    {
+      "seriesKey": "busan-contents-market",
+      "title": "부산콘텐츠마켓 BCM 2026",
+      "targetYearEvents": [],
+      "status": "checked-awaiting-announcement",
+      "officialSourcesReachable": 2
+    },
+    {
+      "seriesKey": "licensing-japan",
+      "title": "Licensing Japan 2027",
+      "targetYearEvents": [
+        {
+          "title": "Licensing Japan 2027",
+          "start": "2027-06-23",
+          "end": "2027-06-25",
+          "source": "https://www.content-tokyo.jp/hub/ja-jp/visit/character.html"
+        }
+      ],
+      "status": "scheduled",
+      "officialSourcesReachable": 4
+    },
+    {
+      "seriesKey": "licensing-expo-shanghai",
+      "title": "Licensing Expo Shanghai 2027",
+      "targetYearEvents": [
+        {
+          "title": "Licensing Expo Shanghai 2027",
+          "start": "2027-07-14",
+          "end": "2027-07-16",
+          "source": "https://www.licensingexpochina.com/show/about"
+        }
+      ],
+      "status": "scheduled",
+      "officialSourcesReachable": 2
+    },
+    {
+      "seriesKey": "character-licensing-fair-korea",
+      "title": "캐릭터 라이선싱 페어 2026",
+      "targetYearEvents": [],
+      "status": "checked-awaiting-announcement",
+      "officialSourcesReachable": 3
+    },
+    {
+      "seriesKey": "comic-world",
+      "title": "코믹월드 341 일산",
+      "targetYearEvents": [
+        {
+          "title": "코믹월드 341 일산",
+          "start": "2027-01-09",
+          "end": "2027-01-10",
+          "source": "https://comicw.net/d/booth.php"
+        }
+      ],
+      "status": "scheduled",
+      "officialSourcesReachable": 3
+    },
+    {
+      "seriesKey": "k-illustration-fair-busan",
+      "title": "K-일러스트레이션페어 부산 2027",
+      "targetYearEvents": [
+        {
+          "title": "K-일러스트레이션페어 부산 2027",
+          "start": "2027-07-23",
+          "end": "2027-07-25",
+          "source": "https://www.k-illustrationfair.com/busan/page/51"
+        }
+      ],
+      "status": "scheduled",
+      "officialSourcesReachable": 3
+    },
+    {
+      "seriesKey": "서울일러스트레이션페어",
+      "title": "서울일러스트레이션페어 V.21",
+      "targetYearEvents": [],
+      "status": "checked-awaiting-announcement",
+      "officialSourcesReachable": 3
+    },
+    {
+      "seriesKey": "illustar-fes",
+      "title": "일러스타 페스 16",
+      "targetYearEvents": [
+        {
+          "title": "일러스타 페스 15",
+          "start": "2027-02-13",
+          "end": "2027-02-14",
+          "source": "https://starlike.kr/newsroom/illustar-fes-next"
+        },
+        {
+          "title": "일러스타 페스 16",
+          "start": "2027-05-15",
+          "end": "2027-05-16",
+          "source": "https://starlike.kr/newsroom/illustar-fes-next"
+        }
+      ],
+      "status": "scheduled",
+      "officialSourcesReachable": 3
+    },
+    {
+      "seriesKey": "k일러스트레이션페어마곡",
+      "title": "K-일러스트레이션페어 마곡 2026",
+      "targetYearEvents": [],
+      "status": "checked-awaiting-announcement",
+      "officialSourcesReachable": 1
+    },
+    {
+      "seriesKey": "gwangju-ace-fair",
+      "title": "2026 광주 ACE Fair",
+      "targetYearEvents": [],
+      "status": "checked-awaiting-announcement",
+      "officialSourcesReachable": 4
+    },
+    {
+      "seriesKey": "spp-international-content-market",
+      "title": "SPP 국제콘텐츠마켓 2026",
+      "targetYearEvents": [],
+      "status": "checked-awaiting-announcement",
+      "officialSourcesReachable": 3
+    },
+    {
+      "seriesKey": "bucheon-international-comics-festival",
+      "title": "제29회 부천국제만화축제",
+      "targetYearEvents": [],
+      "status": "checked-awaiting-announcement",
+      "officialSourcesReachable": 3
+    },
+    {
+      "seriesKey": "sisofair",
+      "title": "문구생활산업전 SISOFAIR 2026",
+      "targetYearEvents": [],
+      "status": "checked-awaiting-announcement",
+      "officialSourcesReachable": 3
+    },
+    {
+      "seriesKey": "부산일러스트레이션페어",
+      "title": "부산일러스트레이션페어 V.7",
+      "targetYearEvents": [],
+      "status": "checked-awaiting-announcement",
+      "officialSourcesReachable": 2
+    },
+    {
+      "seriesKey": "designercon-las-vegas",
+      "title": "DesignerCon 2027",
+      "targetYearEvents": [
+        {
+          "title": "DesignerCon 2027",
+          "start": "2027-05-29",
+          "end": "2027-05-30",
+          "source": "https://www.designercon.com/about/showinformation/"
+        }
+      ],
+      "status": "scheduled",
+      "officialSourcesReachable": 0
+    },
+    {
+      "seriesKey": "fine-character",
+      "title": "파인캐릭터 2026",
+      "targetYearEvents": [],
+      "status": "checked-awaiting-announcement",
+      "officialSourcesReachable": 3
+    },
+    {
+      "seriesKey": "콘텐츠ip마켓",
+      "title": "2026 콘텐츠IP 마켓",
+      "targetYearEvents": [],
+      "status": "checked-awaiting-announcement",
+      "officialSourcesReachable": 2
+    },
+    {
+      "seriesKey": "illustration-korea-daegu",
+      "title": "2027 대구 일러스트코리아",
+      "targetYearEvents": [
+        {
+          "title": "2027 대구 일러스트코리아",
+          "start": "2027-02-26",
+          "end": "2027-02-28",
+          "source": "https://illustrationkorea.co.kr/"
+        }
+      ],
+      "status": "scheduled",
+      "officialSourcesReachable": 2
+    },
+    {
+      "seriesKey": "illustration-korea-suwon",
+      "title": "2027 수원 일러스트코리아",
+      "targetYearEvents": [
+        {
+          "title": "2027 수원 일러스트코리아",
+          "start": "2027-04-23",
+          "end": "2027-04-25",
+          "source": "https://illustrationkorea.co.kr/coex/media/notice/?mod=document&pageid=1&uid=1"
+        }
+      ],
+      "status": "scheduled",
+      "officialSourcesReachable": 3
+    },
+    {
+      "seriesKey": "illustration-korea-seoul-first",
+      "title": "2027 서울 일러스트코리아 상반기",
+      "targetYearEvents": [
+        {
+          "title": "2027 서울 일러스트코리아 상반기",
+          "start": "2027-06-04",
+          "end": "2027-06-06",
+          "source": "https://illustrationkorea.co.kr/coex/media/notice/?mod=document&pageid=1&uid=1"
+        }
+      ],
+      "status": "scheduled",
+      "officialSourcesReachable": 3
+    },
+    {
+      "seriesKey": "illustration-korea-daejeon",
+      "title": "2027 대전 일러스트코리아",
+      "targetYearEvents": [
+        {
+          "title": "2027 대전 일러스트코리아",
+          "start": "2027-09-03",
+          "end": "2027-09-05",
+          "source": "https://illustrationkorea.co.kr/dcc/exhibition/illustrationkorea2027/"
+        }
+      ],
+      "status": "scheduled",
+      "officialSourcesReachable": 3
+    },
+    {
+      "seriesKey": "illustration-korea-incheon",
+      "title": "2027 인천 일러스트코리아",
+      "targetYearEvents": [
+        {
+          "title": "2027 인천 일러스트코리아",
+          "start": "2027-10-29",
+          "end": "2027-10-31",
+          "source": "https://illustrationkorea.co.kr/coex/media/notice/?mod=document&pageid=1&uid=1"
+        }
+      ],
+      "status": "scheduled",
+      "officialSourcesReachable": 3
+    },
+    {
+      "seriesKey": "illustration-korea-seoul-second",
+      "title": "2027 서울 일러스트코리아 하반기",
+      "targetYearEvents": [
+        {
+          "title": "2027 서울 일러스트코리아 하반기",
+          "start": "2027-12-10",
+          "end": "2027-12-12",
+          "source": "https://illustrationkorea.co.kr/coex/media/notice/?mod=document&pageid=1&uid=1"
+        }
+      ],
+      "status": "scheduled",
+      "officialSourcesReachable": 3
+    },
+    {
+      "seriesKey": "경기국제웹툰페어",
+      "title": "2026 경기국제웹툰페어",
+      "targetYearEvents": [],
+      "status": "checked-awaiting-announcement",
+      "officialSourcesReachable": 5
+    },
+    {
+      "seriesKey": "k-content-vibe-vietnam",
+      "title": "K-콘텐츠 바이브 in 베트남",
+      "targetYearEvents": [],
+      "status": "checked-awaiting-announcement",
+      "officialSourcesReachable": 4
+    }
+  ]
 }
