@@ -5,7 +5,15 @@ on:
     branches: [main]
   schedule:
     - cron: "0 21 * * *"
+    # 매년 10월 1일 06:15 KST: 다음 해 전체 일정 전수 점검
+    - cron: "15 21 30 9 *"
   workflow_dispatch:
+    inputs:
+      full_audit:
+        description: "다음 해 전체 일정 전수 점검 실행"
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -34,14 +42,16 @@ jobs:
 
       - name: Refresh official fair data
         run: npm run crawl:fairs
+        env:
+          FULL_AUDIT: ${{ (github.event_name == 'schedule' && github.event.schedule == '15 21 30 9 *') || inputs.full_audit }}
         continue-on-error: true
 
       - name: Save crawl result changes
         run: |
-          if ! git diff --quiet -- app/fairs.generated.json app/crawl-report.generated.json; then
+          if ! git diff --quiet -- app/fairs.generated.json app/crawl-report.generated.json app/annual-audit.generated.json; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add app/fairs.generated.json app/crawl-report.generated.json
+            git add app/fairs.generated.json app/crawl-report.generated.json app/annual-audit.generated.json
             git commit -m "chore: refresh fair crawl results [skip ci]"
             git pull --rebase origin main
             git push
