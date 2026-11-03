@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-03T02:52:07.030Z",
+  "checkedAt": "2026-11-03T08:36:20.407Z",
   "summary": {
     "verification": {
       "verified": 24,
@@ -388,7 +388,7 @@
         "query": "Licensing Expo Shanghai 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%20Shanghai%202027",
         "status": "checked-no-new-edition",
-        "searchStatus": "reachable",
+        "searchStatus": "blocked",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -404,8 +404,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%20Shanghai%202027",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         }
       ]
     },
@@ -422,7 +423,7 @@
         "query": "캐릭터 라이선싱 페어 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BA%90%EB%A6%AD%ED%84%B0%20%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1%20%ED%8E%98%EC%96%B4%202027",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -449,9 +450,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BA%90%EB%A6%AD%ED%84%B0%20%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1%20%ED%8E%98%EC%96%B4%202027",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -727,7 +727,7 @@
       "verification": {
         "status": "verified",
         "officialSourcesChecked": 4,
-        "officialSourcesReachable": 4
+        "officialSourcesReachable": 2
       },
       "discovery": {
         "query": "ACE Fair 2027",
@@ -739,8 +739,9 @@
       "sourceChecks": [
         {
           "url": "https://kdjcenter.gjto.or.kr/events/41611/view",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://www.acefair.or.kr/",
@@ -754,8 +755,9 @@
         },
         {
           "url": "https://kdjcenter.gjto.or.kr/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=ACE%20Fair%202027",
