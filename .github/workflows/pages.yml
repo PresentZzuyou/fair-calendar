@@ -31,6 +31,9 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Sync latest generated data
+        run: git pull --ff-only origin main
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
