@@ -703,6 +703,40 @@
     "verifiedAt": "2026-11-04"
   },
   {
+    "id": 48,
+    "title": "Anime Festival Asia Singapore 2026",
+    "short": "AFA Singapore",
+    "start": "2026-11-27",
+    "end": "2026-11-29",
+    "venue": "Suntec Singapore Convention & Exhibition Centre, Halls 401–406",
+    "area": "해외",
+    "country": "싱가포르",
+    "overseas": true,
+    "category": "캐릭터",
+    "color": "#9eb8ef",
+    "text": "#111315",
+    "icon": "◆",
+    "fee": "유료·공식 예매처 확인",
+    "organizer": "SOZO",
+    "description": "일본 애니메이션, 만화, 게임, 캐릭터, 코스프레와 J-POP을 함께 다루는 동남아시아의 대형 ACG 콘텐츠 행사입니다.",
+    "source": "https://animefestival.asia/afasg26/",
+    "crawlKeywords": [
+      "Anime Festival Asia",
+      "AFA Singapore"
+    ],
+    "crawlSources": [
+      "https://animefestival.asia/"
+    ],
+    "discoverySources": [
+      "https://animefestival.asia/events/"
+    ],
+    "discoveryQuery": "Anime Festival Asia",
+    "annual": true,
+    "seriesKey": "anime-festival-asia",
+    "variableVenue": true,
+    "verifiedAt": "2026-11-04"
+  },
+  {
     "id": 30,
     "title": "2026 콘텐츠IP 마켓",
     "short": "콘텐츠IP 마켓",
