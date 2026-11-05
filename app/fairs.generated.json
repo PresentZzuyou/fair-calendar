@@ -24,7 +24,7 @@
     ],
     "annual": true,
     "seriesKey": "k-illustration-fair-seoul",
-    "verifiedAt": "2026-11-04"
+    "verifiedAt": "2026-11-05"
   },
   {
     "id": 2,
@@ -50,7 +50,7 @@
     ],
     "annual": true,
     "seriesKey": "illustration-korea",
-    "verifiedAt": "2026-11-04"
+    "verifiedAt": "2026-11-05"
   },
   {
     "id": 3,
@@ -81,7 +81,7 @@
     ],
     "annual": true,
     "seriesKey": "hong-kong-international-licensing-show",
-    "verifiedAt": "2026-11-04"
+    "verifiedAt": "2026-11-05"
   },
   {
     "id": 4,
@@ -169,7 +169,7 @@
     ],
     "annual": true,
     "seriesKey": "busan-contents-market",
-    "verifiedAt": "2026-11-04"
+    "verifiedAt": "2026-11-05"
   },
   {
     "id": 7,
@@ -199,7 +199,7 @@
     ],
     "annual": true,
     "seriesKey": "licensing-japan",
-    "verifiedAt": "2026-11-04"
+    "verifiedAt": "2026-11-05"
   },
   {
     "id": 8,
@@ -228,7 +228,7 @@
     ],
     "annual": true,
     "seriesKey": "licensing-expo-shanghai",
-    "verifiedAt": "2026-11-04"
+    "verifiedAt": "2026-11-05"
   },
   {
     "id": 9,
@@ -251,7 +251,7 @@
     ],
     "annual": true,
     "seriesKey": "character-licensing-fair-korea",
-    "verifiedAt": "2026-11-04"
+    "verifiedAt": "2026-11-05"
   },
   {
     "id": 10,
@@ -311,7 +311,7 @@
       "https://www.coex.co.kr/exhibitions/%EC%84%9C%EC%9A%B8%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4v-21-2/",
       "https://www.akei.or.kr/bbs/board.php?bo_table=schedule&wr_id=104274"
     ],
-    "verifiedAt": "2026-11-04"
+    "verifiedAt": "2026-11-05"
   },
   {
     "id": 13,
@@ -383,7 +383,7 @@
     "organizer": "스타라이크",
     "description": "작가와 서클, 기업 부스, 코스프레와 공연을 함께 만나는 종합 서브컬처 행사입니다.",
     "source": "https://comicw.net/c/338",
-    "verifiedAt": "2026-11-04"
+    "verifiedAt": "2026-11-05"
   },
   {
     "id": 17,
@@ -411,7 +411,7 @@
     ],
     "annual": true,
     "seriesKey": "gwangju-ace-fair",
-    "verifiedAt": "2026-11-04"
+    "verifiedAt": "2026-11-05"
   },
   {
     "id": 18,
@@ -457,7 +457,7 @@
     ],
     "annual": true,
     "seriesKey": "spp-international-content-market",
-    "verifiedAt": "2026-11-04"
+    "verifiedAt": "2026-11-05"
   },
   {
     "id": 20,
@@ -485,7 +485,7 @@
     ],
     "annual": true,
     "seriesKey": "bucheon-international-comics-festival",
-    "verifiedAt": "2026-11-04"
+    "verifiedAt": "2026-11-05"
   },
   {
     "id": 21,
@@ -555,7 +555,7 @@
     ],
     "annual": true,
     "seriesKey": "eorni-market",
-    "verifiedAt": "2026-11-04"
+    "verifiedAt": "2026-11-05"
   },
   {
     "id": 24,
@@ -603,7 +603,7 @@
     "organizer": "코믹월드",
     "description": "수원에서 열리는 코믹월드 정기 동인·일러스트·캐릭터 굿즈 행사입니다.",
     "source": "https://comicw.net/g/pre.php?ca=20",
-    "verifiedAt": "2026-11-04"
+    "verifiedAt": "2026-11-05"
   },
   {
     "id": 26,
@@ -639,7 +639,7 @@
     "organizer": "코믹월드",
     "description": "울산에서 열리는 코믹월드 정기 동인·일러스트·캐릭터 굿즈 행사입니다.",
     "source": "https://comicw.net/g/pre.php?ca=20",
-    "verifiedAt": "2026-11-04",
+    "verifiedAt": "2026-11-05",
     "crawlSources": [
       "https://comicw.net/g/pre.php?ca=20"
     ],
@@ -700,10 +700,10 @@
     ],
     "annual": true,
     "seriesKey": "fine-character",
-    "verifiedAt": "2026-11-04"
+    "verifiedAt": "2026-11-05"
   },
   {
-    "id": 48,
+    "id": 30,
     "title": "Anime Festival Asia Singapore 2026",
     "short": "AFA Singapore",
     "start": "2026-11-27",
@@ -734,10 +734,10 @@
     "annual": true,
     "seriesKey": "anime-festival-asia",
     "variableVenue": true,
-    "verifiedAt": "2026-11-04"
+    "verifiedAt": "2026-11-05"
   },
   {
-    "id": 30,
+    "id": 31,
     "title": "2026 콘텐츠IP 마켓",
     "short": "콘텐츠IP 마켓",
     "start": "2026-12-02",
@@ -752,10 +752,10 @@
     "organizer": "문화체육관광부·한국콘텐츠진흥원",
     "description": "웹툰, 출판, 게임, 방송, 캐릭터 등 전 장르의 사업화와 해외 진출을 잇는 콘텐츠 IP 비즈니스 마켓입니다.",
     "source": "https://welcon.kocca.kr/mobile/ko/event/content-ip-market-2026--571",
-    "verifiedAt": "2026-11-04"
+    "verifiedAt": "2026-11-05"
   },
   {
-    "id": 31,
+    "id": 32,
     "title": "코믹월드 341 일산",
     "short": "코믹월드 341",
     "start": "2027-01-09",
@@ -777,10 +777,10 @@
     "annual": true,
     "seriesKey": "comic-world",
     "variableVenue": true,
-    "verifiedAt": "2026-11-04"
+    "verifiedAt": "2026-11-05"
   },
   {
-    "id": 32,
+    "id": 33,
     "title": "K-일러스트레이션페어 서울 2027",
     "short": "K-IF 서울",
     "start": "2027-01-28",
@@ -804,10 +804,10 @@
     ],
     "annual": true,
     "seriesKey": "k-illustration-fair-seoul",
-    "verifiedAt": "2026-11-04"
+    "verifiedAt": "2026-11-05"
   },
   {
-    "id": 33,
+    "id": 34,
     "title": "일러스타 페스 15",
     "short": "일러스타 페스 15",
     "start": "2027-02-13",
@@ -831,7 +831,7 @@
     "verifiedAt": "2026-11-03"
   },
   {
-    "id": 34,
+    "id": 35,
     "title": "2027 대구 일러스트코리아",
     "short": "대구 일러스트코리아",
     "start": "2027-02-26",
@@ -855,10 +855,10 @@
     ],
     "annual": true,
     "seriesKey": "illustration-korea-daegu",
-    "verifiedAt": "2026-11-04"
+    "verifiedAt": "2026-11-05"
   },
   {
-    "id": 35,
+    "id": 36,
     "title": "2027 수원 일러스트코리아",
     "short": "수원 일러스트코리아",
     "start": "2027-04-23",
@@ -885,7 +885,7 @@
     "verifiedAt": "2026-11-03"
   },
   {
-    "id": 36,
+    "id": 37,
     "title": "일러스타 페스 16",
     "short": "일러스타 페스 16",
     "start": "2027-05-15",
@@ -909,7 +909,7 @@
     "verifiedAt": "2026-11-03"
   },
   {
-    "id": 37,
+    "id": 38,
     "title": "Licensing Expo 2027 라스베이거스",
     "short": "Licensing Expo 2027",
     "start": "2027-05-25",
@@ -937,10 +937,10 @@
     ],
     "annual": true,
     "seriesKey": "licensing-expo-las-vegas",
-    "verifiedAt": "2026-11-04"
+    "verifiedAt": "2026-11-05"
   },
   {
-    "id": 38,
+    "id": 39,
     "title": "DesignerCon 2027",
     "short": "DesignerCon",
     "start": "2027-05-29",
@@ -970,7 +970,7 @@
     "verifiedAt": "2026-09-07"
   },
   {
-    "id": 39,
+    "id": 40,
     "title": "2027 서울 일러스트코리아 상반기",
     "short": "서울 일러스트코리아",
     "start": "2027-06-04",
@@ -997,7 +997,7 @@
     "verifiedAt": "2026-11-03"
   },
   {
-    "id": 40,
+    "id": 41,
     "title": "Licensing Japan 2027",
     "short": "Licensing Japan",
     "start": "2027-06-23",
@@ -1024,10 +1024,10 @@
     ],
     "annual": true,
     "seriesKey": "licensing-japan",
-    "verifiedAt": "2026-11-04"
+    "verifiedAt": "2026-11-05"
   },
   {
-    "id": 41,
+    "id": 42,
     "title": "Licensing Expo Shanghai 2027",
     "short": "상하이 Licensing Expo",
     "start": "2027-07-14",
@@ -1056,7 +1056,7 @@
     "verifiedAt": "2026-11-03"
   },
   {
-    "id": 42,
+    "id": 43,
     "title": "K-일러스트레이션페어 부산 2027",
     "short": "K-IF 부산",
     "start": "2027-07-23",
@@ -1080,10 +1080,10 @@
     ],
     "annual": true,
     "seriesKey": "k-illustration-fair-busan",
-    "verifiedAt": "2026-11-04"
+    "verifiedAt": "2026-11-05"
   },
   {
-    "id": 43,
+    "id": 44,
     "title": "2027 대전 일러스트코리아",
     "short": "대전 일러스트코리아",
     "start": "2027-09-03",
@@ -1107,10 +1107,10 @@
     ],
     "annual": true,
     "seriesKey": "illustration-korea-daejeon",
-    "verifiedAt": "2026-11-04"
+    "verifiedAt": "2026-11-05"
   },
   {
-    "id": 44,
+    "id": 45,
     "title": "2027 인천 일러스트코리아",
     "short": "인천 일러스트코리아",
     "start": "2027-10-29",
@@ -1137,7 +1137,7 @@
     "verifiedAt": "2026-11-03"
   },
   {
-    "id": 45,
+    "id": 46,
     "title": "2027 서울 일러스트코리아 하반기",
     "short": "서울 일러스트코리아",
     "start": "2027-12-10",
@@ -1164,7 +1164,7 @@
     "verifiedAt": "2026-11-03"
   },
   {
-    "id": 46,
+    "id": 47,
     "title": "2026 경기국제웹툰페어",
     "short": "경기 웹툰페어",
     "start": "",
@@ -1184,10 +1184,10 @@
       "https://www.kintex.com/web/ko/event/list.do",
       "https://www.akei.or.kr/bbs/board.php?bo_table=schedule"
     ],
-    "verifiedAt": "2026-11-04"
+    "verifiedAt": "2026-11-05"
   },
   {
-    "id": 47,
+    "id": 48,
     "title": "K-콘텐츠 바이브 in 베트남",
     "short": "K-콘텐츠 바이브",
     "start": "",
@@ -1216,6 +1216,6 @@
     "annual": true,
     "seriesKey": "k-content-vibe-vietnam",
     "variableVenue": true,
-    "verifiedAt": "2026-11-04"
+    "verifiedAt": "2026-11-05"
   }
 ]
