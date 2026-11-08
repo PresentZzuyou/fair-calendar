@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-07T00:49:46.139Z",
+  "checkedAt": "2026-11-08T00:22:31.867Z",
   "summary": {
     "verification": {
-      "verified": 27,
-      "auto-recheck": 21
+      "verified": 26,
+      "auto-recheck": 22
     },
     "discovery": {
       "checked-no-new-edition": 46,
@@ -432,7 +432,7 @@
         "query": "캐릭터 라이선싱 페어 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BA%90%EB%A6%AD%ED%84%B0%20%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1%20%ED%8E%98%EC%96%B4%202027",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -459,9 +459,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BA%90%EB%A6%AD%ED%84%B0%20%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1%20%ED%8E%98%EC%96%B4%202027",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -515,7 +514,7 @@
         "query": "K-일러스트레이션페어 부산 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%B6%80%EC%82%B0%202028",
         "status": "checked-no-new-edition",
-        "searchStatus": "reachable",
+        "searchStatus": "blocked",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -531,8 +530,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%B6%80%EC%82%B0%202028",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         }
       ]
     },
@@ -684,7 +684,7 @@
         "query": "K-일러스트레이션페어 마곡 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%A7%88%EA%B3%A1%202027",
         "status": "checked-no-new-edition",
-        "searchStatus": "reachable",
+        "searchStatus": "blocked",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -695,8 +695,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%A7%88%EA%B3%A1%202027",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         }
       ]
     },
@@ -1894,7 +1895,7 @@
         "query": "K-일러스트레이션페어 부산 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%B6%80%EC%82%B0%202028",
         "status": "checked-no-new-edition",
-        "searchStatus": "reachable",
+        "searchStatus": "blocked",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -1915,8 +1916,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%B6%80%EC%82%B0%202028",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         }
       ]
     },
@@ -1978,7 +1980,7 @@
         "query": "인천 일러스트코리아 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%B8%EC%B2%9C%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
         "status": "checked-no-new-edition",
-        "searchStatus": "reachable",
+        "searchStatus": "blocked",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -1999,8 +2001,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%B8%EC%B2%9C%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         }
       ]
     },
@@ -2051,12 +2054,15 @@
     {
       "title": "2026 경기국제웹툰페어",
       "seriesKey": "경기국제웹툰페어",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "title-not-found",
+      "nextCheck": "next scheduled run",
       "source": "https://www.webtoonfair.com/main.do",
       "verification": {
-        "status": "verified",
+        "status": "auto-recheck",
+        "reason": "title-not-found",
         "officialSourcesChecked": 7,
-        "officialSourcesReachable": 5
+        "officialSourcesReachable": 3
       },
       "discovery": {
         "query": "경기국제웹툰페어 2027",
@@ -2079,8 +2085,9 @@
         },
         {
           "url": "https://www.kintex.com/web/ko/event/list.do",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://www.akei.or.kr/bbs/board.php?bo_table=schedule",
@@ -2095,8 +2102,9 @@
         },
         {
           "url": "https://www.kintex.com/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://www.akei.or.kr/",
