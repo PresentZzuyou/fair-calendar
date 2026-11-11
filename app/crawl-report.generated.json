@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-10T03:23:20.720Z",
+  "checkedAt": "2026-11-11T01:10:51.738Z",
   "summary": {
     "verification": {
-      "verified": 26,
-      "auto-recheck": 22
+      "verified": 27,
+      "auto-recheck": 21
     },
     "discovery": {
       "checked-no-new-edition": 46,
@@ -347,15 +347,12 @@
     {
       "title": "Licensing Japan 2026",
       "seriesKey": "licensing-japan",
-      "status": "auto-recheck",
-      "reason": "date-not-confirmed",
-      "nextCheck": "next scheduled run",
+      "status": "verified",
       "source": "https://www.content-tokyo.jp/hub/ja-jp/visit/character.html",
       "verification": {
-        "status": "auto-recheck",
-        "reason": "date-not-confirmed",
+        "status": "verified",
         "officialSourcesChecked": 4,
-        "officialSourcesReachable": 3
+        "officialSourcesReachable": 4
       },
       "discovery": {
         "query": "ライセンシング ジャパン 2028",
@@ -367,9 +364,8 @@
       "sourceChecks": [
         {
           "url": "https://www.content-tokyo.jp/hub/ja-jp/visit/character.html",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "The operation was aborted due to timeout"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://www.content-tokyo.jp/hub/ja-jp/visit/lj.html",
@@ -892,7 +888,7 @@
       "verification": {
         "status": "verified",
         "officialSourcesChecked": 3,
-        "officialSourcesReachable": 3
+        "officialSourcesReachable": 2
       },
       "discovery": {
         "query": "부천국제만화축제 제30회",
@@ -914,8 +910,9 @@
         },
         {
           "url": "https://www.komacon.kr/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%B2%9C%EA%B5%AD%EC%A0%9C%EB%A7%8C%ED%99%94%EC%B6%95%EC%A0%9C%20%EC%A0%9C30%ED%9A%8C",
@@ -1830,7 +1827,7 @@
       "verification": {
         "status": "verified",
         "officialSourcesChecked": 4,
-        "officialSourcesReachable": 3
+        "officialSourcesReachable": 4
       },
       "discovery": {
         "query": "ライセンシング ジャパン 2028",
@@ -1842,9 +1839,8 @@
       "sourceChecks": [
         {
           "url": "https://www.content-tokyo.jp/hub/ja-jp/visit/character.html",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "The operation was aborted due to timeout"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://www.content-tokyo.jp/hub/ja-jp/visit/lj.html",
@@ -2086,7 +2082,7 @@
       "verification": {
         "status": "verified",
         "officialSourcesChecked": 7,
-        "officialSourcesReachable": 4
+        "officialSourcesReachable": 5
       },
       "discovery": {
         "query": "경기국제웹툰페어 2027",
@@ -2109,9 +2105,8 @@
         },
         {
           "url": "https://www.kintex.com/web/ko/event/list.do",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "The operation was aborted due to timeout"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://www.akei.or.kr/bbs/board.php?bo_table=schedule",
