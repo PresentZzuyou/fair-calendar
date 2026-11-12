@@ -1,16 +1,26 @@
 {
-  "checkedAt": "2026-11-11T01:10:51.738Z",
+  "checkedAt": "2026-11-12T02:12:15.855Z",
   "summary": {
     "verification": {
       "verified": 27,
       "auto-recheck": 21
     },
     "discovery": {
-      "checked-no-new-edition": 46,
+      "checked-no-new-edition": 45,
+      "found": 1,
       "blocked": 2
     }
   },
-  "discovered": [],
+  "discovered": [
+    {
+      "seriesKey": "comic-world",
+      "title": "코믹월드 343 울산",
+      "start": "2027-02-13",
+      "end": "2027-02-14",
+      "source": "https://comicw.net/free/9651",
+      "discoveryQuery": "코믹월드 342"
+    }
+  ],
   "results": [
     {
       "title": "K-일러스트레이션페어 서울 2026",
@@ -26,7 +36,7 @@
         "query": "K-일러스트레이션페어 서울 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EC%84%9C%EC%9A%B8%202028",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -68,9 +78,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EC%84%9C%EC%9A%B8%202028",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -88,7 +97,7 @@
         "query": "일러스트코리아 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202027",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -115,9 +124,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202027",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -135,7 +143,7 @@
         "query": "Hong Kong International Licensing Show 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=Hong%20Kong%20International%20Licensing%20Show%202027",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -171,9 +179,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Hong%20Kong%20International%20Licensing%20Show%202027",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -194,7 +201,7 @@
         "query": "어르니마켓 제10회",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93%20%EC%A0%9C10%ED%9A%8C",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -242,15 +249,13 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93%20%EC%A0%9C10%ED%9A%8C",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -271,7 +276,7 @@
         "query": "Licensing Expo 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%202028",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -302,9 +307,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%202028",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -322,7 +326,7 @@
         "query": "부산콘텐츠마켓 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%82%B0%EC%BD%98%ED%85%90%EC%B8%A0%EB%A7%88%EC%BC%93%202027",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -338,9 +342,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%82%B0%EC%BD%98%ED%85%90%EC%B8%A0%EB%A7%88%EC%BC%93%202027",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -358,7 +361,7 @@
         "query": "ライセンシング ジャパン 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%B3%E3%82%B0%20%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%202028",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -384,9 +387,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%B3%E3%82%B0%20%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%202028",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -404,7 +406,7 @@
         "query": "Licensing Expo Shanghai 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%20Shanghai%202028",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -420,9 +422,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%20Shanghai%202028",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -490,7 +491,7 @@
         "query": "코믹월드 342",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20342",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -501,9 +502,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20342",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -560,7 +560,7 @@
         "query": "서울일러스트레이션페어 V.22",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.22",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -599,9 +599,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.22",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -656,7 +655,7 @@
         "query": "코믹월드 342",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20342",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -672,9 +671,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20342",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -811,7 +809,7 @@
         "query": "코믹월드 342",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20342",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -827,9 +825,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20342",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -888,7 +885,7 @@
       "verification": {
         "status": "verified",
         "officialSourcesChecked": 3,
-        "officialSourcesReachable": 2
+        "officialSourcesReachable": 3
       },
       "discovery": {
         "query": "부천국제만화축제 제30회",
@@ -910,9 +907,8 @@
         },
         {
           "url": "https://www.komacon.kr/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "The operation was aborted due to timeout"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%B2%9C%EA%B5%AD%EC%A0%9C%EB%A7%8C%ED%99%94%EC%B6%95%EC%A0%9C%20%EC%A0%9C30%ED%9A%8C",
@@ -938,9 +934,17 @@
       "discovery": {
         "query": "코믹월드 342",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20342",
-        "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
-        "officialFallbackStatus": "checked"
+        "status": "found",
+        "searchStatus": "reachable",
+        "officialFallbackStatus": "checked",
+        "event": {
+          "seriesKey": "comic-world",
+          "title": "코믹월드 343 울산",
+          "start": "2027-02-13",
+          "end": "2027-02-14",
+          "source": "https://comicw.net/free/9651",
+          "discoveryQuery": "코믹월드 342"
+        }
       },
       "sourceChecks": [
         {
@@ -955,9 +959,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20342",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -1009,7 +1012,7 @@
         "query": "어르니마켓 제10회",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93%20%EC%A0%9C10%ED%9A%8C",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -1060,21 +1063,18 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%A0%9C9%ED%9A%8C%20%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93%20%EC%A0%9C10%ED%9A%8C",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -1151,10 +1151,10 @@
         "officialSourcesReachable": 2
       },
       "discovery": {
-        "query": "코믹월드 342",
-        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20342",
+        "query": "코믹월드 344",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -1169,10 +1169,9 @@
           "kind": "official"
         },
         {
-          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20342",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -1226,10 +1225,10 @@
         "officialSourcesReachable": 2
       },
       "discovery": {
-        "query": "코믹월드 342",
-        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20342",
+        "query": "코믹월드 344",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -1244,10 +1243,9 @@
           "kind": "official"
         },
         {
-          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20342",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -1428,10 +1426,10 @@
         "officialSourcesReachable": 3
       },
       "discovery": {
-        "query": "코믹월드 342",
-        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20342",
+        "query": "코믹월드 344",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -1451,10 +1449,9 @@
           "kind": "official"
         },
         {
-          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20342",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -1472,7 +1469,7 @@
         "query": "K-일러스트레이션페어 서울 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EC%84%9C%EC%9A%B8%202028",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -1503,9 +1500,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EC%84%9C%EC%9A%B8%202028",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -1691,7 +1687,7 @@
         "query": "Licensing Expo 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%202028",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -1722,9 +1718,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%202028",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -1833,7 +1828,7 @@
         "query": "ライセンシング ジャパン 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%B3%E3%82%B0%20%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%202028",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -1859,9 +1854,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%B3%E3%82%B0%20%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%202028",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -1882,7 +1876,7 @@
         "query": "Licensing Expo Shanghai 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%20Shanghai%202028",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -1898,9 +1892,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%20Shanghai%202028",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
