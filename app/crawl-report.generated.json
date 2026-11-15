@@ -1,12 +1,13 @@
 {
-  "checkedAt": "2026-11-14T01:22:40.316Z",
+  "checkedAt": "2026-11-15T00:57:09.128Z",
   "summary": {
     "verification": {
       "verified": 28,
       "auto-recheck": 21
     },
     "discovery": {
-      "checked-no-new-edition": 49
+      "checked-no-new-edition": 47,
+      "blocked": 2
     }
   },
   "discovered": [],
@@ -187,7 +188,7 @@
         "status": "auto-recheck",
         "reason": "date-not-confirmed",
         "officialSourcesChecked": 8,
-        "officialSourcesReachable": 5
+        "officialSourcesReachable": 6
       },
       "discovery": {
         "query": "어르니마켓 제10회",
@@ -215,9 +216,8 @@
         },
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 429"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://culture.seoul.go.kr/",
@@ -1002,7 +1002,7 @@
       "verification": {
         "status": "verified",
         "officialSourcesChecked": 9,
-        "officialSourcesReachable": 8
+        "officialSourcesReachable": 9
       },
       "discovery": {
         "query": "어르니마켓 제10회",
@@ -1014,9 +1014,8 @@
       "sourceChecks": [
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 429"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://blog.naver.com/uppie/224393503191",
@@ -1255,37 +1254,40 @@
       "title": "DesignerCon 2026",
       "seriesKey": "designercon-las-vegas",
       "status": "auto-recheck",
-      "reason": "title-not-found",
+      "reason": "source-unreachable",
       "nextCheck": "next scheduled run",
       "source": "https://www.designercon.com/about/showinformation/",
       "verification": {
         "status": "auto-recheck",
-        "reason": "title-not-found",
+        "reason": "source-unreachable",
         "officialSourcesChecked": 3,
-        "officialSourcesReachable": 3
+        "officialSourcesReachable": 0
       },
       "discovery": {
         "query": "DesignerCon 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202028",
-        "status": "checked-no-new-edition",
+        "status": "blocked",
         "searchStatus": "blocked",
-        "officialFallbackStatus": "checked"
+        "officialFallbackStatus": "blocked"
       },
       "sourceChecks": [
         {
           "url": "https://www.designercon.com/about/showinformation/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://www.designercon.com/about/faq-and-notes/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://www.designercon.com/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202028",
@@ -1770,37 +1772,40 @@
       "title": "DesignerCon 2027",
       "seriesKey": "designercon-las-vegas",
       "status": "auto-recheck",
-      "reason": "title-not-found",
+      "reason": "source-unreachable",
       "nextCheck": "next scheduled run",
       "source": "https://www.designercon.com/about/showinformation/",
       "verification": {
         "status": "auto-recheck",
-        "reason": "title-not-found",
+        "reason": "source-unreachable",
         "officialSourcesChecked": 3,
-        "officialSourcesReachable": 3
+        "officialSourcesReachable": 0
       },
       "discovery": {
         "query": "DesignerCon 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202028",
-        "status": "checked-no-new-edition",
+        "status": "blocked",
         "searchStatus": "blocked",
-        "officialFallbackStatus": "checked"
+        "officialFallbackStatus": "blocked"
       },
       "sourceChecks": [
         {
           "url": "https://www.designercon.com/about/showinformation/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://www.designercon.com/about/faq-and-notes/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://www.designercon.com/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202028",
