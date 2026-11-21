@@ -1,12 +1,13 @@
 {
-  "checkedAt": "2026-11-20T02:12:49.362Z",
+  "checkedAt": "2026-11-21T02:04:45.015Z",
   "summary": {
     "verification": {
       "verified": 28,
       "auto-recheck": 21
     },
     "discovery": {
-      "checked-no-new-edition": 49
+      "checked-no-new-edition": 47,
+      "blocked": 2
     }
   },
   "discovered": [],
@@ -345,7 +346,7 @@
       "verification": {
         "status": "verified",
         "officialSourcesChecked": 4,
-        "officialSourcesReachable": 3
+        "officialSourcesReachable": 4
       },
       "discovery": {
         "query": "ライセンシング ジャパン 2028",
@@ -367,9 +368,8 @@
         },
         {
           "url": "https://www.content-tokyo.jp/hub/ja-jp/about.html",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "The operation was aborted due to timeout"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://www.content-tokyo.jp/",
@@ -612,7 +612,7 @@
         "query": "일러스타 페스 17",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -623,9 +623,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -715,7 +714,7 @@
         "query": "일러스타 페스 17",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -731,9 +730,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -751,7 +749,7 @@
         "query": "ACE Fair 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=ACE%20Fair%202027",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -777,9 +775,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=ACE%20Fair%202027",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -835,7 +832,7 @@
         "query": "SPP 국제콘텐츠마켓 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=SPP%20%EA%B5%AD%EC%A0%9C%EC%BD%98%ED%85%90%EC%B8%A0%EB%A7%88%EC%BC%93%202027",
         "status": "checked-no-new-edition",
-        "searchStatus": "reachable",
+        "searchStatus": "blocked",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -862,8 +859,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=SPP%20%EA%B5%AD%EC%A0%9C%EC%BD%98%ED%85%90%EC%B8%A0%EB%A7%88%EC%BC%93%202027",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         }
       ]
     },
@@ -963,7 +961,7 @@
         "query": "일러스타 페스 17",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -974,9 +972,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -1236,37 +1233,40 @@
       "title": "DesignerCon 2026",
       "seriesKey": "designercon-las-vegas",
       "status": "auto-recheck",
-      "reason": "title-not-found",
+      "reason": "source-unreachable",
       "nextCheck": "next scheduled run",
       "source": "https://www.designercon.com/about/showinformation/",
       "verification": {
         "status": "auto-recheck",
-        "reason": "title-not-found",
+        "reason": "source-unreachable",
         "officialSourcesChecked": 3,
-        "officialSourcesReachable": 3
+        "officialSourcesReachable": 0
       },
       "discovery": {
         "query": "DesignerCon 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202028",
-        "status": "checked-no-new-edition",
+        "status": "blocked",
         "searchStatus": "blocked",
-        "officialFallbackStatus": "checked"
+        "officialFallbackStatus": "blocked"
       },
       "sourceChecks": [
         {
           "url": "https://www.designercon.com/about/showinformation/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://www.designercon.com/about/faq-and-notes/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://www.designercon.com/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202028",
@@ -1325,7 +1325,7 @@
       "verification": {
         "status": "verified",
         "officialSourcesChecked": 3,
-        "officialSourcesReachable": 1
+        "officialSourcesReachable": 2
       },
       "discovery": {
         "query": "Anime Festival Asia 2027",
@@ -1337,9 +1337,8 @@
       "sourceChecks": [
         {
           "url": "https://animefestival.asia/afasg26/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "The operation was aborted due to timeout"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://animefestival.asia/",
@@ -1503,7 +1502,7 @@
         "query": "일러스타 페스 17",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -1524,9 +1523,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -1667,7 +1665,7 @@
         "query": "일러스타 페스 17",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
         "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -1688,9 +1686,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
@@ -1748,37 +1745,40 @@
       "title": "DesignerCon 2027",
       "seriesKey": "designercon-las-vegas",
       "status": "auto-recheck",
-      "reason": "title-not-found",
+      "reason": "source-unreachable",
       "nextCheck": "next scheduled run",
       "source": "https://www.designercon.com/about/showinformation/",
       "verification": {
         "status": "auto-recheck",
-        "reason": "title-not-found",
+        "reason": "source-unreachable",
         "officialSourcesChecked": 3,
-        "officialSourcesReachable": 3
+        "officialSourcesReachable": 0
       },
       "discovery": {
         "query": "DesignerCon 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202028",
-        "status": "checked-no-new-edition",
+        "status": "blocked",
         "searchStatus": "blocked",
-        "officialFallbackStatus": "checked"
+        "officialFallbackStatus": "blocked"
       },
       "sourceChecks": [
         {
           "url": "https://www.designercon.com/about/showinformation/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://www.designercon.com/about/faq-and-notes/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://www.designercon.com/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202028",
@@ -1840,7 +1840,7 @@
       "verification": {
         "status": "verified",
         "officialSourcesChecked": 4,
-        "officialSourcesReachable": 3
+        "officialSourcesReachable": 4
       },
       "discovery": {
         "query": "ライセンシング ジャパン 2028",
@@ -1862,9 +1862,8 @@
         },
         {
           "url": "https://www.content-tokyo.jp/hub/ja-jp/about.html",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "The operation was aborted due to timeout"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://www.content-tokyo.jp/",
