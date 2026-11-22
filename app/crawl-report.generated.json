@@ -1,13 +1,12 @@
 {
-  "checkedAt": "2026-11-21T02:04:45.015Z",
+  "checkedAt": "2026-11-22T01:08:07.477Z",
   "summary": {
     "verification": {
       "verified": 28,
       "auto-recheck": 21
     },
     "discovery": {
-      "checked-no-new-edition": 47,
-      "blocked": 2
+      "checked-no-new-edition": 49
     }
   },
   "discovered": [],
@@ -185,7 +184,7 @@
         "status": "auto-recheck",
         "reason": "date-not-confirmed",
         "officialSourcesChecked": 8,
-        "officialSourcesReachable": 5
+        "officialSourcesReachable": 6
       },
       "discovery": {
         "query": "어르니마켓 제10회",
@@ -213,9 +212,8 @@
         },
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 429"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://culture.seoul.go.kr/",
@@ -612,7 +610,7 @@
         "query": "일러스타 페스 17",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
         "status": "checked-no-new-edition",
-        "searchStatus": "reachable",
+        "searchStatus": "blocked",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -623,8 +621,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         }
       ]
     },
@@ -714,7 +713,7 @@
         "query": "일러스타 페스 17",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
         "status": "checked-no-new-edition",
-        "searchStatus": "reachable",
+        "searchStatus": "blocked",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -730,8 +729,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         }
       ]
     },
@@ -749,7 +749,7 @@
         "query": "ACE Fair 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=ACE%20Fair%202027",
         "status": "checked-no-new-edition",
-        "searchStatus": "reachable",
+        "searchStatus": "blocked",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -775,8 +775,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=ACE%20Fair%202027",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         }
       ]
     },
@@ -961,7 +962,7 @@
         "query": "일러스타 페스 17",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
         "status": "checked-no-new-edition",
-        "searchStatus": "reachable",
+        "searchStatus": "blocked",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -972,8 +973,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         }
       ]
     },
@@ -985,7 +987,7 @@
       "verification": {
         "status": "verified",
         "officialSourcesChecked": 9,
-        "officialSourcesReachable": 8
+        "officialSourcesReachable": 9
       },
       "discovery": {
         "query": "어르니마켓 제10회",
@@ -997,9 +999,8 @@
       "sourceChecks": [
         {
           "url": "https://www.instagram.com/toy_jjurus/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 429"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://blog.naver.com/uppie/224393503191",
@@ -1233,40 +1234,37 @@
       "title": "DesignerCon 2026",
       "seriesKey": "designercon-las-vegas",
       "status": "auto-recheck",
-      "reason": "source-unreachable",
+      "reason": "title-not-found",
       "nextCheck": "next scheduled run",
       "source": "https://www.designercon.com/about/showinformation/",
       "verification": {
         "status": "auto-recheck",
-        "reason": "source-unreachable",
+        "reason": "title-not-found",
         "officialSourcesChecked": 3,
-        "officialSourcesReachable": 0
+        "officialSourcesReachable": 3
       },
       "discovery": {
         "query": "DesignerCon 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202028",
-        "status": "blocked",
+        "status": "checked-no-new-edition",
         "searchStatus": "blocked",
-        "officialFallbackStatus": "blocked"
+        "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
         {
           "url": "https://www.designercon.com/about/showinformation/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://www.designercon.com/about/faq-and-notes/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://www.designercon.com/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202028",
@@ -1502,7 +1500,7 @@
         "query": "일러스타 페스 17",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
         "status": "checked-no-new-edition",
-        "searchStatus": "reachable",
+        "searchStatus": "blocked",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -1523,8 +1521,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         }
       ]
     },
@@ -1665,7 +1664,7 @@
         "query": "일러스타 페스 17",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
         "status": "checked-no-new-edition",
-        "searchStatus": "reachable",
+        "searchStatus": "blocked",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -1686,8 +1685,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         }
       ]
     },
@@ -1745,40 +1745,37 @@
       "title": "DesignerCon 2027",
       "seriesKey": "designercon-las-vegas",
       "status": "auto-recheck",
-      "reason": "source-unreachable",
+      "reason": "title-not-found",
       "nextCheck": "next scheduled run",
       "source": "https://www.designercon.com/about/showinformation/",
       "verification": {
         "status": "auto-recheck",
-        "reason": "source-unreachable",
+        "reason": "title-not-found",
         "officialSourcesChecked": 3,
-        "officialSourcesReachable": 0
+        "officialSourcesReachable": 3
       },
       "discovery": {
         "query": "DesignerCon 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202028",
-        "status": "blocked",
+        "status": "checked-no-new-edition",
         "searchStatus": "blocked",
-        "officialFallbackStatus": "blocked"
+        "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
         {
           "url": "https://www.designercon.com/about/showinformation/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://www.designercon.com/about/faq-and-notes/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://www.designercon.com/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202028",
@@ -2093,7 +2090,7 @@
       "verification": {
         "status": "verified",
         "officialSourcesChecked": 7,
-        "officialSourcesReachable": 5
+        "officialSourcesReachable": 4
       },
       "discovery": {
         "query": "경기국제웹툰페어 2027",
@@ -2132,8 +2129,9 @@
         },
         {
           "url": "https://www.kintex.com/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://www.akei.or.kr/",
