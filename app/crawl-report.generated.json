@@ -1,18 +1,62 @@
 {
-  "checkedAt": "2026-11-23T08:16:06.975Z",
+  "checkedAt": "2026-11-23T10:06:05.891Z",
+  "runId": "45152828169",
+  "runAttempt": "1",
   "summary": {
     "verification": {
-      "verified": 28,
-      "auto-recheck": 21
+      "verified": 18,
+      "auto-recheck": 43
     },
     "discovery": {
-      "checked-no-new-edition": 47,
-      "blocked": 2
+      "needs-review": 61
     }
+  },
+  "coverage": {
+    "registered": 61,
+    "checked": 61,
+    "review": [
+      "K-일러스트레이션페어 서울 2028",
+      "대구 일러스트코리아 2028",
+      "서울 일러스트코리아 2028",
+      "Hong Kong International Licensing Show 2028",
+      "어르니마켓 제10회",
+      "Licensing Expo 2028",
+      "수원 일러스트코리아 2028",
+      "부산콘텐츠마켓 2027",
+      "ライセンシング ジャパン 2028",
+      "Licensing Expo Shanghai 2028",
+      "캐릭터 라이선싱 페어 2027",
+      "코믹월드 344",
+      "K-일러스트레이션페어 부산 2028",
+      "서울일러스트레이션페어 V.23",
+      "일러스타 페스 17",
+      "K-일러스트레이션페어 마곡 2027",
+      "서울 일러스트코리아 2028",
+      "ACE Fair 2027",
+      "SPP 국제콘텐츠마켓 2027",
+      "부천국제만화축제 제30회",
+      "서울국제문구사무용품전시회 2027",
+      "인천 일러스트코리아 2028",
+      "부산일러스트레이션페어 V.8",
+      "DesignerCon 2027",
+      "FineCharacter 2027",
+      "Anime Festival Asia 2027",
+      "월드 웹툰 페스티벌 2027",
+      "콘텐츠IP 마켓 2027",
+      "AGF Korea 2027",
+      "수원 일러스트코리아 Winter 2027",
+      "문구전 겨울 2027",
+      "DesignerCon Pasadena 2028",
+      "대전 일러스트코리아 2028",
+      "경기국제웹툰페어 2027",
+      "K-콘텐츠 바이브 2026"
+    ],
+    "editionGaps": []
   },
   "discovered": [],
   "results": [
     {
+      "id": 1,
       "title": "K-일러스트레이션페어 서울 2026",
       "seriesKey": "k-illustration-fair-seoul",
       "status": "verified",
@@ -20,12 +64,12 @@
       "verification": {
         "status": "verified",
         "officialSourcesChecked": 7,
-        "officialSourcesReachable": 6
+        "officialSourcesReachable": 7
       },
       "discovery": {
         "query": "K-일러스트레이션페어 서울 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EC%84%9C%EC%9A%B8%202028",
-        "status": "checked-no-new-edition",
+        "status": "needs-review",
         "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
@@ -51,10 +95,9 @@
           "kind": "official"
         },
         {
-          "url": "https://www.coex.co.kr/exhibitions/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 404"
+          "url": "https://www.coex.co.kr/event/full-schedules/",
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://www.k-illustrationfair.com/",
@@ -67,26 +110,95 @@
           "kind": "official"
         },
         {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EC%84%9C%EC%9A%B8%202026",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EC%84%9C%EC%9A%B8%202028",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EC%84%9C%EC%9A%B8%202028",
           "status": "ok",
           "kind": "search"
         }
       ]
     },
     {
+      "id": 50,
+      "title": "2026 대구 일러스트코리아",
+      "seriesKey": "illustration-korea-daegu",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
+      "source": "https://illustrationkorea.co.kr/exco/portfolio-items/magazine_detail90/",
+      "verification": {
+        "status": "auto-recheck",
+        "reason": "date-not-confirmed",
+        "officialSourcesChecked": 3,
+        "officialSourcesReachable": 3
+      },
+      "discovery": {
+        "query": "일러스트코리아 2028",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
+        "status": "needs-review",
+        "searchStatus": "reachable",
+        "officialFallbackStatus": "checked"
+      },
+      "sourceChecks": [
+        {
+          "url": "https://illustrationkorea.co.kr/exco/portfolio-items/magazine_detail90/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://illustrationkorea.co.kr/coex/media/notice/?mod=document&pageid=1&uid=214",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://illustrationkorea.co.kr/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=2026%20%EB%8C%80%EA%B5%AC%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
+          "status": "ok",
+          "kind": "search"
+        }
+      ]
+    },
+    {
+      "id": 2,
       "title": "2026 서울 일러스트코리아",
-      "seriesKey": "illustration-korea",
+      "seriesKey": "illustration-korea-seoul-first",
       "status": "verified",
       "source": "https://www.coex.co.kr/exhibitions/2026-서울-일러스트코리아/",
       "verification": {
         "status": "verified",
         "officialSourcesChecked": 4,
-        "officialSourcesReachable": 3
+        "officialSourcesReachable": 4
       },
       "discovery": {
-        "query": "일러스트코리아 2027",
-        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202027",
-        "status": "checked-no-new-edition",
+        "query": "서울 일러스트코리아 2028",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
+        "status": "needs-review",
         "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
@@ -107,32 +219,47 @@
           "kind": "official"
         },
         {
-          "url": "https://www.coex.co.kr/exhibitions/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 404"
+          "url": "https://www.coex.co.kr/event/full-schedules/",
+          "status": "ok",
+          "kind": "official"
         },
         {
-          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202027",
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=2026%20%EC%84%9C%EC%9A%B8%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%84%9C%EC%9A%B8%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
           "status": "ok",
           "kind": "search"
         }
       ]
     },
     {
+      "id": 3,
       "title": "홍콩 국제 라이선싱쇼 2026",
       "seriesKey": "hong-kong-international-licensing-show",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
       "source": "https://mediaroom.hktdc.com/en/pressrelease/detail/20962/Hong%20Kong%20International%20Licensing%20Show%20and%20Asian%20Licensing%20Conference%20conclude%20successfully",
       "verification": {
-        "status": "verified",
+        "status": "auto-recheck",
+        "reason": "date-not-confirmed",
         "officialSourcesChecked": 6,
         "officialSourcesReachable": 6
       },
       "discovery": {
-        "query": "Hong Kong International Licensing Show 2027",
-        "url": "https://search.naver.com/search.naver?where=nexearch&query=Hong%20Kong%20International%20Licensing%20Show%202027",
-        "status": "checked-no-new-edition",
+        "query": "Hong Kong International Licensing Show 2028",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=Hong%20Kong%20International%20Licensing%20Show%202028",
+        "status": "needs-review",
         "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
@@ -168,13 +295,26 @@
           "kind": "official"
         },
         {
-          "url": "https://search.naver.com/search.naver?where=nexearch&query=Hong%20Kong%20International%20Licensing%20Show%202027",
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%ED%99%8D%EC%BD%A9%20%EA%B5%AD%EC%A0%9C%20%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1%EC%87%BC%202026",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=Hong%20Kong%20International%20Licensing%20Show%202028",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=Hong%20Kong%20International%20Licensing%20Show%202028",
           "status": "ok",
           "kind": "search"
         }
       ]
     },
     {
+      "id": 4,
       "title": "제8회 어르니마켓",
       "seriesKey": "eorni-market",
       "status": "auto-recheck",
@@ -190,7 +330,7 @@
       "discovery": {
         "query": "어르니마켓 제10회",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93%20%EC%A0%9C10%ED%9A%8C",
-        "status": "checked-no-new-edition",
+        "status": "needs-review",
         "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
@@ -239,18 +379,32 @@
           "kind": "official"
         },
         {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%A0%9C8%ED%9A%8C%20%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93%20%EC%A0%9C10%ED%9A%8C",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93%20%EC%A0%9C10%ED%9A%8C",
           "status": "ok",
           "kind": "search"
         }
       ]
     },
     {
+      "id": 5,
       "title": "Licensing Expo 2026 라스베이거스",
       "seriesKey": "licensing-expo-las-vegas",
       "status": "auto-recheck",
@@ -261,12 +415,12 @@
         "status": "auto-recheck",
         "reason": "date-not-confirmed",
         "officialSourcesChecked": 5,
-        "officialSourcesReachable": 5
+        "officialSourcesReachable": 3
       },
       "discovery": {
         "query": "Licensing Expo 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%202028",
-        "status": "checked-no-new-edition",
+        "status": "needs-review",
         "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
@@ -283,8 +437,9 @@
         },
         {
           "url": "https://licensinginternational.org/events/li-lounge-at-licensing-expo/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://www.licensingexpo.com/",
@@ -293,30 +448,102 @@
         },
         {
           "url": "https://licensinginternational.org/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%202026%20%EB%9D%BC%EC%8A%A4%EB%B2%A0%EC%9D%B4%EA%B1%B0%EC%8A%A4",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%202028",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=Licensing%20Expo%202028",
           "status": "ok",
           "kind": "search"
         }
       ]
     },
     {
+      "id": 51,
+      "title": "2026 수원 일러스트코리아 상반기",
+      "seriesKey": "illustration-korea-suwon",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
+      "source": "https://illustrationkorea.co.kr/exco/portfolio-items/magazine_detail90/",
+      "verification": {
+        "status": "auto-recheck",
+        "reason": "date-not-confirmed",
+        "officialSourcesChecked": 3,
+        "officialSourcesReachable": 3
+      },
+      "discovery": {
+        "query": "일러스트코리아 2028",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
+        "status": "needs-review",
+        "searchStatus": "reachable",
+        "officialFallbackStatus": "checked"
+      },
+      "sourceChecks": [
+        {
+          "url": "https://illustrationkorea.co.kr/exco/portfolio-items/magazine_detail90/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://illustrationkorea.co.kr/coex/media/notice/?mod=document&pageid=1&uid=214",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://illustrationkorea.co.kr/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=2026%20%EC%88%98%EC%9B%90%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%20%EC%83%81%EB%B0%98%EA%B8%B0",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
+          "status": "ok",
+          "kind": "search"
+        }
+      ]
+    },
+    {
+      "id": 6,
       "title": "부산콘텐츠마켓 BCM 2026",
       "seriesKey": "busan-contents-market",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
       "source": "https://ibcm.tv/bcm/intro/BcmIntro.do?_idxn=121",
       "verification": {
-        "status": "verified",
+        "status": "auto-recheck",
+        "reason": "date-not-confirmed",
         "officialSourcesChecked": 2,
         "officialSourcesReachable": 2
       },
       "discovery": {
         "query": "부산콘텐츠마켓 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%82%B0%EC%BD%98%ED%85%90%EC%B8%A0%EB%A7%88%EC%BC%93%202027",
-        "status": "checked-no-new-edition",
+        "status": "needs-review",
         "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
@@ -332,26 +559,40 @@
           "kind": "official"
         },
         {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%82%B0%EC%BD%98%ED%85%90%EC%B8%A0%EB%A7%88%EC%BC%93%20BCM%202026",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%82%B0%EC%BD%98%ED%85%90%EC%B8%A0%EB%A7%88%EC%BC%93%202027",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EB%B6%80%EC%82%B0%EC%BD%98%ED%85%90%EC%B8%A0%EB%A7%88%EC%BC%93%202027",
           "status": "ok",
           "kind": "search"
         }
       ]
     },
     {
+      "id": 7,
       "title": "Licensing Japan 2026",
       "seriesKey": "licensing-japan",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
       "source": "https://www.content-tokyo.jp/hub/ja-jp/visit/character.html",
       "verification": {
-        "status": "verified",
+        "status": "auto-recheck",
+        "reason": "date-not-confirmed",
         "officialSourcesChecked": 4,
         "officialSourcesReachable": 4
       },
       "discovery": {
         "query": "ライセンシング ジャパン 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%B3%E3%82%B0%20%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%202028",
-        "status": "checked-no-new-edition",
+        "status": "needs-review",
         "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
@@ -377,61 +618,88 @@
           "kind": "official"
         },
         {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Japan%202026",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%B3%E3%82%B0%20%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%202028",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%B3%E3%82%B0%20%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%202028",
           "status": "ok",
           "kind": "search"
         }
       ]
     },
     {
+      "id": 8,
       "title": "Licensing Expo Shanghai 2026",
       "seriesKey": "licensing-expo-shanghai",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "source-unreachable",
+      "nextCheck": "next scheduled run",
       "source": "https://en.licensingexpochina.com/show/about/",
       "verification": {
-        "status": "verified",
+        "status": "auto-recheck",
+        "reason": "source-unreachable",
         "officialSourcesChecked": 2,
-        "officialSourcesReachable": 2
+        "officialSourcesReachable": 0
       },
       "discovery": {
         "query": "Licensing Expo Shanghai 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%20Shanghai%202028",
-        "status": "checked-no-new-edition",
+        "status": "needs-review",
         "searchStatus": "reachable",
-        "officialFallbackStatus": "checked"
+        "officialFallbackStatus": "blocked"
       },
       "sourceChecks": [
         {
           "url": "https://en.licensingexpochina.com/show/about/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://en.licensingexpochina.com/",
+          "status": "unreachable",
+          "kind": "official",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%20Shanghai%202026",
           "status": "ok",
-          "kind": "official"
+          "kind": "search"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%20Shanghai%202028",
           "status": "ok",
           "kind": "search"
+        },
+        {
+          "url": "https://search.daum.net/search?q=Licensing%20Expo%20Shanghai%202028",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
     {
+      "id": 9,
       "title": "캐릭터 라이선싱 페어 2026",
       "seriesKey": "character-licensing-fair-korea",
       "status": "verified",
       "source": "https://www.coex.co.kr/exhibitions/캐릭터-라이선싱-페어-2026/",
       "verification": {
         "status": "verified",
-        "officialSourcesChecked": 4,
-        "officialSourcesReachable": 3
+        "officialSourcesChecked": 10,
+        "officialSourcesReachable": 9
       },
       "discovery": {
         "query": "캐릭터 라이선싱 페어 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BA%90%EB%A6%AD%ED%84%B0%20%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1%20%ED%8E%98%EC%96%B4%202027",
-        "status": "checked-no-new-edition",
+        "status": "needs-review",
         "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
@@ -442,7 +710,12 @@
           "kind": "official"
         },
         {
-          "url": "https://www.characterfair.kr/",
+          "url": "https://characterfair.kr/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://welcon.kocca.kr/ko/event/schedule",
           "status": "ok",
           "kind": "official"
         },
@@ -452,19 +725,56 @@
           "kind": "official"
         },
         {
-          "url": "https://www.coex.co.kr/exhibitions/",
+          "url": "https://www.coex.co.kr/event/full-schedules/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://welcon.kocca.kr/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.coex.co.kr/exhibitions/%EC%BA%90%EB%A6%AD%ED%84%B0-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1-%ED%8E%98%EC%96%B4-2027/",
           "status": "unreachable",
           "kind": "official",
           "error": "HTTP 404"
         },
         {
-          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BA%90%EB%A6%AD%ED%84%B0%20%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1%20%ED%8E%98%EC%96%B4%202027",
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BA%90%EB%A6%AD%ED%84%B0%20%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1%20%ED%8E%98%EC%96%B4%202026",
           "status": "ok",
           "kind": "search"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BA%90%EB%A6%AD%ED%84%B0%20%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1%20%ED%8E%98%EC%96%B4%202027",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%BA%90%EB%A6%AD%ED%84%B0%20%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1%20%ED%8E%98%EC%96%B4%202027",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
+          "url": "https://characterfair.kr/?hl=ko",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.coex.co.kr/exhibitions/%EC%BA%90%EB%A6%AD%ED%84%B0-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1-%ED%8E%98%EC%96%B4-2026/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://welcon.kocca.kr/en/info/business/1958256",
+          "status": "ok",
+          "kind": "official"
         }
       ]
     },
     {
+      "id": 10,
       "title": "코믹월드 SUMMER 2026",
       "seriesKey": "comic-world",
       "status": "auto-recheck",
@@ -474,13 +784,13 @@
       "verification": {
         "status": "auto-recheck",
         "reason": "date-not-confirmed",
-        "officialSourcesChecked": 1,
-        "officialSourcesReachable": 1
+        "officialSourcesChecked": 2,
+        "officialSourcesReachable": 2
       },
       "discovery": {
         "query": "코믹월드 344",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
-        "status": "checked-no-new-edition",
+        "status": "needs-review",
         "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
@@ -491,13 +801,31 @@
           "kind": "official"
         },
         {
+          "url": "https://comicw.net/e/344",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20SUMMER%202026",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
           "status": "ok",
           "kind": "search"
         }
       ]
     },
     {
+      "id": 11,
       "title": "K-일러스트레이션페어 부산 2026",
       "seriesKey": "k-illustration-fair-busan",
       "status": "auto-recheck",
@@ -513,8 +841,8 @@
       "discovery": {
         "query": "K-일러스트레이션페어 부산 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%B6%80%EC%82%B0%202028",
-        "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "status": "needs-review",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -529,28 +857,40 @@
           "kind": "official"
         },
         {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%B6%80%EC%82%B0%202026",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%B6%80%EC%82%B0%202028",
           "status": "unreachable",
           "kind": "search",
           "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%B6%80%EC%82%B0%202028",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
     {
+      "id": 12,
       "title": "서울일러스트레이션페어 V.21",
       "seriesKey": "서울일러스트레이션페어",
       "status": "verified",
       "source": "https://seoulillustrationfair.co.kr/",
       "verification": {
         "status": "verified",
-        "officialSourcesChecked": 6,
-        "officialSourcesReachable": 3
+        "officialSourcesChecked": 7,
+        "officialSourcesReachable": 5
       },
       "discovery": {
-        "query": "서울일러스트레이션페어 V.22",
-        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.22",
-        "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "query": "서울일러스트레이션페어 V.23",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.23",
+        "status": "needs-review",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -562,9 +902,8 @@
         },
         {
           "url": "https://www.coex.co.kr/exhibitions/%EC%84%9C%EC%9A%B8%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4v-21-2/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://www.akei.or.kr/bbs/board.php?bo_table=schedule&wr_id=104274",
@@ -577,10 +916,9 @@
           "kind": "official"
         },
         {
-          "url": "https://www.coex.co.kr/exhibitions/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 404"
+          "url": "https://www.coex.co.kr/event/full-schedules/",
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://www.akei.or.kr/",
@@ -588,14 +926,32 @@
           "kind": "official"
         },
         {
-          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.22",
+          "url": "https://www.coex.co.kr/exhibitions/%EC%84%9C%EC%9A%B8%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4v-23/",
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 404"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.21",
           "status": "unreachable",
           "kind": "search",
           "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.23",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%84%9C%EC%9A%B8%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.23",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
     {
+      "id": 13,
       "title": "일러스타 페스 12 부산",
       "seriesKey": "illustar-fes",
       "status": "auto-recheck",
@@ -611,8 +967,8 @@
       "discovery": {
         "query": "일러스타 페스 17",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
-        "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "status": "needs-review",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -622,14 +978,26 @@
           "kind": "official"
         },
         {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2012%20%EB%B6%80%EC%82%B0",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
           "status": "unreachable",
           "kind": "search",
           "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
     {
+      "id": 14,
       "title": "코믹월드 335 일산",
       "seriesKey": "comic-world",
       "status": "auto-recheck",
@@ -639,13 +1007,13 @@
       "verification": {
         "status": "auto-recheck",
         "reason": "date-not-confirmed",
-        "officialSourcesChecked": 2,
-        "officialSourcesReachable": 2
+        "officialSourcesChecked": 3,
+        "officialSourcesReachable": 3
       },
       "discovery": {
         "query": "코믹월드 344",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
-        "status": "checked-no-new-edition",
+        "status": "needs-review",
         "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
@@ -661,13 +1029,31 @@
           "kind": "official"
         },
         {
+          "url": "https://comicw.net/e/344",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20335%20%EC%9D%BC%EC%82%B0",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
           "status": "ok",
           "kind": "search"
         }
       ]
     },
     {
+      "id": 15,
       "title": "K-일러스트레이션페어 마곡 2026",
       "seriesKey": "k일러스트레이션페어마곡",
       "status": "auto-recheck",
@@ -683,8 +1069,8 @@
       "discovery": {
         "query": "K-일러스트레이션페어 마곡 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%A7%88%EA%B3%A1%202027",
-        "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "status": "needs-review",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -694,14 +1080,26 @@
           "kind": "official"
         },
         {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%A7%88%EA%B3%A1%202026",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%A7%88%EA%B3%A1%202027",
           "status": "unreachable",
           "kind": "search",
           "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%A7%88%EA%B3%A1%202027",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
     {
+      "id": 16,
       "title": "일러스타 페스 13",
       "seriesKey": "illustar-fes",
       "status": "verified",
@@ -714,8 +1112,8 @@
       "discovery": {
         "query": "일러스타 페스 17",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
-        "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "status": "needs-review",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -730,28 +1128,114 @@
           "kind": "official"
         },
         {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2013",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
           "status": "unreachable",
           "kind": "search",
           "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
     {
+      "id": 52,
+      "title": "2026 서울 일러스트코리아 in aT",
+      "seriesKey": "illustration-korea-seoul-second",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
+      "source": "https://illustrationkorea.co.kr/coex/",
+      "verification": {
+        "status": "auto-recheck",
+        "reason": "date-not-confirmed",
+        "officialSourcesChecked": 6,
+        "officialSourcesReachable": 6
+      },
+      "discovery": {
+        "query": "일러스트코리아 2028",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
+        "status": "needs-review",
+        "searchStatus": "reachable",
+        "officialFallbackStatus": "checked"
+      },
+      "sourceChecks": [
+        {
+          "url": "https://illustrationkorea.co.kr/coex/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://illustrationkorea.co.kr/exco/portfolio-items/magazine_detail90/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://illustrationkorea.co.kr/coex/media/notice/?mod=document&pageid=1&uid=214",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://illustrationkorea.co.kr/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=2026%20%EC%84%9C%EC%9A%B8%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%20in%20aT",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
+          "url": "https://illustrationkorea.co.kr/coex/media/notice/?mod=document&#038;pageid=1&#038;uid=213",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://illustrationkorea.co.kr/coex/media/notice/?mod=document&#038;pageid=1&#038;uid=215",
+          "status": "ok",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "id": 17,
       "title": "2026 광주 ACE Fair",
       "seriesKey": "gwangju-ace-fair",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
       "source": "https://kdjcenter.gjto.or.kr/events/41611/view",
       "verification": {
-        "status": "verified",
+        "status": "auto-recheck",
+        "reason": "date-not-confirmed",
         "officialSourcesChecked": 4,
         "officialSourcesReachable": 4
       },
       "discovery": {
         "query": "ACE Fair 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=ACE%20Fair%202027",
-        "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "status": "needs-review",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -776,14 +1260,26 @@
           "kind": "official"
         },
         {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=2026%20%EA%B4%91%EC%A3%BC%20ACE%20Fair",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=ACE%20Fair%202027",
           "status": "unreachable",
           "kind": "search",
           "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=ACE%20Fair%202027",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
     {
+      "id": 18,
       "title": "코믹월드 336 일산",
       "seriesKey": "comic-world",
       "status": "auto-recheck",
@@ -793,13 +1289,13 @@
       "verification": {
         "status": "auto-recheck",
         "reason": "date-not-confirmed",
-        "officialSourcesChecked": 2,
-        "officialSourcesReachable": 2
+        "officialSourcesChecked": 3,
+        "officialSourcesReachable": 3
       },
       "discovery": {
         "query": "코믹월드 344",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
-        "status": "checked-no-new-edition",
+        "status": "needs-review",
         "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
@@ -815,13 +1311,31 @@
           "kind": "official"
         },
         {
+          "url": "https://comicw.net/e/344",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20336%20%EC%9D%BC%EC%82%B0",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
           "status": "ok",
           "kind": "search"
         }
       ]
     },
     {
+      "id": 19,
       "title": "SPP 국제콘텐츠마켓 2026",
       "seriesKey": "spp-international-content-market",
       "status": "verified",
@@ -834,8 +1348,8 @@
       "discovery": {
         "query": "SPP 국제콘텐츠마켓 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=SPP%20%EA%B5%AD%EC%A0%9C%EC%BD%98%ED%85%90%EC%B8%A0%EB%A7%88%EC%BC%93%202027",
-        "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "status": "needs-review",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -861,14 +1375,26 @@
           "kind": "official"
         },
         {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=SPP%20%EA%B5%AD%EC%A0%9C%EC%BD%98%ED%85%90%EC%B8%A0%EB%A7%88%EC%BC%93%202026",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=SPP%20%EA%B5%AD%EC%A0%9C%EC%BD%98%ED%85%90%EC%B8%A0%EB%A7%88%EC%BC%93%202027",
           "status": "unreachable",
           "kind": "search",
           "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=SPP%20%EA%B5%AD%EC%A0%9C%EC%BD%98%ED%85%90%EC%B8%A0%EB%A7%88%EC%BC%93%202027",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
     {
+      "id": 20,
       "title": "제29회 부천국제만화축제",
       "seriesKey": "bucheon-international-comics-festival",
       "status": "verified",
@@ -881,8 +1407,8 @@
       "discovery": {
         "query": "부천국제만화축제 제30회",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%B2%9C%EA%B5%AD%EC%A0%9C%EB%A7%8C%ED%99%94%EC%B6%95%EC%A0%9C%20%EC%A0%9C30%ED%9A%8C",
-        "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "status": "needs-review",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -902,14 +1428,26 @@
           "kind": "official"
         },
         {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%A0%9C29%ED%9A%8C%20%EB%B6%80%EC%B2%9C%EA%B5%AD%EC%A0%9C%EB%A7%8C%ED%99%94%EC%B6%95%EC%A0%9C",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%B2%9C%EA%B5%AD%EC%A0%9C%EB%A7%8C%ED%99%94%EC%B6%95%EC%A0%9C%20%EC%A0%9C30%ED%9A%8C",
           "status": "unreachable",
           "kind": "search",
           "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EB%B6%80%EC%B2%9C%EA%B5%AD%EC%A0%9C%EB%A7%8C%ED%99%94%EC%B6%95%EC%A0%9C%20%EC%A0%9C30%ED%9A%8C",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
     {
+      "id": 21,
       "title": "코믹월드 337 울산",
       "seriesKey": "comic-world",
       "status": "auto-recheck",
@@ -919,13 +1457,13 @@
       "verification": {
         "status": "auto-recheck",
         "reason": "date-not-confirmed",
-        "officialSourcesChecked": 2,
-        "officialSourcesReachable": 2
+        "officialSourcesChecked": 3,
+        "officialSourcesReachable": 3
       },
       "discovery": {
         "query": "코믹월드 344",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
-        "status": "checked-no-new-edition",
+        "status": "needs-review",
         "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
@@ -941,13 +1479,31 @@
           "kind": "official"
         },
         {
+          "url": "https://comicw.net/e/344",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20337%20%EC%9A%B8%EC%82%B0",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
           "status": "ok",
           "kind": "search"
         }
       ]
     },
     {
+      "id": 22,
       "title": "일러스타 페스 14",
       "seriesKey": "illustar-fes",
       "status": "auto-recheck",
@@ -963,8 +1519,8 @@
       "discovery": {
         "query": "일러스타 페스 17",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
-        "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "status": "needs-review",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -974,27 +1530,42 @@
           "kind": "official"
         },
         {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2014",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
           "status": "unreachable",
           "kind": "search",
           "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
     {
+      "id": 23,
       "title": "제9회 어르니마켓",
       "seriesKey": "eorni-market",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
       "source": "https://www.instagram.com/toy_jjurus/",
       "verification": {
-        "status": "verified",
+        "status": "auto-recheck",
+        "reason": "date-not-confirmed",
         "officialSourcesChecked": 9,
         "officialSourcesReachable": 8
       },
       "discovery": {
         "query": "어르니마켓 제10회",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93%20%EC%A0%9C10%ED%9A%8C",
-        "status": "checked-no-new-edition",
+        "status": "needs-review",
         "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
@@ -1047,47 +1618,55 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%A0%9C9%ED%9A%8C%20%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93%20%EC%A0%9C10%ED%9A%8C",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93%20%EC%A0%9C10%ED%9A%8C",
           "status": "ok",
           "kind": "search"
         }
       ]
     },
     {
+      "id": 24,
       "title": "문구생활산업전 SISOFAIR 2026",
       "seriesKey": "sisofair",
       "status": "auto-recheck",
-      "reason": "title-not-found",
+      "reason": "date-not-confirmed",
       "nextCheck": "next scheduled run",
       "source": "https://www.coex.co.kr/exhibitions/%EC%A0%9C37%ED%9A%8C-%EC%84%9C%EC%9A%B8%EA%B5%AD%EC%A0%9C%EB%AC%B8%EA%B5%AC%EC%82%AC%EB%AC%B4%EC%9A%A9%ED%92%88%EC%A0%84%EC%8B%9C%ED%9A%8C/",
       "verification": {
         "status": "auto-recheck",
-        "reason": "title-not-found",
-        "officialSourcesChecked": 6,
-        "officialSourcesReachable": 3
+        "reason": "date-not-confirmed",
+        "officialSourcesChecked": 7,
+        "officialSourcesReachable": 5
       },
       "discovery": {
         "query": "서울국제문구사무용품전시회 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%EA%B5%AD%EC%A0%9C%EB%AC%B8%EA%B5%AC%EC%82%AC%EB%AC%B4%EC%9A%A9%ED%92%88%EC%A0%84%EC%8B%9C%ED%9A%8C%202027",
-        "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "status": "needs-review",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
         {
           "url": "https://www.coex.co.kr/exhibitions/%EC%A0%9C37%ED%9A%8C-%EC%84%9C%EC%9A%B8%EA%B5%AD%EC%A0%9C%EB%AC%B8%EA%B5%AC%EC%82%AC%EB%AC%B4%EC%9A%A9%ED%92%88%EC%A0%84%EC%8B%9C%ED%9A%8C/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "official"
         },
         {
           "url": "https://www.sisofair.co.kr/",
@@ -1112,32 +1691,49 @@
           "kind": "official"
         },
         {
+          "url": "https://www.coex.co.kr/event/full-schedules/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
           "url": "https://www.coexcenter.com/",
           "status": "ok",
           "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%AC%B8%EA%B5%AC%EC%83%9D%ED%99%9C%EC%82%B0%EC%97%85%EC%A0%84%20SISOFAIR%202026",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%EA%B5%AD%EC%A0%9C%EB%AC%B8%EA%B5%AC%EC%82%AC%EB%AC%B4%EC%9A%A9%ED%92%88%EC%A0%84%EC%8B%9C%ED%9A%8C%202027",
           "status": "unreachable",
           "kind": "search",
           "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%84%9C%EC%9A%B8%EA%B5%AD%EC%A0%9C%EB%AC%B8%EA%B5%AC%EC%82%AC%EB%AC%B4%EC%9A%A9%ED%92%88%EC%A0%84%EC%8B%9C%ED%9A%8C%202027",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
     {
+      "id": 25,
       "title": "코믹월드 338 수원",
       "seriesKey": "comic-world",
       "status": "verified",
       "source": "https://comicw.net/g/pre.php?ca=20",
       "verification": {
         "status": "verified",
-        "officialSourcesChecked": 2,
-        "officialSourcesReachable": 2
+        "officialSourcesChecked": 3,
+        "officialSourcesReachable": 3
       },
       "discovery": {
         "query": "코믹월드 344",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
-        "status": "checked-no-new-edition",
+        "status": "needs-review",
         "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
@@ -1153,13 +1749,92 @@
           "kind": "official"
         },
         {
+          "url": "https://comicw.net/e/344",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20338%20%EC%88%98%EC%9B%90",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
           "status": "ok",
           "kind": "search"
         }
       ]
     },
     {
+      "id": 53,
+      "title": "2026 인천 일러스트코리아",
+      "seriesKey": "illustration-korea-incheon",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
+      "source": "https://illustrationkorea.co.kr/incheon/visitors/guide/",
+      "verification": {
+        "status": "auto-recheck",
+        "reason": "date-not-confirmed",
+        "officialSourcesChecked": 4,
+        "officialSourcesReachable": 4
+      },
+      "discovery": {
+        "query": "일러스트코리아 2028",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
+        "status": "needs-review",
+        "searchStatus": "reachable",
+        "officialFallbackStatus": "checked"
+      },
+      "sourceChecks": [
+        {
+          "url": "https://illustrationkorea.co.kr/incheon/visitors/guide/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://illustrationkorea.co.kr/exco/portfolio-items/magazine_detail90/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://illustrationkorea.co.kr/coex/media/notice/?mod=document&pageid=1&uid=214",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://illustrationkorea.co.kr/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=2026%20%EC%9D%B8%EC%B2%9C%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
+          "status": "ok",
+          "kind": "search"
+        }
+      ]
+    },
+    {
+      "id": 26,
       "title": "부산일러스트레이션페어 V.7",
       "seriesKey": "부산일러스트레이션페어",
       "status": "auto-recheck",
@@ -1175,8 +1850,8 @@
       "discovery": {
         "query": "부산일러스트레이션페어 V.8",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%82%B0%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.8",
-        "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "status": "needs-review",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -1191,33 +1866,55 @@
           "kind": "official"
         },
         {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%82%B0%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.7",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%82%B0%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.8",
           "status": "unreachable",
           "kind": "search",
           "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EB%B6%80%EC%82%B0%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.8",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
     {
-      "title": "코믹월드 339 울산",
+      "id": 27,
+      "title": "코믹월드 339 일산",
       "seriesKey": "comic-world",
       "status": "verified",
-      "source": "https://comicw.net/g/pre.php?ca=20",
+      "source": "https://m.comicw.net/c/416",
       "verification": {
         "status": "verified",
-        "officialSourcesChecked": 2,
-        "officialSourcesReachable": 2
+        "officialSourcesChecked": 5,
+        "officialSourcesReachable": 5
       },
       "discovery": {
         "query": "코믹월드 344",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
-        "status": "checked-no-new-edition",
+        "status": "needs-review",
         "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
         {
+          "url": "https://m.comicw.net/c/416",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
           "url": "https://comicw.net/g/pre.php?ca=20",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://m.comicw.net/",
           "status": "ok",
           "kind": "official"
         },
@@ -1227,13 +1924,31 @@
           "kind": "official"
         },
         {
+          "url": "https://comicw.net/e/344",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20339%20%EC%9D%BC%EC%82%B0",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
           "status": "ok",
           "kind": "search"
         }
       ]
     },
     {
+      "id": 28,
       "title": "DesignerCon 2026",
       "seriesKey": "designercon-las-vegas",
       "status": "auto-recheck",
@@ -1247,10 +1962,10 @@
         "officialSourcesReachable": 0
       },
       "discovery": {
-        "query": "DesignerCon 2028",
-        "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202028",
-        "status": "blocked",
-        "searchStatus": "blocked",
+        "query": "DesignerCon 2027",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202027",
+        "status": "needs-review",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "blocked"
       },
       "sourceChecks": [
@@ -1273,14 +1988,26 @@
           "error": "HTTP 403"
         },
         {
-          "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202028",
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202026",
           "status": "unreachable",
           "kind": "search",
           "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202027",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=DesignerCon%202027",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
     {
+      "id": 29,
       "title": "파인캐릭터 2026",
       "seriesKey": "fine-character",
       "status": "verified",
@@ -1293,8 +2020,8 @@
       "discovery": {
         "query": "FineCharacter 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=FineCharacter%202027",
-        "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "status": "needs-review",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -1314,14 +2041,26 @@
           "kind": "official"
         },
         {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%ED%8C%8C%EC%9D%B8%EC%BA%90%EB%A6%AD%ED%84%B0%202026",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=FineCharacter%202027",
           "status": "unreachable",
           "kind": "search",
           "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=FineCharacter%202027",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
     {
+      "id": 30,
       "title": "Anime Festival Asia Singapore 2026",
       "seriesKey": "anime-festival-asia",
       "status": "verified",
@@ -1334,8 +2073,8 @@
       "discovery": {
         "query": "Anime Festival Asia 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=Anime%20Festival%20Asia%202027",
-        "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "status": "needs-review",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -1356,28 +2095,111 @@
           "error": "HTTP 404"
         },
         {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=Anime%20Festival%20Asia%20Singapore%202026",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Anime%20Festival%20Asia%202027",
           "status": "unreachable",
           "kind": "search",
           "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=Anime%20Festival%20Asia%202027",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
     {
+      "id": 54,
+      "title": "2026 월드 웹툰 페스티벌",
+      "seriesKey": "world-webtoon-festival",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
+      "source": "https://www.wefe.kr/about/info.php",
+      "verification": {
+        "status": "auto-recheck",
+        "reason": "date-not-confirmed",
+        "officialSourcesChecked": 6,
+        "officialSourcesReachable": 6
+      },
+      "discovery": {
+        "query": "월드 웹툰 페스티벌 2027",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9B%94%EB%93%9C%20%EC%9B%B9%ED%88%B0%20%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C%202027",
+        "status": "needs-review",
+        "searchStatus": "reachable",
+        "officialFallbackStatus": "checked"
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.wefe.kr/about/info.php",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.wefe.kr/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=2026%20%EC%9B%94%EB%93%9C%20%EC%9B%B9%ED%88%B0%20%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9B%94%EB%93%9C%20%EC%9B%B9%ED%88%B0%20%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C%202027",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%9B%94%EB%93%9C%20%EC%9B%B9%ED%88%B0%20%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C%202027",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
+          "url": "https://www.wefe.kr/support/notice_view.php?idx=6",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.wefe.kr/support/notice_view.php?idx=5",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.wefe.kr/support/notice_view.php?idx=4",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.wefe.kr/support/notice_view.php?idx=2",
+          "status": "ok",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "id": 31,
       "title": "2026 콘텐츠IP 마켓",
       "seriesKey": "콘텐츠ip마켓",
       "status": "verified",
       "source": "https://welcon.kocca.kr/mobile/ko/event/content-ip-market-2026--571",
       "verification": {
         "status": "verified",
-        "officialSourcesChecked": 2,
-        "officialSourcesReachable": 2
+        "officialSourcesChecked": 9,
+        "officialSourcesReachable": 9
       },
       "discovery": {
         "query": "콘텐츠IP 마켓 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%98%ED%85%90%EC%B8%A0IP%20%EB%A7%88%EC%BC%93%202027",
-        "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "status": "needs-review",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -1387,32 +2209,427 @@
           "kind": "official"
         },
         {
+          "url": "https://ipmarket.kr/introduce/02.php",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://ipmarket.kr/community/notice.php",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://welcon.kocca.kr/ko/event/schedule",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
           "url": "https://welcon.kocca.kr/",
           "status": "ok",
           "kind": "official"
+        },
+        {
+          "url": "https://ipmarket.kr/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=2026%20%EC%BD%98%ED%85%90%EC%B8%A0IP%20%EB%A7%88%EC%BC%93",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%98%ED%85%90%EC%B8%A0IP%20%EB%A7%88%EC%BC%93%202027",
           "status": "unreachable",
           "kind": "search",
           "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%BD%98%ED%85%90%EC%B8%A0IP%20%EB%A7%88%EC%BC%93%202027",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
+          "url": "https://ipmarket.kr/community/notice.php?admin_mode=read&no=93",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://ipmarket.kr/community/notice.php?admin_mode=read&no=92",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://ipmarket.kr/community/notice.php?admin_mode=read&no=91",
+          "status": "ok",
+          "kind": "official"
         }
       ]
     },
     {
-      "title": "코믹월드 341 일산",
-      "seriesKey": "comic-world",
+      "id": 55,
+      "title": "AGF Korea 2026",
+      "seriesKey": "agf-korea",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
+      "source": "https://www.agfkorea.com/event?idx=1",
+      "verification": {
+        "status": "auto-recheck",
+        "reason": "date-not-confirmed",
+        "officialSourcesChecked": 2,
+        "officialSourcesReachable": 2
+      },
+      "discovery": {
+        "query": "AGF Korea 2027",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=AGF%20Korea%202027",
+        "status": "needs-review",
+        "searchStatus": "reachable",
+        "officialFallbackStatus": "checked"
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.agfkorea.com/event?idx=1",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.agfkorea.com/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=AGF%20Korea%202026",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=AGF%20Korea%202027",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
+          "url": "https://search.daum.net/search?q=AGF%20Korea%202027",
+          "status": "ok",
+          "kind": "search"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "title": "2026 수원 일러스트코리아 Winter",
+      "seriesKey": "illustration-korea-suwon-winter",
       "status": "verified",
-      "source": "https://comicw.net/d/booth.php",
+      "source": "https://illustrationkorea.co.kr/suwon/exhibition/illustrationkorea2026/",
       "verification": {
         "status": "verified",
-        "officialSourcesChecked": 3,
-        "officialSourcesReachable": 3
+        "officialSourcesChecked": 7,
+        "officialSourcesReachable": 7
+      },
+      "discovery": {
+        "query": "수원 일러스트코리아 Winter 2027",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%88%98%EC%9B%90%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%20Winter%202027",
+        "status": "needs-review",
+        "searchStatus": "reachable",
+        "officialFallbackStatus": "checked"
+      },
+      "sourceChecks": [
+        {
+          "url": "https://illustrationkorea.co.kr/suwon/exhibition/illustrationkorea2026/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://illustrationkorea.co.kr/exco/portfolio-items/magazine_detail90/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://illustrationkorea.co.kr/coex/media/notice/?mod=document&pageid=1&uid=214",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://suwonmesse.com/event_document/?kboard_id=5&mod=document&uid=702",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://illustrationkorea.co.kr/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://suwonmesse.com/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=2026%20%EC%88%98%EC%9B%90%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%20Winter",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%88%98%EC%9B%90%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%20Winter%202027",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%88%98%EC%9B%90%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%20Winter%202027",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
+          "url": "https://suwonmesse.com/event_document?uid=702&mod=document",
+          "status": "ok",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "title": "코믹월드 340 WINTER 2026",
+      "seriesKey": "comic-world",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
+      "source": "https://m.comicw.net/c/421",
+      "verification": {
+        "status": "auto-recheck",
+        "reason": "date-not-confirmed",
+        "officialSourcesChecked": 6,
+        "officialSourcesReachable": 6
       },
       "discovery": {
         "query": "코믹월드 344",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
-        "status": "checked-no-new-edition",
+        "status": "needs-review",
+        "searchStatus": "reachable",
+        "officialFallbackStatus": "checked"
+      },
+      "sourceChecks": [
+        {
+          "url": "https://m.comicw.net/c/421",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://comicw.net/e/340",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://comicw.net/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://m.comicw.net/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://comicw.net/e/344",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20340%20WINTER%202026",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
+          "url": "https://comicw.net/free/9767",
+          "status": "ok",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "title": "문구전 2026 겨울",
+      "seriesKey": "moongu-winter",
+      "status": "verified",
+      "source": "https://m.comicw.net/notice_mg/68",
+      "verification": {
+        "status": "verified",
+        "officialSourcesChecked": 8,
+        "officialSourcesReachable": 8
+      },
+      "discovery": {
+        "query": "문구전 겨울 2027",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%AC%B8%EA%B5%AC%EC%A0%84%20%EA%B2%A8%EC%9A%B8%202027",
+        "status": "needs-review",
+        "searchStatus": "reachable",
+        "officialFallbackStatus": "checked"
+      },
+      "sourceChecks": [
+        {
+          "url": "https://m.comicw.net/notice_mg/68",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://m.comicw.net/moongu/?f=36",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://m.comicw.net/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%AC%B8%EA%B5%AC%EC%A0%84%202026%20%EA%B2%A8%EC%9A%B8",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%AC%B8%EA%B5%AC%EC%A0%84%20%EA%B2%A8%EC%9A%B8%202027",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EB%AC%B8%EA%B5%AC%EC%A0%84%20%EA%B2%A8%EC%9A%B8%202027",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
+          "url": "https://m.comicw.net/notice_mg/66",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://m.comicw.net/notice_mg/71",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://m.comicw.net/notice_mg/69",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://m.comicw.net/notice_mg/67",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://m.comicw.net/c/420",
+          "status": "ok",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "title": "서울일러스트레이션페어 V.22",
+      "seriesKey": "서울일러스트레이션페어",
+      "status": "verified",
+      "source": "https://www.coex.co.kr/exhibitions/서울일러스트레이션페어v-22/",
+      "verification": {
+        "status": "verified",
+        "officialSourcesChecked": 8,
+        "officialSourcesReachable": 6
+      },
+      "discovery": {
+        "query": "서울일러스트레이션페어 V.23",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.23",
+        "status": "needs-review",
+        "searchStatus": "reachable",
+        "officialFallbackStatus": "checked"
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.coex.co.kr/exhibitions/서울일러스트레이션페어v-22/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://seoulillustrationfair.co.kr/",
+          "status": "unreachable",
+          "kind": "official",
+          "error": "fetch failed"
+        },
+        {
+          "url": "https://stage-kr.visitseoul.net/exhibition/The-Seoul-Illustration-FairV22/KOP918qu3",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.coex.co.kr/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.coex.co.kr/event/full-schedules/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://stage-kr.visitseoul.net/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.coex.co.kr/exhibitions/%EC%84%9C%EC%9A%B8%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4v-23/",
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 404"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.22",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.23",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%84%9C%EC%9A%B8%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.23",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
+          "url": "https://www.coex.co.kr/exhibitions/%EC%84%9C%EC%9A%B8%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%84%A0%ED%8E%98%EC%96%B4v-22/",
+          "status": "ok",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "코믹월드 341 일산",
+      "seriesKey": "comic-world",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
+      "source": "https://comicw.net/d/booth.php",
+      "verification": {
+        "status": "auto-recheck",
+        "reason": "date-not-confirmed",
+        "officialSourcesChecked": 5,
+        "officialSourcesReachable": 5
+      },
+      "discovery": {
+        "query": "코믹월드 344",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
+        "status": "needs-review",
         "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
@@ -1433,26 +2650,48 @@
           "kind": "official"
         },
         {
-          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
+          "url": "https://comicw.net/e/344",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20341%20%EC%9D%BC%EC%82%B0",
           "status": "ok",
           "kind": "search"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
+          "url": "https://comicw.net/shop/1794361687",
+          "status": "ok",
+          "kind": "official"
         }
       ]
     },
     {
+      "id": 33,
       "title": "K-일러스트레이션페어 서울 2027",
       "seriesKey": "k-illustration-fair-seoul",
       "status": "verified",
       "source": "https://k-illustrationfair.com/page/51",
       "verification": {
         "status": "verified",
-        "officialSourcesChecked": 5,
-        "officialSourcesReachable": 5
+        "officialSourcesChecked": 7,
+        "officialSourcesReachable": 7
       },
       "discovery": {
         "query": "K-일러스트레이션페어 서울 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EC%84%9C%EC%9A%B8%202028",
-        "status": "checked-no-new-edition",
+        "status": "needs-review",
         "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
@@ -1483,13 +2722,36 @@
           "kind": "official"
         },
         {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EC%84%9C%EC%9A%B8%202027",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EC%84%9C%EC%9A%B8%202028",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EC%84%9C%EC%9A%B8%202028",
           "status": "ok",
           "kind": "search"
+        },
+        {
+          "url": "https://www.k-illustrationfair.com/22/268",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://k-illustrationfair.com/22/268",
+          "status": "ok",
+          "kind": "official"
         }
       ]
     },
     {
+      "id": 34,
       "title": "일러스타 페스 15",
       "seriesKey": "illustar-fes",
       "status": "auto-recheck",
@@ -1505,8 +2767,8 @@
       "discovery": {
         "query": "일러스타 페스 17",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
-        "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "status": "needs-review",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -1526,18 +2788,30 @@
           "kind": "official"
         },
         {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2015",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
           "status": "unreachable",
           "kind": "search",
           "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
     {
-      "title": "코믹월드 343 울산",
+      "id": 60,
+      "title": "코믹월드 342 수원",
       "seriesKey": "comic-world",
       "status": "verified",
-      "source": "https://comicw.net/free/9651",
+      "source": "https://comicw.net/e/342",
       "verification": {
         "status": "verified",
         "officialSourcesChecked": 3,
@@ -1546,7 +2820,63 @@
       "discovery": {
         "query": "코믹월드 344",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
-        "status": "checked-no-new-edition",
+        "status": "needs-review",
+        "searchStatus": "reachable",
+        "officialFallbackStatus": "checked"
+      },
+      "sourceChecks": [
+        {
+          "url": "https://comicw.net/e/342",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://comicw.net/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://comicw.net/e/344",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20342%20%EC%88%98%EC%9B%90",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
+          "status": "ok",
+          "kind": "search"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "코믹월드 343 울산",
+      "seriesKey": "comic-world",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
+      "source": "https://comicw.net/free/9651",
+      "verification": {
+        "status": "auto-recheck",
+        "reason": "date-not-confirmed",
+        "officialSourcesChecked": 4,
+        "officialSourcesReachable": 4
+      },
+      "discovery": {
+        "query": "코믹월드 344",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
+        "status": "needs-review",
         "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
@@ -1567,27 +2897,48 @@
           "kind": "official"
         },
         {
+          "url": "https://comicw.net/e/344",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20343%20%EC%9A%B8%EC%82%B0",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
           "status": "ok",
           "kind": "search"
         }
       ]
     },
     {
+      "id": 36,
       "title": "2027 대구 일러스트코리아",
       "seriesKey": "illustration-korea-daegu",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
       "source": "https://illustrationkorea.co.kr/",
       "verification": {
-        "status": "verified",
+        "status": "auto-recheck",
+        "reason": "date-not-confirmed",
         "officialSourcesChecked": 2,
         "officialSourcesReachable": 2
       },
       "discovery": {
         "query": "대구 일러스트코리아 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%8C%80%EA%B5%AC%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
-        "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "status": "needs-review",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -1602,14 +2953,25 @@
           "kind": "official"
         },
         {
-          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%8C%80%EA%B5%AC%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=2027%20%EB%8C%80%EA%B5%AC%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84",
           "status": "unreachable",
           "kind": "search",
           "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%8C%80%EA%B5%AC%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EB%8C%80%EA%B5%AC%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
     {
+      "id": 37,
       "title": "2027 수원 일러스트코리아",
       "seriesKey": "illustration-korea-suwon",
       "status": "auto-recheck",
@@ -1625,8 +2987,8 @@
       "discovery": {
         "query": "수원 일러스트코리아 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%88%98%EC%9B%90%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
-        "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "status": "needs-review",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -1646,14 +3008,108 @@
           "kind": "official"
         },
         {
-          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%88%98%EC%9B%90%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=2027%20%EC%88%98%EC%9B%90%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84",
           "status": "unreachable",
           "kind": "search",
           "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%88%98%EC%9B%90%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%88%98%EC%9B%90%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
     {
+      "id": 61,
+      "title": "홍콩 국제 라이선싱쇼 2027",
+      "seriesKey": "hong-kong-international-licensing-show",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
+      "source": "https://www.investhk.gov.hk/en/events/hong-kong-international-licensing-show-and-asian-licensing-conference-2027/",
+      "verification": {
+        "status": "auto-recheck",
+        "reason": "date-not-confirmed",
+        "officialSourcesChecked": 8,
+        "officialSourcesReachable": 6
+      },
+      "discovery": {
+        "query": "Hong Kong International Licensing Show 2028",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=Hong%20Kong%20International%20Licensing%20Show%202028",
+        "status": "needs-review",
+        "searchStatus": "reachable",
+        "officialFallbackStatus": "checked"
+      },
+      "sourceChecks": [
+        {
+          "url": "https://www.investhk.gov.hk/en/events/hong-kong-international-licensing-show-and-asian-licensing-conference-2027/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.hktdc.com/event/hklicensingshow/en/events-at-a-glance",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.hktdc.com/event/hklicensingshow/en/programme",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.hktdc.com/event/hklicensingshow/en",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://partnernet.hktb.com/middleeast/en/destination/events_festivals/index.html?eventID=90062",
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://www.investhk.gov.hk/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.hktdc.com/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://partnernet.hktb.com/",
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%ED%99%8D%EC%BD%A9%20%EA%B5%AD%EC%A0%9C%20%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1%EC%87%BC%202027",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=Hong%20Kong%20International%20Licensing%20Show%202028",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=Hong%20Kong%20International%20Licensing%20Show%202028",
+          "status": "ok",
+          "kind": "search"
+        }
+      ]
+    },
+    {
+      "id": 38,
       "title": "일러스타 페스 16",
       "seriesKey": "illustar-fes",
       "status": "auto-recheck",
@@ -1669,8 +3125,8 @@
       "discovery": {
         "query": "일러스타 페스 17",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
-        "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "status": "needs-review",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -1690,27 +3146,42 @@
           "kind": "official"
         },
         {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2016",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
           "status": "unreachable",
           "kind": "search",
           "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
     {
+      "id": 39,
       "title": "Licensing Expo 2027 라스베이거스",
       "seriesKey": "licensing-expo-las-vegas",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
       "source": "https://www.licensingexpo.com/en/home.html?id=10151",
       "verification": {
-        "status": "verified",
+        "status": "auto-recheck",
+        "reason": "date-not-confirmed",
         "officialSourcesChecked": 5,
-        "officialSourcesReachable": 5
+        "officialSourcesReachable": 3
       },
       "discovery": {
         "query": "Licensing Expo 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%202028",
-        "status": "checked-no-new-edition",
+        "status": "needs-review",
         "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
@@ -1727,8 +3198,9 @@
         },
         {
           "url": "https://licensinginternational.org/events/li-lounge-at-licensing-expo/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://www.licensingexpo.com/",
@@ -1737,64 +3209,84 @@
         },
         {
           "url": "https://licensinginternational.org/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%202027%20%EB%9D%BC%EC%8A%A4%EB%B2%A0%EC%9D%B4%EA%B1%B0%EC%8A%A4",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%202028",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=Licensing%20Expo%202028",
           "status": "ok",
           "kind": "search"
         }
       ]
     },
     {
-      "title": "DesignerCon 2027",
-      "seriesKey": "designercon-las-vegas",
+      "id": 40,
+      "title": "DesignerCon Pasadena 2027",
+      "seriesKey": "designercon-pasadena",
       "status": "auto-recheck",
       "reason": "source-unreachable",
       "nextCheck": "next scheduled run",
-      "source": "https://www.designercon.com/about/showinformation/",
+      "source": "https://designerconpasadena.com/show-info/",
       "verification": {
         "status": "auto-recheck",
         "reason": "source-unreachable",
-        "officialSourcesChecked": 3,
+        "officialSourcesChecked": 2,
         "officialSourcesReachable": 0
       },
       "discovery": {
-        "query": "DesignerCon 2028",
-        "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202028",
-        "status": "blocked",
-        "searchStatus": "blocked",
+        "query": "DesignerCon Pasadena 2028",
+        "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%20Pasadena%202028",
+        "status": "needs-review",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "blocked"
       },
       "sourceChecks": [
         {
-          "url": "https://www.designercon.com/about/showinformation/",
+          "url": "https://designerconpasadena.com/show-info/",
           "status": "unreachable",
           "kind": "official",
           "error": "HTTP 403"
         },
         {
-          "url": "https://www.designercon.com/about/faq-and-notes/",
+          "url": "https://designerconpasadena.com/",
           "status": "unreachable",
           "kind": "official",
           "error": "HTTP 403"
         },
         {
-          "url": "https://www.designercon.com/",
-          "status": "unreachable",
-          "kind": "official",
-          "error": "HTTP 403"
-        },
-        {
-          "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202028",
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%20Pasadena%202027",
           "status": "unreachable",
           "kind": "search",
           "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%20Pasadena%202028",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=DesignerCon%20Pasadena%202028",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
     {
+      "id": 41,
       "title": "2027 서울 일러스트코리아 상반기",
       "seriesKey": "illustration-korea-seoul-first",
       "status": "auto-recheck",
@@ -1810,8 +3302,8 @@
       "discovery": {
         "query": "서울 일러스트코리아 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
-        "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "status": "needs-review",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -1831,36 +3323,46 @@
           "kind": "official"
         },
         {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=2027%20%EC%84%9C%EC%9A%B8%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%20%EC%83%81%EB%B0%98%EA%B8%B0",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
           "status": "unreachable",
           "kind": "search",
           "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%84%9C%EC%9A%B8%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
     {
+      "id": 42,
       "title": "Licensing Japan 2027",
       "seriesKey": "licensing-japan",
-      "status": "verified",
-      "source": "https://www.content-tokyo.jp/hub/ja-jp/visit/character.html",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
+      "source": "https://www.content-tokyo.jp/hub/ja-jp/visit/lj.html",
       "verification": {
-        "status": "verified",
-        "officialSourcesChecked": 4,
-        "officialSourcesReachable": 4
+        "status": "auto-recheck",
+        "reason": "date-not-confirmed",
+        "officialSourcesChecked": 3,
+        "officialSourcesReachable": 3
       },
       "discovery": {
         "query": "ライセンシング ジャパン 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%B3%E3%82%B0%20%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%202028",
-        "status": "checked-no-new-edition",
+        "status": "needs-review",
         "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
-        {
-          "url": "https://www.content-tokyo.jp/hub/ja-jp/visit/character.html",
-          "status": "ok",
-          "kind": "official"
-        },
         {
           "url": "https://www.content-tokyo.jp/hub/ja-jp/visit/lj.html",
           "status": "ok",
@@ -1877,65 +3379,94 @@
           "kind": "official"
         },
         {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Japan%202027",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%B3%E3%82%B0%20%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%202028",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%B3%E3%82%B0%20%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%202028",
           "status": "ok",
           "kind": "search"
         }
       ]
     },
     {
+      "id": 43,
       "title": "Licensing Expo Shanghai 2027",
       "seriesKey": "licensing-expo-shanghai",
       "status": "auto-recheck",
-      "reason": "date-not-confirmed",
+      "reason": "source-unreachable",
       "nextCheck": "next scheduled run",
       "source": "https://www.licensingexpochina.com/show/about",
       "verification": {
         "status": "auto-recheck",
-        "reason": "date-not-confirmed",
+        "reason": "source-unreachable",
         "officialSourcesChecked": 2,
-        "officialSourcesReachable": 2
+        "officialSourcesReachable": 0
       },
       "discovery": {
         "query": "Licensing Expo Shanghai 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%20Shanghai%202028",
-        "status": "checked-no-new-edition",
+        "status": "needs-review",
         "searchStatus": "reachable",
-        "officialFallbackStatus": "checked"
+        "officialFallbackStatus": "blocked"
       },
       "sourceChecks": [
         {
           "url": "https://www.licensingexpochina.com/show/about",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://www.licensingexpochina.com/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "The operation was aborted due to timeout"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%20Shanghai%202027",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%20Shanghai%202028",
           "status": "ok",
           "kind": "search"
+        },
+        {
+          "url": "https://search.daum.net/search?q=Licensing%20Expo%20Shanghai%202028",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
     {
+      "id": 44,
       "title": "K-일러스트레이션페어 부산 2027",
       "seriesKey": "k-illustration-fair-busan",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
       "source": "https://www.k-illustrationfair.com/busan/page/51",
       "verification": {
-        "status": "verified",
-        "officialSourcesChecked": 3,
-        "officialSourcesReachable": 3
+        "status": "auto-recheck",
+        "reason": "date-not-confirmed",
+        "officialSourcesChecked": 4,
+        "officialSourcesReachable": 4
       },
       "discovery": {
         "query": "K-일러스트레이션페어 부산 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%B6%80%EC%82%B0%202028",
-        "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "status": "needs-review",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -1955,28 +3486,44 @@
           "kind": "official"
         },
         {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%B6%80%EC%82%B0%202027",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%B6%80%EC%82%B0%202028",
           "status": "unreachable",
           "kind": "search",
           "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%B6%80%EC%82%B0%202028",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
+          "url": "https://k-illustrationfair.com/busan",
+          "status": "ok",
+          "kind": "official"
         }
       ]
     },
     {
+      "id": 45,
       "title": "2027 대전 일러스트코리아",
       "seriesKey": "illustration-korea-daejeon",
       "status": "verified",
       "source": "https://illustrationkorea.co.kr/dcc/exhibition/illustrationkorea2027/",
       "verification": {
         "status": "verified",
-        "officialSourcesChecked": 3,
-        "officialSourcesReachable": 3
+        "officialSourcesChecked": 4,
+        "officialSourcesReachable": 4
       },
       "discovery": {
         "query": "대전 일러스트코리아 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%8C%80%EC%A0%84%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
-        "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "status": "needs-review",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -1996,14 +3543,30 @@
           "kind": "official"
         },
         {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=2027%20%EB%8C%80%EC%A0%84%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%8C%80%EC%A0%84%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
           "status": "unreachable",
           "kind": "search",
           "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EB%8C%80%EC%A0%84%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
+          "url": "https://illustrationkorea.co.kr/dcc/",
+          "status": "ok",
+          "kind": "official"
         }
       ]
     },
     {
+      "id": 46,
       "title": "2027 인천 일러스트코리아",
       "seriesKey": "illustration-korea-incheon",
       "status": "auto-recheck",
@@ -2019,8 +3582,8 @@
       "discovery": {
         "query": "인천 일러스트코리아 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%B8%EC%B2%9C%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
-        "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "status": "needs-review",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -2040,14 +3603,25 @@
           "kind": "official"
         },
         {
-          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%B8%EC%B2%9C%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=2027%20%EC%9D%B8%EC%B2%9C%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84",
           "status": "unreachable",
           "kind": "search",
           "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%B8%EC%B2%9C%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%9D%B8%EC%B2%9C%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
     {
+      "id": 47,
       "title": "2027 서울 일러스트코리아 하반기",
       "seriesKey": "illustration-korea-seoul-second",
       "status": "auto-recheck",
@@ -2063,8 +3637,8 @@
       "discovery": {
         "query": "서울 일러스트코리아 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
-        "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "status": "needs-review",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -2084,28 +3658,43 @@
           "kind": "official"
         },
         {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=2027%20%EC%84%9C%EC%9A%B8%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%20%ED%95%98%EB%B0%98%EA%B8%B0",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
           "status": "unreachable",
           "kind": "search",
           "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EC%84%9C%EC%9A%B8%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
     {
+      "id": 48,
       "title": "2026 경기국제웹툰페어",
       "seriesKey": "경기국제웹툰페어",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
       "source": "https://www.webtoonfair.com/main.do",
       "verification": {
-        "status": "verified",
+        "status": "auto-recheck",
+        "reason": "date-not-confirmed",
         "officialSourcesChecked": 7,
         "officialSourcesReachable": 5
       },
       "discovery": {
         "query": "경기국제웹툰페어 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=%EA%B2%BD%EA%B8%B0%EA%B5%AD%EC%A0%9C%EC%9B%B9%ED%88%B0%ED%8E%98%EC%96%B4%202027",
-        "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "status": "needs-review",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -2147,28 +3736,42 @@
           "kind": "official"
         },
         {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=2026%20%EA%B2%BD%EA%B8%B0%EA%B5%AD%EC%A0%9C%EC%9B%B9%ED%88%B0%ED%8E%98%EC%96%B4",
+          "status": "ok",
+          "kind": "search"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EA%B2%BD%EA%B8%B0%EA%B5%AD%EC%A0%9C%EC%9B%B9%ED%88%B0%ED%8E%98%EC%96%B4%202027",
           "status": "unreachable",
           "kind": "search",
           "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=%EA%B2%BD%EA%B8%B0%EA%B5%AD%EC%A0%9C%EC%9B%B9%ED%88%B0%ED%8E%98%EC%96%B4%202027",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     },
     {
+      "id": 49,
       "title": "K-콘텐츠 바이브 in 베트남",
       "seriesKey": "k-content-vibe-vietnam",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
       "source": "https://welcon.kocca.kr/mobile/ko/event/schedule",
       "verification": {
-        "status": "verified",
+        "status": "auto-recheck",
+        "reason": "date-not-confirmed",
         "officialSourcesChecked": 4,
         "officialSourcesReachable": 4
       },
       "discovery": {
         "query": "K-콘텐츠 바이브 2026",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%BD%98%ED%85%90%EC%B8%A0%20%EB%B0%94%EC%9D%B4%EB%B8%8C%202026",
-        "status": "checked-no-new-edition",
-        "searchStatus": "blocked",
+        "status": "needs-review",
+        "searchStatus": "reachable",
         "officialFallbackStatus": "checked"
       },
       "sourceChecks": [
@@ -2193,10 +3796,21 @@
           "kind": "official"
         },
         {
+          "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%BD%98%ED%85%90%EC%B8%A0%20%EB%B0%94%EC%9D%B4%EB%B8%8C%20in%20%EB%B2%A0%ED%8A%B8%EB%82%A8",
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
+        },
+        {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%BD%98%ED%85%90%EC%B8%A0%20%EB%B0%94%EC%9D%B4%EB%B8%8C%202026",
           "status": "unreachable",
           "kind": "search",
           "error": "HTTP 403"
+        },
+        {
+          "url": "https://search.daum.net/search?q=K-%EC%BD%98%ED%85%90%EC%B8%A0%20%EB%B0%94%EC%9D%B4%EB%B8%8C%202026",
+          "status": "ok",
+          "kind": "search"
         }
       ]
     }
