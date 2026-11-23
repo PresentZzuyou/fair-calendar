@@ -44,10 +44,16 @@ jobs:
         run: npm ci
 
       - name: Refresh official fair data
+        id: crawl
         run: npm run crawl:fairs
         env:
           FULL_AUDIT: ${{ (github.event_name == 'schedule' && github.event.schedule == '15 21 30 9 *') || inputs.full_audit }}
         continue-on-error: true
+
+      - name: Check for missing fair schedules
+        env:
+          FAIR_CRAWL_OUTCOME: ${{ steps.crawl.outcome }}
+        run: node scripts/check-fair-coverage.mjs
 
       - name: Save crawl result changes
         run: |
