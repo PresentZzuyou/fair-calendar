@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-11-24T05:14:17.863Z",
-  "runId": "45331763631",
+  "checkedAt": "2026-11-25T04:04:26.231Z",
+  "runId": "45544126059",
   "runAttempt": "1",
   "summary": {
     "verification": {
-      "verified": 19,
-      "auto-recheck": 42
+      "verified": 16,
+      "auto-recheck": 45
     },
     "discovery": {
       "needs-review": 61
@@ -63,8 +63,8 @@
       "source": "https://www.coex.co.kr/exhibitions/k-일러스트레이션페어-서울-2026/",
       "verification": {
         "status": "verified",
-        "officialSourcesChecked": 8,
-        "officialSourcesReachable": 8
+        "officialSourcesChecked": 7,
+        "officialSourcesReachable": 7
       },
       "discovery": {
         "query": "K-일러스트레이션페어 서울 2028",
@@ -111,23 +111,20 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EC%84%9C%EC%9A%B8%202026",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EC%84%9C%EC%9A%B8%202028",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.daum.net/search?q=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EC%84%9C%EC%9A%B8%202028",
           "status": "ok",
           "kind": "search"
-        },
-        {
-          "url": "https://www.coex.co.kr/exhibitions/k-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4-%EC%84%9C%EC%9A%B8-2026/",
-          "status": "ok",
-          "kind": "official"
         }
       ]
     },
@@ -170,13 +167,15 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=2026%20%EB%8C%80%EA%B5%AC%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.daum.net/search?q=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
@@ -193,8 +192,8 @@
       "source": "https://www.coex.co.kr/exhibitions/2026-서울-일러스트코리아/",
       "verification": {
         "status": "verified",
-        "officialSourcesChecked": 7,
-        "officialSourcesReachable": 7
+        "officialSourcesChecked": 4,
+        "officialSourcesReachable": 4
       },
       "discovery": {
         "query": "서울 일러스트코리아 2028",
@@ -226,33 +225,20 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=2026%20%EC%84%9C%EC%9A%B8%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.daum.net/search?q=%EC%84%9C%EC%9A%B8%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
           "status": "ok",
           "kind": "search"
-        },
-        {
-          "url": "https://illustrationkorea.co.kr/at/",
-          "status": "ok",
-          "kind": "official"
-        },
-        {
-          "url": "https://illustrationkorea.co.kr/coex/",
-          "status": "ok",
-          "kind": "official"
-        },
-        {
-          "url": "https://www.coex.co.kr/exhibitions/2026-%EC%84%9C%EC%9A%B8-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84/",
-          "status": "ok",
-          "kind": "official"
         }
       ]
     },
@@ -316,8 +302,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Hong%20Kong%20International%20Licensing%20Show%202028",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.daum.net/search?q=Hong%20Kong%20International%20Licensing%20Show%202028",
@@ -337,8 +324,8 @@
       "verification": {
         "status": "auto-recheck",
         "reason": "date-not-confirmed",
-        "officialSourcesChecked": 13,
-        "officialSourcesReachable": 10
+        "officialSourcesChecked": 8,
+        "officialSourcesReachable": 5
       },
       "discovery": {
         "query": "어르니마켓 제10회",
@@ -393,48 +380,26 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%A0%9C8%ED%9A%8C%20%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93%20%EC%A0%9C10%ED%9A%8C",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.daum.net/search?q=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93%20%EC%A0%9C10%ED%9A%8C",
           "status": "ok",
           "kind": "search"
-        },
-        {
-          "url": "https://blog.naver.com/rh2273848/224280018583",
-          "status": "ok",
-          "kind": "official"
-        },
-        {
-          "url": "https://blog.naver.com/samrang0602/224280323574",
-          "status": "ok",
-          "kind": "official"
-        },
-        {
-          "url": "https://blog.naver.com/raonbnp1/224268988413",
-          "status": "ok",
-          "kind": "official"
-        },
-        {
-          "url": "https://blog.naver.com/zibe1025/224267646288",
-          "status": "ok",
-          "kind": "official"
-        },
-        {
-          "url": "https://blog.naver.com/vuilder/224263394327",
-          "status": "ok",
-          "kind": "official"
         }
       ]
     },
@@ -543,13 +508,15 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=2026%20%EC%88%98%EC%9B%90%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%20%EC%83%81%EB%B0%98%EA%B8%B0",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.daum.net/search?q=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
@@ -592,13 +559,15 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%82%B0%EC%BD%98%ED%85%90%EC%B8%A0%EB%A7%88%EC%BC%93%20BCM%202026",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%82%B0%EC%BD%98%ED%85%90%EC%B8%A0%EB%A7%88%EC%BC%93%202027",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.daum.net/search?q=%EB%B6%80%EC%82%B0%EC%BD%98%ED%85%90%EC%B8%A0%EB%A7%88%EC%BC%93%202027",
@@ -651,13 +620,15 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Japan%202026",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%B3%E3%82%B0%20%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%202028",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.daum.net/search?q=%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%B3%E3%82%B0%20%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%202028",
@@ -700,13 +671,15 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%20Shanghai%202026",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%20Shanghai%202028",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.daum.net/search?q=Licensing%20Expo%20Shanghai%202028",
@@ -723,8 +696,8 @@
       "source": "https://www.coex.co.kr/exhibitions/캐릭터-라이선싱-페어-2026/",
       "verification": {
         "status": "verified",
-        "officialSourcesChecked": 10,
-        "officialSourcesReachable": 9
+        "officialSourcesChecked": 7,
+        "officialSourcesReachable": 6
       },
       "discovery": {
         "query": "캐릭터 라이선싱 페어 2027",
@@ -772,33 +745,20 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BA%90%EB%A6%AD%ED%84%B0%20%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1%20%ED%8E%98%EC%96%B4%202026",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BA%90%EB%A6%AD%ED%84%B0%20%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1%20%ED%8E%98%EC%96%B4%202027",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.daum.net/search?q=%EC%BA%90%EB%A6%AD%ED%84%B0%20%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1%20%ED%8E%98%EC%96%B4%202027",
           "status": "ok",
           "kind": "search"
-        },
-        {
-          "url": "https://characterfair.kr/?hl=ko",
-          "status": "ok",
-          "kind": "official"
-        },
-        {
-          "url": "https://www.coex.co.kr/exhibitions/%EC%BA%90%EB%A6%AD%ED%84%B0-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1-%ED%8E%98%EC%96%B4-2026/",
-          "status": "ok",
-          "kind": "official"
-        },
-        {
-          "url": "https://characterfair.kr/company-directories/5234?hl=ko",
-          "status": "ok",
-          "kind": "official"
         }
       ]
     },
@@ -806,12 +766,15 @@
       "id": 10,
       "title": "코믹월드 SUMMER 2026",
       "seriesKey": "comic-world",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
       "source": "https://comicw.net/",
       "verification": {
-        "status": "verified",
-        "officialSourcesChecked": 3,
-        "officialSourcesReachable": 3
+        "status": "auto-recheck",
+        "reason": "date-not-confirmed",
+        "officialSourcesChecked": 2,
+        "officialSourcesReachable": 2
       },
       "discovery": {
         "query": "코믹월드 344",
@@ -833,8 +796,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20SUMMER%202026",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
@@ -846,11 +810,6 @@
           "url": "https://search.daum.net/search?q=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
           "status": "ok",
           "kind": "search"
-        },
-        {
-          "url": "https://comicw.net/c/334",
-          "status": "ok",
-          "kind": "official"
         }
       ]
     },
@@ -1226,8 +1185,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.daum.net/search?q=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
@@ -1560,8 +1520,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2014",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
@@ -1587,8 +1548,8 @@
       "verification": {
         "status": "auto-recheck",
         "reason": "date-not-confirmed",
-        "officialSourcesChecked": 14,
-        "officialSourcesReachable": 13
+        "officialSourcesChecked": 9,
+        "officialSourcesReachable": 8
       },
       "discovery": {
         "query": "어르니마켓 제10회",
@@ -1646,48 +1607,26 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%A0%9C9%ED%9A%8C%20%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93%20%EC%A0%9C10%ED%9A%8C",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.daum.net/search?q=%EC%96%B4%EB%A5%B4%EB%8B%88%EB%A7%88%EC%BC%93%20%EC%A0%9C10%ED%9A%8C",
           "status": "ok",
           "kind": "search"
-        },
-        {
-          "url": "https://blog.naver.com/jeongss101/224453732281",
-          "status": "ok",
-          "kind": "official"
-        },
-        {
-          "url": "https://blog.naver.com/vuilder/224428079851",
-          "status": "ok",
-          "kind": "official"
-        },
-        {
-          "url": "https://blog.naver.com/nana345678/224444560659",
-          "status": "ok",
-          "kind": "official"
-        },
-        {
-          "url": "https://blog.naver.com/zzatulipick/224428191709",
-          "status": "ok",
-          "kind": "official"
-        },
-        {
-          "url": "https://blog.naver.com/jumaleodi/224443894581",
-          "status": "ok",
-          "kind": "official"
         }
       ]
     },
@@ -1752,13 +1691,15 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%AC%B8%EA%B5%AC%EC%83%9D%ED%99%9C%EC%82%B0%EC%97%85%EC%A0%84%20SISOFAIR%202026",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%EA%B5%AD%EC%A0%9C%EB%AC%B8%EA%B5%AC%EC%82%AC%EB%AC%B4%EC%9A%A9%ED%92%88%EC%A0%84%EC%8B%9C%ED%9A%8C%202027",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.daum.net/search?q=%EC%84%9C%EC%9A%B8%EA%B5%AD%EC%A0%9C%EB%AC%B8%EA%B5%AC%EC%82%AC%EB%AC%B4%EC%9A%A9%ED%92%88%EC%A0%84%EC%8B%9C%ED%9A%8C%202027",
@@ -1771,12 +1712,15 @@
       "id": 25,
       "title": "코믹월드 338 수원",
       "seriesKey": "comic-world",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
       "source": "https://comicw.net/g/pre.php?ca=20",
       "verification": {
-        "status": "verified",
-        "officialSourcesChecked": 4,
-        "officialSourcesReachable": 4
+        "status": "auto-recheck",
+        "reason": "date-not-confirmed",
+        "officialSourcesChecked": 3,
+        "officialSourcesReachable": 3
       },
       "discovery": {
         "query": "코믹월드 344",
@@ -1803,8 +1747,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20338%20%EC%88%98%EC%9B%90",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
@@ -1816,11 +1761,6 @@
           "url": "https://search.daum.net/search?q=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
           "status": "ok",
           "kind": "search"
-        },
-        {
-          "url": "https://comicw.net/c/408",
-          "status": "ok",
-          "kind": "official"
         }
       ]
     },
@@ -1835,8 +1775,8 @@
       "verification": {
         "status": "auto-recheck",
         "reason": "date-not-confirmed",
-        "officialSourcesChecked": 5,
-        "officialSourcesReachable": 5
+        "officialSourcesChecked": 4,
+        "officialSourcesReachable": 4
       },
       "discovery": {
         "query": "일러스트코리아 2028",
@@ -1868,23 +1808,20 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=2026%20%EC%9D%B8%EC%B2%9C%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.daum.net/search?q=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
           "status": "ok",
           "kind": "search"
-        },
-        {
-          "url": "https://illustrationkorea.co.kr/incheon/",
-          "status": "ok",
-          "kind": "official"
         }
       ]
     },
@@ -1922,13 +1859,15 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%82%B0%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.7",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%82%B0%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.8",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.daum.net/search?q=%EB%B6%80%EC%82%B0%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.8",
@@ -2005,42 +1944,46 @@
       "title": "DesignerCon 2026",
       "seriesKey": "designercon-las-vegas",
       "status": "auto-recheck",
-      "reason": "title-not-found",
+      "reason": "source-unreachable",
       "nextCheck": "next scheduled run",
       "source": "https://www.designercon.com/about/showinformation/",
       "verification": {
         "status": "auto-recheck",
-        "reason": "title-not-found",
+        "reason": "source-unreachable",
         "officialSourcesChecked": 3,
-        "officialSourcesReachable": 3
+        "officialSourcesReachable": 0
       },
       "discovery": {
         "query": "DesignerCon 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202027",
         "status": "needs-review",
         "searchStatus": "reachable",
-        "officialFallbackStatus": "checked"
+        "officialFallbackStatus": "blocked"
       },
       "sourceChecks": [
         {
           "url": "https://www.designercon.com/about/showinformation/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://www.designercon.com/about/faq-and-notes/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://www.designercon.com/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202026",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%202027",
@@ -2112,12 +2055,15 @@
       "id": 30,
       "title": "Anime Festival Asia Singapore 2026",
       "seriesKey": "anime-festival-asia",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
       "source": "https://animefestival.asia/afasg26/",
       "verification": {
-        "status": "verified",
+        "status": "auto-recheck",
+        "reason": "date-not-confirmed",
         "officialSourcesChecked": 3,
-        "officialSourcesReachable": 2
+        "officialSourcesReachable": 1
       },
       "discovery": {
         "query": "Anime Festival Asia 2027",
@@ -2129,8 +2075,9 @@
       "sourceChecks": [
         {
           "url": "https://animefestival.asia/afasg26/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://animefestival.asia/",
@@ -2145,8 +2092,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Anime%20Festival%20Asia%20Singapore%202026",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Anime%20Festival%20Asia%202027",
@@ -2349,13 +2297,15 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=AGF%20Korea%202026",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=AGF%20Korea%202027",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.daum.net/search?q=AGF%20Korea%202027",
@@ -2415,13 +2365,15 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=2026%20%EC%88%98%EC%9B%90%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%20Winter",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%88%98%EC%9B%90%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%20Winter%202027",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.daum.net/search?q=%EC%88%98%EC%9B%90%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%20Winter%202027",
@@ -2446,8 +2398,8 @@
       "verification": {
         "status": "auto-recheck",
         "reason": "date-not-confirmed",
-        "officialSourcesChecked": 6,
-        "officialSourcesReachable": 6
+        "officialSourcesChecked": 5,
+        "officialSourcesReachable": 5
       },
       "discovery": {
         "query": "코믹월드 344",
@@ -2484,8 +2436,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20340%20WINTER%202026",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
@@ -2497,11 +2450,6 @@
           "url": "https://search.daum.net/search?q=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
           "status": "ok",
           "kind": "search"
-        },
-        {
-          "url": "https://comicw.net/free/9767",
-          "status": "ok",
-          "kind": "official"
         }
       ]
     },
@@ -2541,13 +2489,15 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%AC%B8%EA%B5%AC%EC%A0%84%202026%20%EA%B2%A8%EC%9A%B8",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%AC%B8%EA%B5%AC%EC%A0%84%20%EA%B2%A8%EC%9A%B8%202027",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.daum.net/search?q=%EB%AC%B8%EA%B5%AC%EC%A0%84%20%EA%B2%A8%EC%9A%B8%202027",
@@ -2639,8 +2589,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.22",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.23",
@@ -2699,8 +2650,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20341%20%EC%9D%BC%EC%82%B0",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
@@ -2714,7 +2666,7 @@
           "kind": "search"
         },
         {
-          "url": "https://comicw.net/shop/1794361687",
+          "url": "https://comicw.net/free/18049",
           "status": "ok",
           "kind": "official"
         }
@@ -2772,8 +2724,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EC%84%9C%EC%9A%B8%202028",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.daum.net/search?q=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EC%84%9C%EC%9A%B8%202028",
@@ -2973,8 +2926,8 @@
       "verification": {
         "status": "auto-recheck",
         "reason": "date-not-confirmed",
-        "officialSourcesChecked": 3,
-        "officialSourcesReachable": 3
+        "officialSourcesChecked": 2,
+        "officialSourcesReachable": 2
       },
       "discovery": {
         "query": "대구 일러스트코리아 2028",
@@ -2996,23 +2949,20 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=2027%20%EB%8C%80%EA%B5%AC%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%8C%80%EA%B5%AC%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.daum.net/search?q=%EB%8C%80%EA%B5%AC%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
           "status": "ok",
           "kind": "search"
-        },
-        {
-          "url": "https://illustrationkorea.co.kr/exco/",
-          "status": "ok",
-          "kind": "official"
         }
       ]
     },
@@ -3144,8 +3094,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Hong%20Kong%20International%20Licensing%20Show%202028",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.daum.net/search?q=Hong%20Kong%20International%20Licensing%20Show%202028",
@@ -3193,8 +3144,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2016",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
@@ -3280,37 +3232,40 @@
       "title": "DesignerCon Pasadena 2027",
       "seriesKey": "designercon-pasadena",
       "status": "auto-recheck",
-      "reason": "title-not-found",
+      "reason": "source-unreachable",
       "nextCheck": "next scheduled run",
       "source": "https://designerconpasadena.com/show-info/",
       "verification": {
         "status": "auto-recheck",
-        "reason": "title-not-found",
+        "reason": "source-unreachable",
         "officialSourcesChecked": 2,
-        "officialSourcesReachable": 2
+        "officialSourcesReachable": 0
       },
       "discovery": {
         "query": "DesignerCon Pasadena 2028",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%20Pasadena%202028",
         "status": "needs-review",
         "searchStatus": "reachable",
-        "officialFallbackStatus": "checked"
+        "officialFallbackStatus": "blocked"
       },
       "sourceChecks": [
         {
           "url": "https://designerconpasadena.com/show-info/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://designerconpasadena.com/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%20Pasadena%202027",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=DesignerCon%20Pasadena%202028",
@@ -3370,8 +3325,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.daum.net/search?q=%EC%84%9C%EC%9A%B8%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
@@ -3425,8 +3381,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%B3%E3%82%B0%20%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%202028",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.daum.net/search?q=%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%B3%E3%82%B0%20%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%202028",
@@ -3475,8 +3432,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%20Shanghai%202028",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.daum.net/search?q=Licensing%20Expo%20Shanghai%202028",
@@ -3695,8 +3653,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.daum.net/search?q=%EC%84%9C%EC%9A%B8%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
@@ -3716,8 +3675,8 @@
       "verification": {
         "status": "auto-recheck",
         "reason": "date-not-confirmed",
-        "officialSourcesChecked": 8,
-        "officialSourcesReachable": 6
+        "officialSourcesChecked": 7,
+        "officialSourcesReachable": 5
       },
       "discovery": {
         "query": "경기국제웹툰페어 2027",
@@ -3772,18 +3731,14 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EA%B2%BD%EA%B8%B0%EA%B5%AD%EC%A0%9C%EC%9B%B9%ED%88%B0%ED%8E%98%EC%96%B4%202027",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.daum.net/search?q=%EA%B2%BD%EA%B8%B0%EA%B5%AD%EC%A0%9C%EC%9B%B9%ED%88%B0%ED%8E%98%EC%96%B4%202027",
           "status": "ok",
           "kind": "search"
-        },
-        {
-          "url": "https://www.gcon.or.kr/ggwebtoonfair/index.html",
-          "status": "ok",
-          "kind": "official"
         }
       ]
     },
@@ -3831,13 +3786,15 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%BD%98%ED%85%90%EC%B8%A0%20%EB%B0%94%EC%9D%B4%EB%B8%8C%20in%20%EB%B2%A0%ED%8A%B8%EB%82%A8",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%BD%98%ED%85%90%EC%B8%A0%20%EB%B0%94%EC%9D%B4%EB%B8%8C%202026",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.daum.net/search?q=K-%EC%BD%98%ED%85%90%EC%B8%A0%20%EB%B0%94%EC%9D%B4%EB%B8%8C%202026",
