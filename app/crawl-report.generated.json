@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-11-25T04:04:26.231Z",
-  "runId": "45544126059",
+  "checkedAt": "2026-11-26T03:28:31.452Z",
+  "runId": "45749024958",
   "runAttempt": "1",
   "summary": {
     "verification": {
-      "verified": 16,
-      "auto-recheck": 45
+      "verified": 17,
+      "auto-recheck": 44
     },
     "discovery": {
       "needs-review": 61
@@ -508,9 +508,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=2026%20%EC%88%98%EC%9B%90%20%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%20%EC%83%81%EB%B0%98%EA%B8%B0",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EC%BD%94%EB%A6%AC%EC%95%84%202028",
@@ -559,15 +558,13 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%82%B0%EC%BD%98%ED%85%90%EC%B8%A0%EB%A7%88%EC%BC%93%20BCM%202026",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EB%B6%80%EC%82%B0%EC%BD%98%ED%85%90%EC%B8%A0%EB%A7%88%EC%BC%93%202027",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         },
         {
           "url": "https://search.daum.net/search?q=%EB%B6%80%EC%82%B0%EC%BD%98%ED%85%90%EC%B8%A0%EB%A7%88%EC%BC%93%202027",
@@ -620,15 +617,13 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Japan%202026",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%B3%E3%82%B0%20%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%202028",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         },
         {
           "url": "https://search.daum.net/search?q=%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%B3%E3%82%B0%20%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%202028",
@@ -671,15 +666,13 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%20Shanghai%202026",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%20Shanghai%202028",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         },
         {
           "url": "https://search.daum.net/search?q=Licensing%20Expo%20Shanghai%202028",
@@ -696,8 +689,8 @@
       "source": "https://www.coex.co.kr/exhibitions/캐릭터-라이선싱-페어-2026/",
       "verification": {
         "status": "verified",
-        "officialSourcesChecked": 7,
-        "officialSourcesReachable": 6
+        "officialSourcesChecked": 11,
+        "officialSourcesReachable": 10
       },
       "discovery": {
         "query": "캐릭터 라이선싱 페어 2027",
@@ -745,20 +738,38 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BA%90%EB%A6%AD%ED%84%B0%20%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1%20%ED%8E%98%EC%96%B4%202026",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BA%90%EB%A6%AD%ED%84%B0%20%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1%20%ED%8E%98%EC%96%B4%202027",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         },
         {
           "url": "https://search.daum.net/search?q=%EC%BA%90%EB%A6%AD%ED%84%B0%20%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1%20%ED%8E%98%EC%96%B4%202027",
           "status": "ok",
           "kind": "search"
+        },
+        {
+          "url": "https://characterfair.kr/?hl=ko",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://www.coex.co.kr/exhibitions/%EC%BA%90%EB%A6%AD%ED%84%B0-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1-%ED%8E%98%EC%96%B4-2026/",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://welcon.kocca.kr/en/info/business/1958256",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://characterfair.kr/company-directories/5234?hl=ko",
+          "status": "ok",
+          "kind": "official"
         }
       ]
     },
@@ -766,15 +777,12 @@
       "id": 10,
       "title": "코믹월드 SUMMER 2026",
       "seriesKey": "comic-world",
-      "status": "auto-recheck",
-      "reason": "date-not-confirmed",
-      "nextCheck": "next scheduled run",
+      "status": "verified",
       "source": "https://comicw.net/",
       "verification": {
-        "status": "auto-recheck",
-        "reason": "date-not-confirmed",
-        "officialSourcesChecked": 2,
-        "officialSourcesReachable": 2
+        "status": "verified",
+        "officialSourcesChecked": 3,
+        "officialSourcesReachable": 3
       },
       "discovery": {
         "query": "코믹월드 344",
@@ -796,9 +804,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20SUMMER%202026",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
@@ -810,6 +817,11 @@
           "url": "https://search.daum.net/search?q=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
           "status": "ok",
           "kind": "search"
+        },
+        {
+          "url": "https://comicw.net/c/334",
+          "status": "ok",
+          "kind": "official"
         }
       ]
     },
@@ -2120,8 +2132,8 @@
       "verification": {
         "status": "auto-recheck",
         "reason": "date-not-confirmed",
-        "officialSourcesChecked": 6,
-        "officialSourcesReachable": 6
+        "officialSourcesChecked": 7,
+        "officialSourcesReachable": 7
       },
       "discovery": {
         "query": "월드 웹툰 페스티벌 2027",
@@ -2149,9 +2161,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9B%94%EB%93%9C%20%EC%9B%B9%ED%88%B0%20%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C%202027",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         },
         {
           "url": "https://search.daum.net/search?q=%EC%9B%94%EB%93%9C%20%EC%9B%B9%ED%88%B0%20%ED%8E%98%EC%8A%A4%ED%8B%B0%EB%B2%8C%202027",
@@ -2177,6 +2188,11 @@
           "url": "https://www.wefe.kr/support/notice_view.php?idx=2",
           "status": "ok",
           "kind": "official"
+        },
+        {
+          "url": "https://www.wefe.kr/support/notice_view.php?idx=1",
+          "status": "ok",
+          "kind": "official"
         }
       ]
     },
@@ -2188,8 +2204,8 @@
       "source": "https://welcon.kocca.kr/mobile/ko/event/content-ip-market-2026--571",
       "verification": {
         "status": "verified",
-        "officialSourcesChecked": 9,
-        "officialSourcesReachable": 9
+        "officialSourcesChecked": 10,
+        "officialSourcesReachable": 10
       },
       "discovery": {
         "query": "콘텐츠IP 마켓 2027",
@@ -2231,15 +2247,13 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=2026%20%EC%BD%98%ED%85%90%EC%B8%A0IP%20%EB%A7%88%EC%BC%93",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%98%ED%85%90%EC%B8%A0IP%20%EB%A7%88%EC%BC%93%202027",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         },
         {
           "url": "https://search.daum.net/search?q=%EC%BD%98%ED%85%90%EC%B8%A0IP%20%EB%A7%88%EC%BC%93%202027",
@@ -2258,6 +2272,11 @@
         },
         {
           "url": "https://ipmarket.kr/community/notice.php?admin_mode=read&no=91",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://welcon.kocca.kr/ko/event/content-ip-market-2026--571",
           "status": "ok",
           "kind": "official"
         }
@@ -2461,8 +2480,8 @@
       "source": "https://m.comicw.net/notice_mg/68",
       "verification": {
         "status": "verified",
-        "officialSourcesChecked": 8,
-        "officialSourcesReachable": 8
+        "officialSourcesChecked": 7,
+        "officialSourcesReachable": 7
       },
       "discovery": {
         "query": "문구전 겨울 2027",
@@ -2521,11 +2540,6 @@
         },
         {
           "url": "https://m.comicw.net/notice_mg/67",
-          "status": "ok",
-          "kind": "official"
-        },
-        {
-          "url": "https://m.comicw.net/c/420",
           "status": "ok",
           "kind": "official"
         }
@@ -2617,8 +2631,8 @@
       "verification": {
         "status": "auto-recheck",
         "reason": "date-not-confirmed",
-        "officialSourcesChecked": 5,
-        "officialSourcesReachable": 5
+        "officialSourcesChecked": 4,
+        "officialSourcesReachable": 4
       },
       "discovery": {
         "query": "코믹월드 344",
@@ -2664,11 +2678,6 @@
           "url": "https://search.daum.net/search?q=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
           "status": "ok",
           "kind": "search"
-        },
-        {
-          "url": "https://comicw.net/free/18049",
-          "status": "ok",
-          "kind": "official"
         }
       ]
     },
@@ -3381,9 +3390,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%B3%E3%82%B0%20%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%202028",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         },
         {
           "url": "https://search.daum.net/search?q=%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%B3%E3%82%B0%20%E3%82%B8%E3%83%A3%E3%83%91%E3%83%B3%202028",
@@ -3432,9 +3440,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Licensing%20Expo%20Shanghai%202028",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         },
         {
           "url": "https://search.daum.net/search?q=Licensing%20Expo%20Shanghai%202028",
