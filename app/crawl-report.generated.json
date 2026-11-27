@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-11-26T03:28:31.452Z",
-  "runId": "45749024958",
+  "checkedAt": "2026-11-27T03:35:31.722Z",
+  "runId": "45934948420",
   "runAttempt": "1",
   "summary": {
     "verification": {
-      "verified": 17,
-      "auto-recheck": 44
+      "verified": 16,
+      "auto-recheck": 45
     },
     "discovery": {
       "needs-review": 61
@@ -743,8 +743,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BA%90%EB%A6%AD%ED%84%B0%20%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1%20%ED%8E%98%EC%96%B4%202027",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.daum.net/search?q=%EC%BA%90%EB%A6%AD%ED%84%B0%20%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1%20%ED%8E%98%EC%96%B4%202027",
@@ -757,7 +758,7 @@
           "kind": "official"
         },
         {
-          "url": "https://www.coex.co.kr/exhibitions/%EC%BA%90%EB%A6%AD%ED%84%B0-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1-%ED%8E%98%EC%96%B4-2026/",
+          "url": "https://characterfair.kr/sub-01?hl=ko",
           "status": "ok",
           "kind": "official"
         },
@@ -767,7 +768,7 @@
           "kind": "official"
         },
         {
-          "url": "https://characterfair.kr/company-directories/5234?hl=ko",
+          "url": "https://www.coex.co.kr/exhibitions/%EC%BA%90%EB%A6%AD%ED%84%B0-%EB%9D%BC%EC%9D%B4%EC%84%A0%EC%8B%B1-%ED%8E%98%EC%96%B4-2026/",
           "status": "ok",
           "kind": "official"
         }
@@ -777,12 +778,15 @@
       "id": 10,
       "title": "코믹월드 SUMMER 2026",
       "seriesKey": "comic-world",
-      "status": "verified",
+      "status": "auto-recheck",
+      "reason": "date-not-confirmed",
+      "nextCheck": "next scheduled run",
       "source": "https://comicw.net/",
       "verification": {
-        "status": "verified",
-        "officialSourcesChecked": 3,
-        "officialSourcesReachable": 3
+        "status": "auto-recheck",
+        "reason": "date-not-confirmed",
+        "officialSourcesChecked": 2,
+        "officialSourcesReachable": 2
       },
       "discovery": {
         "query": "코믹월드 344",
@@ -804,8 +808,9 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20SUMMER%202026",
-          "status": "ok",
-          "kind": "search"
+          "status": "unreachable",
+          "kind": "search",
+          "error": "HTTP 403"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
@@ -817,11 +822,6 @@
           "url": "https://search.daum.net/search?q=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
           "status": "ok",
           "kind": "search"
-        },
-        {
-          "url": "https://comicw.net/c/334",
-          "status": "ok",
-          "kind": "official"
         }
       ]
     },
@@ -836,8 +836,8 @@
       "verification": {
         "status": "auto-recheck",
         "reason": "date-not-confirmed",
-        "officialSourcesChecked": 2,
-        "officialSourcesReachable": 2
+        "officialSourcesChecked": 3,
+        "officialSourcesReachable": 3
       },
       "discovery": {
         "query": "K-일러스트레이션페어 부산 2028",
@@ -859,9 +859,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%B6%80%EC%82%B0%202026",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%B6%80%EC%82%B0%202028",
@@ -873,6 +872,11 @@
           "url": "https://search.daum.net/search?q=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%B6%80%EC%82%B0%202028",
           "status": "ok",
           "kind": "search"
+        },
+        {
+          "url": "http://k-illustrationfair.com/",
+          "status": "ok",
+          "kind": "official"
         }
       ]
     },
@@ -934,9 +938,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.21",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%84%9C%EC%9A%B8%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20V.23",
@@ -1064,8 +1067,8 @@
       "verification": {
         "status": "auto-recheck",
         "reason": "title-not-found",
-        "officialSourcesChecked": 1,
-        "officialSourcesReachable": 1
+        "officialSourcesChecked": 2,
+        "officialSourcesReachable": 2
       },
       "discovery": {
         "query": "K-일러스트레이션페어 마곡 2027",
@@ -1082,20 +1085,23 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%A7%88%EA%B3%A1%202026",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%A7%88%EA%B3%A1%202027",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         },
         {
           "url": "https://search.daum.net/search?q=K-%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EC%85%98%ED%8E%98%EC%96%B4%20%EB%A7%88%EA%B3%A1%202027",
           "status": "ok",
           "kind": "search"
+        },
+        {
+          "url": "https://k-illustrationfair.com/magok",
+          "status": "ok",
+          "kind": "official"
         }
       ]
     },
@@ -1130,9 +1136,8 @@
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2013",
-          "status": "unreachable",
-          "kind": "search",
-          "error": "HTTP 403"
+          "status": "ok",
+          "kind": "search"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%83%80%20%ED%8E%98%EC%8A%A4%2017",
@@ -2068,21 +2073,21 @@
       "title": "Anime Festival Asia Singapore 2026",
       "seriesKey": "anime-festival-asia",
       "status": "auto-recheck",
-      "reason": "date-not-confirmed",
+      "reason": "source-unreachable",
       "nextCheck": "next scheduled run",
       "source": "https://animefestival.asia/afasg26/",
       "verification": {
         "status": "auto-recheck",
-        "reason": "date-not-confirmed",
+        "reason": "source-unreachable",
         "officialSourcesChecked": 3,
-        "officialSourcesReachable": 1
+        "officialSourcesReachable": 0
       },
       "discovery": {
         "query": "Anime Festival Asia 2027",
         "url": "https://search.naver.com/search.naver?where=nexearch&query=Anime%20Festival%20Asia%202027",
         "status": "needs-review",
         "searchStatus": "reachable",
-        "officialFallbackStatus": "checked"
+        "officialFallbackStatus": "blocked"
       },
       "sourceChecks": [
         {
@@ -2093,14 +2098,15 @@
         },
         {
           "url": "https://animefestival.asia/",
-          "status": "ok",
-          "kind": "official"
+          "status": "unreachable",
+          "kind": "official",
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://animefestival.asia/events/",
           "status": "unreachable",
           "kind": "official",
-          "error": "HTTP 404"
+          "error": "The operation was aborted due to timeout"
         },
         {
           "url": "https://search.naver.com/search.naver?where=nexearch&query=Anime%20Festival%20Asia%20Singapore%202026",
@@ -2170,6 +2176,11 @@
           "kind": "search"
         },
         {
+          "url": "https://www.wefe.kr/support/notice_view.php?idx=17",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
           "url": "https://www.wefe.kr/support/notice_view.php?idx=6",
           "status": "ok",
           "kind": "official"
@@ -2181,11 +2192,6 @@
         },
         {
           "url": "https://www.wefe.kr/support/notice_view.php?idx=4",
-          "status": "ok",
-          "kind": "official"
-        },
-        {
-          "url": "https://www.wefe.kr/support/notice_view.php?idx=2",
           "status": "ok",
           "kind": "official"
         },
@@ -2204,8 +2210,8 @@
       "source": "https://welcon.kocca.kr/mobile/ko/event/content-ip-market-2026--571",
       "verification": {
         "status": "verified",
-        "officialSourcesChecked": 10,
-        "officialSourcesReachable": 10
+        "officialSourcesChecked": 11,
+        "officialSourcesReachable": 11
       },
       "discovery": {
         "query": "콘텐츠IP 마켓 2027",
@@ -2277,6 +2283,11 @@
         },
         {
           "url": "https://welcon.kocca.kr/ko/event/content-ip-market-2026--571",
+          "status": "ok",
+          "kind": "official"
+        },
+        {
+          "url": "https://ipmarket.kr/register/02.php",
           "status": "ok",
           "kind": "official"
         }
@@ -2631,8 +2642,8 @@
       "verification": {
         "status": "auto-recheck",
         "reason": "date-not-confirmed",
-        "officialSourcesChecked": 4,
-        "officialSourcesReachable": 4
+        "officialSourcesChecked": 5,
+        "officialSourcesReachable": 5
       },
       "discovery": {
         "query": "코믹월드 344",
@@ -2678,6 +2689,11 @@
           "url": "https://search.daum.net/search?q=%EC%BD%94%EB%AF%B9%EC%9B%94%EB%93%9C%20344",
           "status": "ok",
           "kind": "search"
+        },
+        {
+          "url": "https://comicw.net/free/18063",
+          "status": "ok",
+          "kind": "official"
         }
       ]
     },
